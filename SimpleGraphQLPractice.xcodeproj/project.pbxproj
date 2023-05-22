@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE749E302A1B520800C54331 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E2F2A1B520800C54331 /* Apollo */; };
 		DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */; };
 		DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */; };
 		DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE749E302A1B520800C54331 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = SimpleGraphQLPractice;
+			packageProductDependencies = (
+				DE749E2F2A1B520800C54331 /* Apollo */,
+			);
 			productName = SimpleGraphQLPractice;
 			productReference = DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = DEE2F68D2A1B2A6B00ED65AC;
+			packageReferences = (
+				DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = DEE2F6972A1B2A6B00ED65AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE749E2F2A1B520800C54331 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEE2F68E2A1B2A6B00ED65AC /* Project object */;
 }
