@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE749E302A1B520800C54331 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E2F2A1B520800C54331 /* Apollo */; };
+		DE749E3C2A24F50F00C54331 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3B2A24F50F00C54331 /* Quick */; };
+		DE749E3F2A24F52600C54331 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3E2A24F52600C54331 /* Nimble */; };
 		DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */; };
 		DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */; };
 		DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE749E3F2A24F52600C54331 /* Nimble in Frameworks */,
+				DE749E3C2A24F50F00C54331 /* Quick in Frameworks */,
 				DE749E302A1B520800C54331 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +151,8 @@
 			name = SimpleGraphQLPractice;
 			packageProductDependencies = (
 				DE749E2F2A1B520800C54331 /* Apollo */,
+				DE749E3B2A24F50F00C54331 /* Quick */,
+				DE749E3E2A24F52600C54331 /* Nimble */,
 			);
 			productName = SimpleGraphQLPractice;
 			productReference = DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */;
@@ -222,6 +228,8 @@
 			mainGroup = DEE2F68D2A1B2A6B00ED65AC;
 			packageReferences = (
 				DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */,
+				DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = DEE2F6972A1B2A6B00ED65AC /* Products */;
 			projectDirPath = "";
@@ -601,6 +609,22 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -608,6 +632,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
+		};
+		DE749E3B2A24F50F00C54331 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		DE749E3E2A24F52600C54331 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
