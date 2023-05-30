@@ -10,6 +10,7 @@
 		DE749E302A1B520800C54331 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E2F2A1B520800C54331 /* Apollo */; };
 		DE749E3C2A24F50F00C54331 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3B2A24F50F00C54331 /* Quick */; };
 		DE749E3F2A24F52600C54331 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3E2A24F52600C54331 /* Nimble */; };
+		DE749E452A25FBA600C54331 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E442A25FBA600C54331 /* CombineExpectations */; };
 		DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */; };
 		DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */; };
 		DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 				DE749E3F2A24F52600C54331 /* Nimble in Frameworks */,
 				DE749E3C2A24F50F00C54331 /* Quick in Frameworks */,
 				DE749E302A1B520800C54331 /* Apollo in Frameworks */,
+				DE749E452A25FBA600C54331 /* CombineExpectations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +79,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE749E402A25FB2000C54331 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		DE749E412A25FB2900C54331 /* CountryDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CountryDetail;
+			sourceTree = "<group>";
+		};
+		DE749E422A25FB5E00C54331 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		DE749E462A25FBBB00C54331 /* Seed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Seed;
+			sourceTree = "<group>";
+		};
 		DEE2F68D2A1B2A6B00ED65AC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */,
+				DE749E422A25FB5E00C54331 /* GraphQL */,
+				DE749E402A25FB2000C54331 /* CountryList */,
+				DE749E412A25FB2900C54331 /* CountryDetail */,
 				DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */,
 				DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */,
 				DEE2F69F2A1B2A6C00ED65AC /* Preview Content */,
@@ -119,6 +152,7 @@
 		DEE2F6A92A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE749E462A25FBBB00C54331 /* Seed */,
 				DEE2F6AA2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift */,
 			);
 			path = SimpleGraphQLPracticeTests;
@@ -153,6 +187,7 @@
 				DE749E2F2A1B520800C54331 /* Apollo */,
 				DE749E3B2A24F50F00C54331 /* Quick */,
 				DE749E3E2A24F52600C54331 /* Nimble */,
+				DE749E442A25FBA600C54331 /* CombineExpectations */,
 			);
 			productName = SimpleGraphQLPractice;
 			productReference = DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */;
@@ -230,6 +265,8 @@
 				DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */,
 				DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */,
+				DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
+				DE749E472A25FC1E00C54331 /* XCRemoteSwiftPackageReference "mockolo" */,
 			);
 			productRefGroup = DEE2F6972A1B2A6B00ED65AC /* Products */;
 			projectDirPath = "";
@@ -625,6 +662,22 @@
 				minimumVersion = 12.0.0;
 			};
 		};
+		DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/CombineExpectations.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DE749E472A25FC1E00C54331 /* XCRemoteSwiftPackageReference "mockolo" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/mockolo.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -642,6 +695,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */;
 			productName = Nimble;
+		};
+		DE749E442A25FBA600C54331 /* CombineExpectations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */;
+			productName = CombineExpectations;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
