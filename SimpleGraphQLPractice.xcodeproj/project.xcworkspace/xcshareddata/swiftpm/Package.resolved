@@ -46,15 +46,6 @@
       }
     },
     {
-      "identity" : "mockolo",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/uber/mockolo.git",
-      "state" : {
-        "revision" : "dc4caa2d3f2cc8b42eafe62d5162916b31ac0bec",
-        "version" : "2.0.0"
-      }
-    },
-    {
       "identity" : "nimble",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Quick/Nimble.git",
@@ -97,15 +88,6 @@
       "state" : {
         "revision" : "937e904258d22af6e447a0b72c0bc67583ef64a2",
         "version" : "1.0.4"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
-      "state" : {
-        "revision" : "cd793adf5680e138bf2bcbaacc292490175d0dcd",
-        "version" : "508.0.0"
       }
     }
   ],

@@ -11,6 +11,8 @@
 		DE749E3C2A24F50F00C54331 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3B2A24F50F00C54331 /* Quick */; };
 		DE749E3F2A24F52600C54331 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3E2A24F52600C54331 /* Nimble */; };
 		DE749E452A25FBA600C54331 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E442A25FBA600C54331 /* CombineExpectations */; };
+		DE749E4B2A2795D400C54331 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4A2A2795D400C54331 /* CountryListView.swift */; };
+		DE749E4D2A2795DF00C54331 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */; };
 		DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */; };
 		DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */; };
 		DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE749E4A2A2795D400C54331 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 		DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
 		DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		DE749E402A25FB2000C54331 /* CountryList */ = {
 			isa = PBXGroup;
 			children = (
+				DE749E4A2A2795D400C54331 /* CountryListView.swift */,
 			);
 			path = CountryList;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 		DE749E412A25FB2900C54331 /* CountryDetail */ = {
 			isa = PBXGroup;
 			children = (
+				DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */,
 			);
 			path = CountryDetail;
 			sourceTree = "<group>";
@@ -266,7 +272,6 @@
 				DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */,
 				DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */,
 				DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
-				DE749E472A25FC1E00C54331 /* XCRemoteSwiftPackageReference "mockolo" */,
 			);
 			productRefGroup = DEE2F6972A1B2A6B00ED65AC /* Products */;
 			projectDirPath = "";
@@ -310,8 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE749E4D2A2795DF00C54331 /* CountryDetailView.swift in Sources */,
 				DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */,
 				DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */,
+				DE749E4B2A2795D400C54331 /* CountryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,14 +675,6 @@
 			requirement = {
 				branch = master;
 				kind = branch;
-			};
-		};
-		DE749E472A25FC1E00C54331 /* XCRemoteSwiftPackageReference "mockolo" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/uber/mockolo.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
