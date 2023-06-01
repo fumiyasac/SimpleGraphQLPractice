@@ -14,7 +14,6 @@
 		DE749E4B2A2795D400C54331 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4A2A2795D400C54331 /* CountryListView.swift */; };
 		DE749E4D2A2795DF00C54331 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */; };
 		DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */; };
-		DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */; };
 		DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */; };
 		DEE2F6A12A1B2A6C00ED65AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6A02A1B2A6C00ED65AC /* Preview Assets.xcassets */; };
 		DEE2F6AB2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6AA2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift */; };
@@ -44,7 +43,6 @@
 		DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 		DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
-		DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE2F6A02A1B2A6C00ED65AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEE2F6A62A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGraphQLPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +138,6 @@
 				DE749E422A25FB5E00C54331 /* GraphQL */,
 				DE749E402A25FB2000C54331 /* CountryList */,
 				DE749E412A25FB2900C54331 /* CountryDetail */,
-				DEE2F69B2A1B2A6B00ED65AC /* ContentView.swift */,
 				DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */,
 				DEE2F69F2A1B2A6C00ED65AC /* Preview Content */,
 			);
@@ -316,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE749E4D2A2795DF00C54331 /* CountryDetailView.swift in Sources */,
-				DEE2F69C2A1B2A6B00ED65AC /* ContentView.swift in Sources */,
 				DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */,
 				DE749E4B2A2795D400C54331 /* CountryListView.swift in Sources */,
 			);
