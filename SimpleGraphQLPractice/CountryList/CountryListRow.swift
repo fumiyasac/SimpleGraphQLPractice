@@ -2,7 +2,7 @@
 //  CountryListRow.swift
 //  SimpleGraphQLPractice
 //
-//  Created by 酒井文也 on 2023/06/15.
+//  Created by 酒井文也 on 2023/06/16.
 //
 
 import SwiftUI

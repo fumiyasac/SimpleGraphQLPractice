@@ -7,73 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE749E302A1B520800C54331 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E2F2A1B520800C54331 /* Apollo */; };
-		DE749E3C2A24F50F00C54331 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3B2A24F50F00C54331 /* Quick */; };
-		DE749E3F2A24F52600C54331 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E3E2A24F52600C54331 /* Nimble */; };
-		DE749E452A25FBA600C54331 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE749E442A25FBA600C54331 /* CombineExpectations */; };
-		DE749E4B2A2795D400C54331 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4A2A2795D400C54331 /* CountryListView.swift */; };
-		DE749E4D2A2795DF00C54331 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */; };
-		DE883A902A3B50270090535A /* CountryListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE883A8F2A3B50270090535A /* CountryListRow.swift */; };
-		DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */; };
-		DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */; };
-		DEE2F6A12A1B2A6C00ED65AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE2F6A02A1B2A6C00ED65AC /* Preview Assets.xcassets */; };
-		DEE2F6AB2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6AA2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift */; };
-		DEE2F6B52A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6B42A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.swift */; };
-		DEE2F6B72A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2F6B62A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITestsLaunchTests.swift */; };
+		DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */; };
+		DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F12A3B643D0005EE46 /* Assets.xcassets */; };
+		DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */; };
+		DE6259FF2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259FE2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.swift */; };
+		DE625A092A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE625A082A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.swift */; };
+		DE625A0B2A3B643D0005EE46 /* SimpleGraphQLPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE625A0A2A3B643D0005EE46 /* SimpleGraphQLPracticeUITestsLaunchTests.swift */; };
+		DE625A1C2A3B64EE0005EE46 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE625A1B2A3B64EE0005EE46 /* CountryListView.swift */; };
+		DE625A1E2A3B65030005EE46 /* CountryListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE625A1D2A3B65030005EE46 /* CountryListRow.swift */; };
+		DE625A202A3B65220005EE46 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE625A1F2A3B65220005EE46 /* CountryDetailView.swift */; };
+		DE625A232A3B65B70005EE46 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A222A3B65B70005EE46 /* Apollo */; };
+		DE625A452A3B6A610005EE46 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A442A3B6A610005EE46 /* Quick */; };
+		DE625A472A3B6A660005EE46 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A462A3B6A660005EE46 /* Nimble */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DEE2F6A72A1B2A6C00ED65AC /* PBXContainerItemProxy */ = {
+		DE6259FB2A3B643D0005EE46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DEE2F68E2A1B2A6B00ED65AC /* Project object */;
+			containerPortal = DE6259E22A3B643C0005EE46 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEE2F6952A1B2A6B00ED65AC;
+			remoteGlobalIDString = DE6259E92A3B643C0005EE46;
 			remoteInfo = SimpleGraphQLPractice;
 		};
-		DEE2F6B12A1B2A6C00ED65AC /* PBXContainerItemProxy */ = {
+		DE625A052A3B643D0005EE46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DEE2F68E2A1B2A6B00ED65AC /* Project object */;
+			containerPortal = DE6259E22A3B643C0005EE46 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEE2F6952A1B2A6B00ED65AC;
+			remoteGlobalIDString = DE6259E92A3B643C0005EE46;
 			remoteInfo = SimpleGraphQLPractice;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE749E4A2A2795D400C54331 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
-		DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
-		DE883A8F2A3B50270090535A /* CountryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRow.swift; sourceTree = "<group>"; };
-		DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
-		DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEE2F6A02A1B2A6C00ED65AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEE2F6A62A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGraphQLPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE2F6AA2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeTests.swift; sourceTree = "<group>"; };
-		DEE2F6B02A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGraphQLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE2F6B42A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeUITests.swift; sourceTree = "<group>"; };
-		DEE2F6B62A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
+		DE6259F12A3B643D0005EE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE6259FA2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGraphQLPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6259FE2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeTests.swift; sourceTree = "<group>"; };
+		DE625A042A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGraphQLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE625A082A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeUITests.swift; sourceTree = "<group>"; };
+		DE625A0A2A3B643D0005EE46 /* SimpleGraphQLPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE625A1B2A3B64EE0005EE46 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		DE625A1D2A3B65030005EE46 /* CountryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRow.swift; sourceTree = "<group>"; };
+		DE625A1F2A3B65220005EE46 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEE2F6932A1B2A6B00ED65AC /* Frameworks */ = {
+		DE6259E72A3B643C0005EE46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE749E3F2A24F52600C54331 /* Nimble in Frameworks */,
-				DE749E3C2A24F50F00C54331 /* Quick in Frameworks */,
-				DE749E302A1B520800C54331 /* Apollo in Frameworks */,
-				DE749E452A25FBA600C54331 /* CombineExpectations in Frameworks */,
+				DE625A232A3B65B70005EE46 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE2F6A32A1B2A6C00ED65AC /* Frameworks */ = {
+		DE6259F72A3B643D0005EE46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE625A452A3B6A610005EE46 /* Quick in Frameworks */,
+				DE625A472A3B6A660005EE46 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE2F6AD2A1B2A6C00ED65AC /* Frameworks */ = {
+		DE625A012A3B643D0005EE46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,106 +81,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE749E402A25FB2000C54331 /* CountryList */ = {
+		DE6259E12A3B643C0005EE46 = {
 			isa = PBXGroup;
 			children = (
-				DE749E4A2A2795D400C54331 /* CountryListView.swift */,
-				DE883A8F2A3B50270090535A /* CountryListRow.swift */,
+				DE6259EC2A3B643C0005EE46 /* SimpleGraphQLPractice */,
+				DE6259FD2A3B643D0005EE46 /* SimpleGraphQLPracticeTests */,
+				DE625A072A3B643D0005EE46 /* SimpleGraphQLPracticeUITests */,
+				DE6259EB2A3B643C0005EE46 /* Products */,
+				DE625A432A3B6A610005EE46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6259EB2A3B643C0005EE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */,
+				DE6259FA2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.xctest */,
+				DE625A042A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6259EC2A3B643C0005EE46 /* SimpleGraphQLPractice */ = {
+			isa = PBXGroup;
+			children = (
+				DE6259F12A3B643D0005EE46 /* Assets.xcassets */,
+				DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */,
+				DE625A2A2A3B66990005EE46 /* GraphQL */,
+				DE625A182A3B64C30005EE46 /* CountryDetail */,
+				DE625A172A3B64BA0005EE46 /* CountryList */,
+				DE6259F32A3B643D0005EE46 /* Preview Content */,
+			);
+			path = SimpleGraphQLPractice;
+			sourceTree = "<group>";
+		};
+		DE6259F32A3B643D0005EE46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE6259FD2A3B643D0005EE46 /* SimpleGraphQLPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE6259FE2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.swift */,
+			);
+			path = SimpleGraphQLPracticeTests;
+			sourceTree = "<group>";
+		};
+		DE625A072A3B643D0005EE46 /* SimpleGraphQLPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE625A082A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.swift */,
+				DE625A0A2A3B643D0005EE46 /* SimpleGraphQLPracticeUITestsLaunchTests.swift */,
+			);
+			path = SimpleGraphQLPracticeUITests;
+			sourceTree = "<group>";
+		};
+		DE625A172A3B64BA0005EE46 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				DE625A1B2A3B64EE0005EE46 /* CountryListView.swift */,
+				DE625A1D2A3B65030005EE46 /* CountryListRow.swift */,
 			);
 			path = CountryList;
 			sourceTree = "<group>";
 		};
-		DE749E412A25FB2900C54331 /* CountryDetail */ = {
+		DE625A182A3B64C30005EE46 /* CountryDetail */ = {
 			isa = PBXGroup;
 			children = (
-				DE749E4C2A2795DF00C54331 /* CountryDetailView.swift */,
+				DE625A1F2A3B65220005EE46 /* CountryDetailView.swift */,
 			);
 			path = CountryDetail;
 			sourceTree = "<group>";
 		};
-		DE749E422A25FB5E00C54331 /* GraphQL */ = {
+		DE625A2A2A3B66990005EE46 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
 		};
-		DE749E462A25FBBB00C54331 /* Seed */ = {
+		DE625A432A3B6A610005EE46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Seed;
-			sourceTree = "<group>";
-		};
-		DEE2F68D2A1B2A6B00ED65AC = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6982A1B2A6B00ED65AC /* SimpleGraphQLPractice */,
-				DEE2F6A92A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests */,
-				DEE2F6B32A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests */,
-				DEE2F6972A1B2A6B00ED65AC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		DEE2F6972A1B2A6B00ED65AC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */,
-				DEE2F6A62A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.xctest */,
-				DEE2F6B02A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DEE2F6982A1B2A6B00ED65AC /* SimpleGraphQLPractice */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6992A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift */,
-				DE749E422A25FB5E00C54331 /* GraphQL */,
-				DE749E402A25FB2000C54331 /* CountryList */,
-				DE749E412A25FB2900C54331 /* CountryDetail */,
-				DEE2F69D2A1B2A6C00ED65AC /* Assets.xcassets */,
-				DEE2F69F2A1B2A6C00ED65AC /* Preview Content */,
-			);
-			path = SimpleGraphQLPractice;
-			sourceTree = "<group>";
-		};
-		DEE2F69F2A1B2A6C00ED65AC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6A02A1B2A6C00ED65AC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DEE2F6A92A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE749E462A25FBBB00C54331 /* Seed */,
-				DEE2F6AA2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift */,
-			);
-			path = SimpleGraphQLPracticeTests;
-			sourceTree = "<group>";
-		};
-		DEE2F6B32A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DEE2F6B42A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.swift */,
-				DEE2F6B62A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITestsLaunchTests.swift */,
-			);
-			path = SimpleGraphQLPracticeUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEE2F6952A1B2A6B00ED65AC /* SimpleGraphQLPractice */ = {
+		DE6259E92A3B643C0005EE46 /* SimpleGraphQLPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEE2F6BA2A1B2A6C00ED65AC /* Build configuration list for PBXNativeTarget "SimpleGraphQLPractice" */;
+			buildConfigurationList = DE625A0E2A3B643D0005EE46 /* Build configuration list for PBXNativeTarget "SimpleGraphQLPractice" */;
 			buildPhases = (
-				DEE2F6922A1B2A6B00ED65AC /* Sources */,
-				DEE2F6932A1B2A6B00ED65AC /* Frameworks */,
-				DEE2F6942A1B2A6B00ED65AC /* Resources */,
+				DE6259E62A3B643C0005EE46 /* Sources */,
+				DE6259E72A3B643C0005EE46 /* Frameworks */,
+				DE6259E82A3B643C0005EE46 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -190,75 +188,76 @@
 			);
 			name = SimpleGraphQLPractice;
 			packageProductDependencies = (
-				DE749E2F2A1B520800C54331 /* Apollo */,
-				DE749E3B2A24F50F00C54331 /* Quick */,
-				DE749E3E2A24F52600C54331 /* Nimble */,
-				DE749E442A25FBA600C54331 /* CombineExpectations */,
+				DE625A222A3B65B70005EE46 /* Apollo */,
 			);
 			productName = SimpleGraphQLPractice;
-			productReference = DEE2F6962A1B2A6B00ED65AC /* SimpleGraphQLPractice.app */;
+			productReference = DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEE2F6A52A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests */ = {
+		DE6259F92A3B643D0005EE46 /* SimpleGraphQLPracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEE2F6BD2A1B2A6C00ED65AC /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeTests" */;
+			buildConfigurationList = DE625A112A3B643D0005EE46 /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeTests" */;
 			buildPhases = (
-				DEE2F6A22A1B2A6C00ED65AC /* Sources */,
-				DEE2F6A32A1B2A6C00ED65AC /* Frameworks */,
-				DEE2F6A42A1B2A6C00ED65AC /* Resources */,
+				DE6259F62A3B643D0005EE46 /* Sources */,
+				DE6259F72A3B643D0005EE46 /* Frameworks */,
+				DE6259F82A3B643D0005EE46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEE2F6A82A1B2A6C00ED65AC /* PBXTargetDependency */,
+				DE6259FC2A3B643D0005EE46 /* PBXTargetDependency */,
 			);
 			name = SimpleGraphQLPracticeTests;
+			packageProductDependencies = (
+				DE625A442A3B6A610005EE46 /* Quick */,
+				DE625A462A3B6A660005EE46 /* Nimble */,
+			);
 			productName = SimpleGraphQLPracticeTests;
-			productReference = DEE2F6A62A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.xctest */;
+			productReference = DE6259FA2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DEE2F6AF2A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests */ = {
+		DE625A032A3B643D0005EE46 /* SimpleGraphQLPracticeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEE2F6C02A1B2A6C00ED65AC /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeUITests" */;
+			buildConfigurationList = DE625A142A3B643D0005EE46 /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeUITests" */;
 			buildPhases = (
-				DEE2F6AC2A1B2A6C00ED65AC /* Sources */,
-				DEE2F6AD2A1B2A6C00ED65AC /* Frameworks */,
-				DEE2F6AE2A1B2A6C00ED65AC /* Resources */,
+				DE625A002A3B643D0005EE46 /* Sources */,
+				DE625A012A3B643D0005EE46 /* Frameworks */,
+				DE625A022A3B643D0005EE46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEE2F6B22A1B2A6C00ED65AC /* PBXTargetDependency */,
+				DE625A062A3B643D0005EE46 /* PBXTargetDependency */,
 			);
 			name = SimpleGraphQLPracticeUITests;
 			productName = SimpleGraphQLPracticeUITests;
-			productReference = DEE2F6B02A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.xctest */;
+			productReference = DE625A042A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEE2F68E2A1B2A6B00ED65AC /* Project object */ = {
+		DE6259E22A3B643C0005EE46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					DEE2F6952A1B2A6B00ED65AC = {
-						CreatedOnToolsVersion = 14.3;
+					DE6259E92A3B643C0005EE46 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
-					DEE2F6A52A1B2A6C00ED65AC = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = DEE2F6952A1B2A6B00ED65AC;
+					DE6259F92A3B643D0005EE46 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DE6259E92A3B643C0005EE46;
 					};
-					DEE2F6AF2A1B2A6C00ED65AC = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = DEE2F6952A1B2A6B00ED65AC;
+					DE625A032A3B643D0005EE46 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DE6259E92A3B643C0005EE46;
 					};
 				};
 			};
-			buildConfigurationList = DEE2F6912A1B2A6B00ED65AC /* Build configuration list for PBXProject "SimpleGraphQLPractice" */;
+			buildConfigurationList = DE6259E52A3B643C0005EE46 /* Build configuration list for PBXProject "SimpleGraphQLPractice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,42 +265,41 @@
 				en,
 				Base,
 			);
-			mainGroup = DEE2F68D2A1B2A6B00ED65AC;
+			mainGroup = DE6259E12A3B643C0005EE46;
 			packageReferences = (
-				DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */,
-				DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */,
-				DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
+				DE625A212A3B65B70005EE46 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				DE625A3D2A3B69D70005EE46 /* XCRemoteSwiftPackageReference "Quick" */,
+				DE625A402A3B6A4C0005EE46 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
-			productRefGroup = DEE2F6972A1B2A6B00ED65AC /* Products */;
+			productRefGroup = DE6259EB2A3B643C0005EE46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEE2F6952A1B2A6B00ED65AC /* SimpleGraphQLPractice */,
-				DEE2F6A52A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests */,
-				DEE2F6AF2A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests */,
+				DE6259E92A3B643C0005EE46 /* SimpleGraphQLPractice */,
+				DE6259F92A3B643D0005EE46 /* SimpleGraphQLPracticeTests */,
+				DE625A032A3B643D0005EE46 /* SimpleGraphQLPracticeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DEE2F6942A1B2A6B00ED65AC /* Resources */ = {
+		DE6259E82A3B643C0005EE46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE2F6A12A1B2A6C00ED65AC /* Preview Assets.xcassets in Resources */,
-				DEE2F69E2A1B2A6C00ED65AC /* Assets.xcassets in Resources */,
+				DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */,
+				DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE2F6A42A1B2A6C00ED65AC /* Resources */ = {
+		DE6259F82A3B643D0005EE46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE2F6AE2A1B2A6C00ED65AC /* Resources */ = {
+		DE625A022A3B643D0005EE46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,51 +309,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEE2F6922A1B2A6B00ED65AC /* Sources */ = {
+		DE6259E62A3B643C0005EE46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE749E4D2A2795DF00C54331 /* CountryDetailView.swift in Sources */,
-				DEE2F69A2A1B2A6B00ED65AC /* SimpleGraphQLPracticeApp.swift in Sources */,
-				DE749E4B2A2795D400C54331 /* CountryListView.swift in Sources */,
-				DE883A902A3B50270090535A /* CountryListRow.swift in Sources */,
+				DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */,
+				DE625A1C2A3B64EE0005EE46 /* CountryListView.swift in Sources */,
+				DE625A1E2A3B65030005EE46 /* CountryListRow.swift in Sources */,
+				DE625A202A3B65220005EE46 /* CountryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE2F6A22A1B2A6C00ED65AC /* Sources */ = {
+		DE6259F62A3B643D0005EE46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE2F6AB2A1B2A6C00ED65AC /* SimpleGraphQLPracticeTests.swift in Sources */,
+				DE6259FF2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE2F6AC2A1B2A6C00ED65AC /* Sources */ = {
+		DE625A002A3B643D0005EE46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE2F6B52A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITests.swift in Sources */,
-				DEE2F6B72A1B2A6C00ED65AC /* SimpleGraphQLPracticeUITestsLaunchTests.swift in Sources */,
+				DE625A092A3B643D0005EE46 /* SimpleGraphQLPracticeUITests.swift in Sources */,
+				DE625A0B2A3B643D0005EE46 /* SimpleGraphQLPracticeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DEE2F6A82A1B2A6C00ED65AC /* PBXTargetDependency */ = {
+		DE6259FC2A3B643D0005EE46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEE2F6952A1B2A6B00ED65AC /* SimpleGraphQLPractice */;
-			targetProxy = DEE2F6A72A1B2A6C00ED65AC /* PBXContainerItemProxy */;
+			target = DE6259E92A3B643C0005EE46 /* SimpleGraphQLPractice */;
+			targetProxy = DE6259FB2A3B643D0005EE46 /* PBXContainerItemProxy */;
 		};
-		DEE2F6B22A1B2A6C00ED65AC /* PBXTargetDependency */ = {
+		DE625A062A3B643D0005EE46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DEE2F6952A1B2A6B00ED65AC /* SimpleGraphQLPractice */;
-			targetProxy = DEE2F6B12A1B2A6C00ED65AC /* PBXContainerItemProxy */;
+			target = DE6259E92A3B643C0005EE46 /* SimpleGraphQLPractice */;
+			targetProxy = DE625A052A3B643D0005EE46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DEE2F6B82A1B2A6C00ED65AC /* Debug */ = {
+		DE625A0C2A3B643D0005EE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,7 +413,7 @@
 			};
 			name = Debug;
 		};
-		DEE2F6B92A1B2A6C00ED65AC /* Release */ = {
+		DE625A0D2A3B643D0005EE46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -469,7 +467,7 @@
 			};
 			name = Release;
 		};
-		DEE2F6BB2A1B2A6C00ED65AC /* Debug */ = {
+		DE625A0F2A3B643D0005EE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -498,7 +496,7 @@
 			};
 			name = Debug;
 		};
-		DEE2F6BC2A1B2A6C00ED65AC /* Release */ = {
+		DE625A102A3B643D0005EE46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -527,7 +525,7 @@
 			};
 			name = Release;
 		};
-		DEE2F6BE2A1B2A6C00ED65AC /* Debug */ = {
+		DE625A122A3B643D0005EE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,7 +545,7 @@
 			};
 			name = Debug;
 		};
-		DEE2F6BF2A1B2A6C00ED65AC /* Release */ = {
+		DE625A132A3B643D0005EE46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,7 +565,7 @@
 			};
 			name = Release;
 		};
-		DEE2F6C12A1B2A6C00ED65AC /* Debug */ = {
+		DE625A152A3B643D0005EE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -585,7 +583,7 @@
 			};
 			name = Debug;
 		};
-		DEE2F6C22A1B2A6C00ED65AC /* Release */ = {
+		DE625A162A3B643D0005EE46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -606,38 +604,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEE2F6912A1B2A6B00ED65AC /* Build configuration list for PBXProject "SimpleGraphQLPractice" */ = {
+		DE6259E52A3B643C0005EE46 /* Build configuration list for PBXProject "SimpleGraphQLPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE2F6B82A1B2A6C00ED65AC /* Debug */,
-				DEE2F6B92A1B2A6C00ED65AC /* Release */,
+				DE625A0C2A3B643D0005EE46 /* Debug */,
+				DE625A0D2A3B643D0005EE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEE2F6BA2A1B2A6C00ED65AC /* Build configuration list for PBXNativeTarget "SimpleGraphQLPractice" */ = {
+		DE625A0E2A3B643D0005EE46 /* Build configuration list for PBXNativeTarget "SimpleGraphQLPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE2F6BB2A1B2A6C00ED65AC /* Debug */,
-				DEE2F6BC2A1B2A6C00ED65AC /* Release */,
+				DE625A0F2A3B643D0005EE46 /* Debug */,
+				DE625A102A3B643D0005EE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEE2F6BD2A1B2A6C00ED65AC /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeTests" */ = {
+		DE625A112A3B643D0005EE46 /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE2F6BE2A1B2A6C00ED65AC /* Debug */,
-				DEE2F6BF2A1B2A6C00ED65AC /* Release */,
+				DE625A122A3B643D0005EE46 /* Debug */,
+				DE625A132A3B643D0005EE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEE2F6C02A1B2A6C00ED65AC /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeUITests" */ = {
+		DE625A142A3B643D0005EE46 /* Build configuration list for PBXNativeTarget "SimpleGraphQLPracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEE2F6C12A1B2A6C00ED65AC /* Debug */,
-				DEE2F6C22A1B2A6C00ED65AC /* Release */,
+				DE625A152A3B643D0005EE46 /* Debug */,
+				DE625A162A3B643D0005EE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -645,7 +643,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+		DE625A212A3B65B70005EE46 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
@@ -653,15 +651,15 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */ = {
+		DE625A3D2A3B69D70005EE46 /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Quick.git";
 			requirement = {
-				kind = upToNextMinorVersion;
+				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
 			};
 		};
-		DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+		DE625A402A3B6A4C0005EE46 /* XCRemoteSwiftPackageReference "Nimble" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Nimble.git";
 			requirement = {
@@ -669,38 +667,25 @@
 				minimumVersion = 12.0.0;
 			};
 		};
-		DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/groue/CombineExpectations.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DE749E2F2A1B520800C54331 /* Apollo */ = {
+		DE625A222A3B65B70005EE46 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE749E2E2A1B520800C54331 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			package = DE625A212A3B65B70005EE46 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
 		};
-		DE749E3B2A24F50F00C54331 /* Quick */ = {
+		DE625A442A3B6A610005EE46 /* Quick */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE749E3A2A24F50F00C54331 /* XCRemoteSwiftPackageReference "Quick" */;
+			package = DE625A3D2A3B69D70005EE46 /* XCRemoteSwiftPackageReference "Quick" */;
 			productName = Quick;
 		};
-		DE749E3E2A24F52600C54331 /* Nimble */ = {
+		DE625A462A3B6A660005EE46 /* Nimble */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE749E3D2A24F52600C54331 /* XCRemoteSwiftPackageReference "Nimble" */;
+			package = DE625A402A3B6A4C0005EE46 /* XCRemoteSwiftPackageReference "Nimble" */;
 			productName = Nimble;
-		};
-		DE749E442A25FBA600C54331 /* CombineExpectations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE749E432A25FBA600C54331 /* XCRemoteSwiftPackageReference "CombineExpectations" */;
-			productName = CombineExpectations;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = DEE2F68E2A1B2A6B00ED65AC /* Project object */;
+	rootObject = DE6259E22A3B643C0005EE46 /* Project object */;
 }

@@ -5,17 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apollographql/apollo-ios.git",
       "state" : {
-        "revision" : "c7d618adc40bc20e4f40651b8debbc3c9f6d2b6f",
-        "version" : "1.2.0"
-      }
-    },
-    {
-      "identity" : "combineexpectations",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/groue/CombineExpectations.git",
-      "state" : {
-        "branch" : "master",
-        "revision" : "04d4e4b21c9e8361925f03f64a7ecda89ef9974f"
+        "revision" : "759a665fba28b5a2e4fa51897158f9817b99bc03",
+        "version" : "1.2.1"
       }
     },
     {
@@ -50,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Quick/Nimble.git",
       "state" : {
-        "revision" : "ecade0f20e58e55ba3e5f110b701dad88fd40170",
-        "version" : "12.0.0"
+        "revision" : "371f7d278ba95a5511c248aaeec84f5dbe770491",
+        "version" : "12.0.1"
       }
     },
     {
@@ -59,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Quick/Quick.git",
       "state" : {
-        "revision" : "e206b8deba0d01fce70388a6d9dc66cba5603958",
-        "version" : "7.0.0"
+        "revision" : "91132c0fe9a98e76f3d7381a608685aa41770706",
+        "version" : "7.0.2"
       }
     },
     {

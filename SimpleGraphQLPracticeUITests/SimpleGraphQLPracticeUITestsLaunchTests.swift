@@ -2,7 +2,7 @@
 //  SimpleGraphQLPracticeUITestsLaunchTests.swift
 //  SimpleGraphQLPracticeUITests
 //
-//  Created by 酒井文也 on 2023/05/22.
+//  Created by 酒井文也 on 2023/06/16.
 //
 
 import XCTest
