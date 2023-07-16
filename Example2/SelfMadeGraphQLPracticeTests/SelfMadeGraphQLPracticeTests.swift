@@ -2,7 +2,7 @@
 //  SelfMadeGraphQLPracticeTests.swift
 //  SelfMadeGraphQLPracticeTests
 //
-//  Created by 酒井文也 on 2023/07/15.
+//  Created by 酒井文也 on 2023/07/16.
 //
 
 import XCTest
