@@ -81,6 +81,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE0B8DDD2A6C125C00ED79DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE0B8DDE2A6C126200ED79DC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DE0B8DDF2A6C128D00ED79DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DE6259E12A3B643C0005EE46 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +131,9 @@
 				DE625A2A2A3B66990005EE46 /* GraphQL */,
 				DE625A182A3B64C30005EE46 /* CountryDetail */,
 				DE625A172A3B64BA0005EE46 /* CountryList */,
+				DE0B8DDE2A6C126200ED79DC /* Repository */,
+				DE0B8DDF2A6C128D00ED79DC /* View */,
+				DE0B8DDD2A6C125C00ED79DC /* ViewModel */,
 				DE6259F32A3B643D0005EE46 /* Preview Content */,
 			);
 			path = SimpleGraphQLPractice;
