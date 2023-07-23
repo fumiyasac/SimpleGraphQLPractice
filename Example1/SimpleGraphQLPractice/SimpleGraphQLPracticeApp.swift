@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// GraphQL(Apollo v1.3)からSchemaをダウンロードして適用する。
+// https://countries.trevorblades.com/
+
 @main
 struct SimpleGraphQLPracticeApp: App {
     var body: some Scene {

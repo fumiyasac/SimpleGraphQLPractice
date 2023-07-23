@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// GraphQL(Apollo v1.3)からSchemaをダウンロードして適用する。
+// 自前で作成したGraphQLサーバーを利用する。
+
 @main
 struct SelfMadeGraphQLPracticeApp: App {
     var body: some Scene {
