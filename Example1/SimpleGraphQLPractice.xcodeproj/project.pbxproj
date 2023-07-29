@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0B8DE22A72A8D600ED79DC /* GraphQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DE12A72A8D600ED79DC /* GraphQLClient.swift */; };
 		DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */; };
 		DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F12A3B643D0005EE46 /* Assets.xcassets */; };
 		DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0B8DE12A72A8D600ED79DC /* GraphQLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClient.swift; sourceTree = "<group>"; };
 		DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
 		DE6259F12A3B643D0005EE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DE0B8DE02A72A8BE00ED79DC /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B8DE12A72A8D600ED79DC /* GraphQLClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 		DE6259E12A3B643C0005EE46 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 			children = (
 				DE6259F12A3B643D0005EE46 /* Assets.xcassets */,
 				DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */,
+				DE0B8DE02A72A8BE00ED79DC /* Client */,
 				DE625A2A2A3B66990005EE46 /* GraphQL */,
 				DE625A182A3B64C30005EE46 /* CountryDetail */,
 				DE625A172A3B64BA0005EE46 /* CountryList */,
@@ -341,6 +352,7 @@
 				DE625A1C2A3B64EE0005EE46 /* CountryListView.swift in Sources */,
 				DE625A1E2A3B65030005EE46 /* CountryListRow.swift in Sources */,
 				DE625A202A3B65220005EE46 /* CountryDetailView.swift in Sources */,
+				DE0B8DE22A72A8D600ED79DC /* GraphQLClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
