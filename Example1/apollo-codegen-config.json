@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "CountriesSchema",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./CountriesSchema",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "SimpleGraphQLPractice"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
