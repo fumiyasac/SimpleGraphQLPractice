@@ -10,6 +10,7 @@ query GetAllCountries {
       code
     }
     name
+    native
     currency
     emoji
     phone

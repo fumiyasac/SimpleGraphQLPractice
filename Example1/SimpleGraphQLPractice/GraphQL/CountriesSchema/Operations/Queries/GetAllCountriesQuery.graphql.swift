@@ -24,6 +24,7 @@ extension CountriesSchema {
               code
             }
             name
+            native
             currency
             emoji
             phone
@@ -59,6 +60,7 @@ extension CountriesSchema {
           .field("continent", Continent?.self),
           .field("languages", [Language?]?.self),
           .field("name", String?.self),
+          .field("native", String?.self),
           .field("currency", String?.self),
           .field("emoji", String?.self),
           .field("phone", String?.self),
@@ -68,6 +70,7 @@ extension CountriesSchema {
         var continent: Continent? { __data["continent"] }
         var languages: [Language?]? { __data["languages"] }
         var name: String? { __data["name"] }
+        var native: String? { __data["native"] }
         var currency: String? { __data["currency"] }
         var emoji: String? { __data["emoji"] }
         var phone: String? { __data["phone"] }
