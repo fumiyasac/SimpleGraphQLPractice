@@ -4,9 +4,7 @@
     "operationSearchPaths" : [
       "**/*.graphql"
     ],
-    "schemaSearchPaths" : [
-      "**/*.graphqls"
-    ]
+    "schemaSearchPaths" : ["SimpleGraphQLPractice/GraphQL/schema.json"]
   },
   "output" : {
     "testMocks" : {
@@ -14,7 +12,7 @@
       }
     },
     "schemaTypes" : {
-      "path" : "./CountriesSchema",
+      "path" : "SimpleGraphQLPractice/GraphQL/CountriesSchema",
       "moduleType" : {
         "embeddedInTarget" : {
           "name" : "SimpleGraphQLPractice"
@@ -25,5 +23,19 @@
       "inSchemaModule" : {
       }
     }
+  },
+  "schemaDownloadConfiguration": {
+    "downloadMethod": {
+      "introspection": {
+        "endpointURL": "https://countries.trevorblades.com/graphql",
+        "httpMethod": {
+          "POST": {}
+        },
+        "includeDeprecatedInputValues": false,
+        "outputFormat": "JSON"
+      }
+    },
+    "headers": [],
+    "outputPath": "SimpleGraphQLPractice/GraphQL/"
   }
 }

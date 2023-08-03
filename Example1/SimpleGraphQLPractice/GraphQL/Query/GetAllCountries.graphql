@@ -1,0 +1,17 @@
+query GetAllCountries {
+  countries {
+    code
+    continent {
+      code
+      name
+    }
+    languages {
+      name
+      code
+    }
+    name
+    currency
+    emoji
+    phone
+  }
+}
