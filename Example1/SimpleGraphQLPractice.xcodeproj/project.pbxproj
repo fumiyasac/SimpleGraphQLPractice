@@ -18,6 +18,9 @@
 		DE0B8E152A7D469E00ED79DC /* Continent.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E0D2A7D469E00ED79DC /* Continent.graphql.swift */; };
 		DE0B8E162A7D469E00ED79DC /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E0E2A7D469E00ED79DC /* SchemaConfiguration.swift */; };
 		DE0B8E172A7D469E00ED79DC /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E0F2A7D469E00ED79DC /* SchemaMetadata.graphql.swift */; };
+		DE0B8E1D2A7DA28500ED79DC /* GetCountryByCode.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DE0B8E1C2A7DA28500ED79DC /* GetCountryByCode.graphql */; };
+		DE0B8E1F2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E1E2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift */; };
+		DE0B8E212A7DA31100ED79DC /* Subdivision.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E202A7DA31100ED79DC /* Subdivision.graphql.swift */; };
 		DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */; };
 		DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F12A3B643D0005EE46 /* Assets.xcassets */; };
 		DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */; };
@@ -61,6 +64,9 @@
 		DE0B8E0D2A7D469E00ED79DC /* Continent.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Continent.graphql.swift; sourceTree = "<group>"; };
 		DE0B8E0E2A7D469E00ED79DC /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
 		DE0B8E0F2A7D469E00ED79DC /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
+		DE0B8E1C2A7DA28500ED79DC /* GetCountryByCode.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetCountryByCode.graphql; sourceTree = "<group>"; };
+		DE0B8E1E2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCountryByCodeQuery.graphql.swift; sourceTree = "<group>"; };
+		DE0B8E202A7DA31100ED79DC /* Subdivision.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subdivision.graphql.swift; sourceTree = "<group>"; };
 		DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
 		DE6259F12A3B643D0005EE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0B8DE62A7BDA0600ED79DC /* GetAllCountries.graphql */,
+				DE0B8E1C2A7DA28500ED79DC /* GetCountryByCode.graphql */,
 			);
 			path = Query;
 			sourceTree = "<group>";
@@ -161,6 +168,7 @@
 		DE0B8E062A7D469E00ED79DC /* Queries */ = {
 			isa = PBXGroup;
 			children = (
+				DE0B8E1E2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift */,
 				DE0B8E072A7D469E00ED79DC /* GetAllCountriesQuery.graphql.swift */,
 			);
 			path = Queries;
@@ -179,6 +187,7 @@
 		DE0B8E092A7D469E00ED79DC /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				DE0B8E202A7DA31100ED79DC /* Subdivision.graphql.swift */,
 				DE0B8E0A2A7D469E00ED79DC /* Query.graphql.swift */,
 				DE0B8E0B2A7D469E00ED79DC /* Language.graphql.swift */,
 				DE0B8E0C2A7D469E00ED79DC /* Country.graphql.swift */,
@@ -400,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0B8E1D2A7DA28500ED79DC /* GetCountryByCode.graphql in Resources */,
 				DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */,
 				DE0B8DE72A7BDA0600ED79DC /* GetAllCountries.graphql in Resources */,
 				DE0B8DE42A7BD4B400ED79DC /* schema.json in Resources */,
@@ -430,7 +440,9 @@
 			files = (
 				DE0B8E132A7D469E00ED79DC /* Language.graphql.swift in Sources */,
 				DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */,
+				DE0B8E212A7DA31100ED79DC /* Subdivision.graphql.swift in Sources */,
 				DE0B8E122A7D469E00ED79DC /* Query.graphql.swift in Sources */,
+				DE0B8E1F2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift in Sources */,
 				DE0B8E142A7D469E00ED79DC /* Country.graphql.swift in Sources */,
 				DE625A1C2A3B64EE0005EE46 /* CountryListView.swift in Sources */,
 				DE0B8E162A7D469E00ED79DC /* SchemaConfiguration.swift in Sources */,
