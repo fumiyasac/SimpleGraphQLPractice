@@ -17,9 +17,12 @@ struct CountryListView: View {
             let query = CountriesSchema.GetAllCountriesQuery()
             apollo.fetch(query: query) { result in
                 guard let data = try? result.get().data else { return }
-                let _ = data.countries?.compactMap { country in
-                    print("code:", country?.code ?? "")
-                    print("name:", country?.name ?? "")
+                let _ = data.countries.compactMap { country in
+                    print("-----------")
+                    print("code:", country.code)
+                    print("name:", country.name)
+                    print("emoji:", country.emoji)
+                    print("-----------")
                 }
             }
         }
