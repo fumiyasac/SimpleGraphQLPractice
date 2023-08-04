@@ -3,7 +3,7 @@
 
 import ApolloAPI
 
-public extension CountriesSchema.Objects {
+extension CountriesSchema.Objects {
   static let Query = Object(
     typename: "Query",
     implementedInterfaces: []
