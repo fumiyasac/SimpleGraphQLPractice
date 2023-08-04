@@ -1,18 +1,7 @@
 query GetAllCountries {
   countries {
     code
-    continent {
-      code
-      name
-    }
-    languages {
-      name
-      code
-    }
     name
-    native
-    currency
     emoji
-    phone
   }
 }

@@ -35,6 +35,7 @@ extension CountriesSchema {
       case "Country": return CountriesSchema.Objects.Country
       case "Continent": return CountriesSchema.Objects.Continent
       case "Language": return CountriesSchema.Objects.Language
+      case "Subdivision": return CountriesSchema.Objects.Subdivision
       default: return nil
       }
     }

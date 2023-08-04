@@ -13,21 +13,8 @@ extension CountriesSchema {
           countries {
             __typename
             code
-            continent {
-              __typename
-              code
-              name
-            }
-            languages {
-              __typename
-              name
-              code
-            }
             name
-            native
-            currency
             emoji
-            phone
           }
         }
         """#
@@ -41,10 +28,10 @@ extension CountriesSchema {
 
       static var __parentType: ApolloAPI.ParentType { CountriesSchema.Objects.Query }
       static var __selections: [ApolloAPI.Selection] { [
-        .field("countries", [Country?]?.self),
+        .field("countries", [Country].self),
       ] }
 
-      var countries: [Country?]? { __data["countries"] }
+      var countries: [Country] { __data["countries"] }
 
       /// Country
       ///
@@ -56,60 +43,14 @@ extension CountriesSchema {
         static var __parentType: ApolloAPI.ParentType { CountriesSchema.Objects.Country }
         static var __selections: [ApolloAPI.Selection] { [
           .field("__typename", String.self),
-          .field("code", String?.self),
-          .field("continent", Continent?.self),
-          .field("languages", [Language?]?.self),
-          .field("name", String?.self),
-          .field("native", String?.self),
-          .field("currency", String?.self),
-          .field("emoji", String?.self),
-          .field("phone", String?.self),
+          .field("code", CountriesSchema.ID.self),
+          .field("name", String.self),
+          .field("emoji", String.self),
         ] }
 
-        var code: String? { __data["code"] }
-        var continent: Continent? { __data["continent"] }
-        var languages: [Language?]? { __data["languages"] }
-        var name: String? { __data["name"] }
-        var native: String? { __data["native"] }
-        var currency: String? { __data["currency"] }
-        var emoji: String? { __data["emoji"] }
-        var phone: String? { __data["phone"] }
-
-        /// Country.Continent
-        ///
-        /// Parent Type: `Continent`
-        struct Continent: CountriesSchema.SelectionSet {
-          let __data: DataDict
-          init(_dataDict: DataDict) { __data = _dataDict }
-
-          static var __parentType: ApolloAPI.ParentType { CountriesSchema.Objects.Continent }
-          static var __selections: [ApolloAPI.Selection] { [
-            .field("__typename", String.self),
-            .field("code", String?.self),
-            .field("name", String?.self),
-          ] }
-
-          var code: String? { __data["code"] }
-          var name: String? { __data["name"] }
-        }
-
-        /// Country.Language
-        ///
-        /// Parent Type: `Language`
-        struct Language: CountriesSchema.SelectionSet {
-          let __data: DataDict
-          init(_dataDict: DataDict) { __data = _dataDict }
-
-          static var __parentType: ApolloAPI.ParentType { CountriesSchema.Objects.Language }
-          static var __selections: [ApolloAPI.Selection] { [
-            .field("__typename", String.self),
-            .field("name", String?.self),
-            .field("code", String?.self),
-          ] }
-
-          var name: String? { __data["name"] }
-          var code: String? { __data["code"] }
-        }
+        var code: CountriesSchema.ID { __data["code"] }
+        var name: String { __data["name"] }
+        var emoji: String { __data["emoji"] }
       }
     }
   }
