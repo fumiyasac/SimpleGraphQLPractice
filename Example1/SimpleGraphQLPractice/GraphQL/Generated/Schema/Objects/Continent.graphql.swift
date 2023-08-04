@@ -3,9 +3,9 @@
 
 import ApolloAPI
 
-extension CountriesSchema.Objects {
-  static let Query = Object(
-    typename: "Query",
+public extension CountriesSchema.Objects {
+  static let Continent = Object(
+    typename: "Continent",
     implementedInterfaces: []
   )
 }

@@ -9,7 +9,20 @@ import SwiftUI
 
 struct CountryListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("国名とコードを表示したい")
+        }
+        .onAppear {
+            let apollo = GraphQLClient.shared.apollo
+            let query = CountriesSchema.GetAllCountriesQuery()
+            apollo.fetch(query: query) { result in
+                guard let data = try? result.get().data else { return }
+                let _ = data.countries?.compactMap { country in
+                    print("code:", country?.code ?? "")
+                    print("name:", country?.name ?? "")
+                }
+            }
+        }
     }
 }
 

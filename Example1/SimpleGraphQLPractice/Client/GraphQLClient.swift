@@ -18,5 +18,19 @@ final class GraphQLClient {
 
     // MARK: - Property
 
-    lazy private(set) var apollo = ApolloClient(url: URL(string: "https://countries.trevorblades.com/")!)
+    let apollo = {
+        let cache = InMemoryNormalizedCache()
+        let store = ApolloStore(cache: cache)
+        let provider = DefaultInterceptorProvider(
+            client: URLSessionClient(),
+            store: store
+        )
+        let url = URL(string: "https://countries.trevorblades.com/")!
+        let transport = RequestChainNetworkTransport(
+            interceptorProvider: provider,
+            endpointURL: url,
+            additionalHeaders: ["Authorization": "Bearer "]
+        )
+        return ApolloClient(networkTransport: transport, store: store)
+    }()
 }

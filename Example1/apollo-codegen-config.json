@@ -8,20 +8,19 @@
   },
   "output" : {
     "testMocks" : {
-      "none" : {
-      }
+      "none" : {}
     },
     "schemaTypes" : {
-      "path" : "SimpleGraphQLPractice/GraphQL/CountriesSchema",
+      "path" : "SimpleGraphQLPractice/GraphQL/Generated",
       "moduleType" : {
         "embeddedInTarget" : {
-          "name" : "SimpleGraphQLPractice"
+          "name" : "SimpleGraphQLPractice",
+          "accessModifier" : "public"
         }
       }
     },
     "operations" : {
-      "inSchemaModule" : {
-      }
+      "inSchemaModule" : {}
     }
   },
   "schemaDownloadConfiguration": {

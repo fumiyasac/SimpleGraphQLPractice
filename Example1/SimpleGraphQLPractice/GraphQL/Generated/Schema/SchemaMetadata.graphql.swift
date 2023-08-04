@@ -3,19 +3,19 @@
 
 import ApolloAPI
 
-protocol CountriesSchema_SelectionSet: ApolloAPI.SelectionSet & ApolloAPI.RootSelectionSet
+public protocol CountriesSchema_SelectionSet: ApolloAPI.SelectionSet & ApolloAPI.RootSelectionSet
 where Schema == CountriesSchema.SchemaMetadata {}
 
-protocol CountriesSchema_InlineFragment: ApolloAPI.SelectionSet & ApolloAPI.InlineFragment
+public protocol CountriesSchema_InlineFragment: ApolloAPI.SelectionSet & ApolloAPI.InlineFragment
 where Schema == CountriesSchema.SchemaMetadata {}
 
-protocol CountriesSchema_MutableSelectionSet: ApolloAPI.MutableRootSelectionSet
+public protocol CountriesSchema_MutableSelectionSet: ApolloAPI.MutableRootSelectionSet
 where Schema == CountriesSchema.SchemaMetadata {}
 
-protocol CountriesSchema_MutableInlineFragment: ApolloAPI.MutableSelectionSet & ApolloAPI.InlineFragment
+public protocol CountriesSchema_MutableInlineFragment: ApolloAPI.MutableSelectionSet & ApolloAPI.InlineFragment
 where Schema == CountriesSchema.SchemaMetadata {}
 
-extension CountriesSchema {
+public extension CountriesSchema {
   typealias ID = String
 
   typealias SelectionSet = CountriesSchema_SelectionSet
@@ -27,9 +27,9 @@ extension CountriesSchema {
   typealias MutableInlineFragment = CountriesSchema_MutableInlineFragment
 
   enum SchemaMetadata: ApolloAPI.SchemaMetadata {
-    static let configuration: ApolloAPI.SchemaConfiguration.Type = SchemaConfiguration.self
+    public static let configuration: ApolloAPI.SchemaConfiguration.Type = SchemaConfiguration.self
 
-    static func objectType(forTypename typename: String) -> Object? {
+    public static func objectType(forTypename typename: String) -> Object? {
       switch typename {
       case "Query": return CountriesSchema.Objects.Query
       case "Country": return CountriesSchema.Objects.Country

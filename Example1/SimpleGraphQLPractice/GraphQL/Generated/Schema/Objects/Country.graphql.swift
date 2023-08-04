@@ -3,9 +3,9 @@
 
 import ApolloAPI
 
-extension CountriesSchema.Objects {
-  static let Language = Object(
-    typename: "Language",
+public extension CountriesSchema.Objects {
+  static let Country = Object(
+    typename: "Country",
     implementedInterfaces: []
   )
 }
