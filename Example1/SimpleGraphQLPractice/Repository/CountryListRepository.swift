@@ -10,11 +10,11 @@ import Foundation
 
 // MARK: - Protocol
 
-protocol CountriesRepository {
+protocol CountryListRepository {
     func getAllCountries() async throws -> [CountryListEntity]
 }
 
-final class CountriesRepositoryImpl: CountriesRepository {
+final class CountryListRepositoryImpl: CountryListRepository {
 
     // MARK: - Property
 
