@@ -30,8 +30,14 @@ final class CountriesRepositoryImpl: CountriesRepository {
 
     func getAllCountries() async throws -> [CountryListEntity] {
         let query = CountriesSchema.GetAllCountriesQuery()
-        let results = try await apolloClient.fetchAsync(query: query)
-        return results.data?.countries.compactMap {
+        let result = try await apolloClient.fetchAsync(query: query)
+        return convertToEntities(result: result)
+    }
+
+    // MARK: - Private Function
+
+    private func convertToEntities(result: GraphQLResult<CountriesSchema.GetAllCountriesQuery.Data>) -> [CountryListEntity] {
+        result.data?.countries.compactMap {
             CountryListEntity(
                 code: $0.code,
                 name: $0.name,

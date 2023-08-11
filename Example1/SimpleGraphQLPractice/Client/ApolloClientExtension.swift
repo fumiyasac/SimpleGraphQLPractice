@@ -8,14 +8,16 @@
 import Apollo
 import Foundation
 
-// 参考にした「apollo-ios」内のIssueで紹介されていた実装例
+// 実装の参考:
+// 「apollo-ios」内のIssue内のディスカッションで紹介されていたコードを参考にしています。
+// Apollo内で用意されているQuery & Mutationの実行処理をasync/awaitでラッピングしている。
 // https://github.com/apollographql/apollo-ios/issues/2216
 
 // MARK: - ApolloClient Extension
 
 extension ApolloClient {
 
-    //
+    // GraphQLのQueryをする処理をasync/awaitの処理内で実行する
     @discardableResult
     func fetchAsync<Query: GraphQLQuery>(
         query: Query,
@@ -24,7 +26,7 @@ extension ApolloClient {
         queue: DispatchQueue = .main
     ) async throws -> GraphQLResult<Query.Data> {
 
-        //
+        // MEMO: withCheckedThrowingContinuationでErrorをthrowする形にしています。
         return try await withCheckedThrowingContinuation { continuation in
             fetch(
                 query: query,
@@ -42,7 +44,7 @@ extension ApolloClient {
         }
     }
 
-    //
+    // GraphQLのMutationをする処理をasync/awaitの処理内で実行する
     @discardableResult
     func performAsync<Mutation: GraphQLMutation>(
         mutation: Mutation,
@@ -50,7 +52,7 @@ extension ApolloClient {
         queue: DispatchQueue = .main
     ) async throws -> GraphQLResult<Mutation.Data> {
 
-        //
+        // MEMO: withCheckedThrowingContinuationでErrorをthrowする形にしています。
         return try await withCheckedThrowingContinuation { continuation in
             perform(
                 mutation: mutation,
