@@ -18,19 +18,18 @@ final class CountryListRepositoryImpl: CountryListRepository {
 
     // MARK: - Property
 
-    private let apolloClient: ApolloClient
+    private let countryListRequest: CountryListRequest
 
     // MARK: - Initializer
 
-    init(apolloClient: ApolloClient = GraphQLClient.shared.apollo) {
-        self.apolloClient = apolloClient
+    init(countryListRequest: CountryListRequest = CountryListRequestImpl()) {
+        self.countryListRequest = countryListRequest
     }
 
     // MARK: - Function
 
     func getAllCountries() async throws -> [CountryListEntity] {
-        let query = CountriesSchema.GetAllCountriesQuery()
-        let result = try await apolloClient.fetchAsync(query: query)
+        let result = try await countryListRequest.getResult()
         return convertToEntities(result: result)
     }
 

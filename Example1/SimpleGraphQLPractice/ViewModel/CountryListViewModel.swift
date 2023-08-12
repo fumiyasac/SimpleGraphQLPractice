@@ -35,7 +35,7 @@ final class CountryListViewModel: ObservableObject {
         Task { @MainActor in
             self.requestStatus = .requesting
             do {
-                // 👉 async/awaitベースの処理で必要な値を取得し、その後`@Published`で定義した値を更新する
+                // MEMO: async/awaitベースの処理で必要な値を取得し、その後`@Published`で定義した値を更新する
                 self.countryListEntities = try await self.countryListRepository.getAllCountries()
                 self.requestStatus = .success
             } catch let error {
