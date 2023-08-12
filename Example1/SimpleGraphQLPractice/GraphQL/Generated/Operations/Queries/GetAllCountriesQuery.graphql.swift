@@ -6,18 +6,9 @@
 extension CountriesSchema {
   class GetAllCountriesQuery: GraphQLQuery {
     static let operationName: String = "GetAllCountries"
-    static let document: ApolloAPI.DocumentType = .notPersisted(
+    static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"""
-        query GetAllCountries {
-          countries {
-            __typename
-            code
-            name
-            emoji
-          }
-        }
-        """#
+        #"query GetAllCountries { countries { __typename code name emoji } }"#
       ))
 
     public init() {}

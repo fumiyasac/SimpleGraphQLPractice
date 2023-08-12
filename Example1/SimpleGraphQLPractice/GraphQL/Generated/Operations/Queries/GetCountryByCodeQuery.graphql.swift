@@ -6,37 +6,9 @@
 extension CountriesSchema {
   class GetCountryByCodeQuery: GraphQLQuery {
     static let operationName: String = "GetCountryByCode"
-    static let document: ApolloAPI.DocumentType = .notPersisted(
+    static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"""
-        query GetCountryByCode($code: ID!) {
-          country(code: $code) {
-            __typename
-            code
-            name
-            emoji
-            phone
-            native
-            awsRegion
-            continent {
-              __typename
-              code
-              name
-            }
-            languages {
-              __typename
-              name
-              code
-            }
-            currencies
-            subdivisions {
-              __typename
-              code
-              name
-            }
-          }
-        }
-        """#
+        #"query GetCountryByCode($code: ID!) { country(code: $code) { __typename code name emoji phone native awsRegion continent { __typename code name } languages { __typename name code } currencies subdivisions { __typename code name } } }"#
       ))
 
     public var code: ID
