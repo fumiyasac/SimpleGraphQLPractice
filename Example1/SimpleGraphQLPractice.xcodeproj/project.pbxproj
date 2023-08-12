@@ -25,6 +25,7 @@
 		DE0B8E262A7EF4F900ED79DC /* CountryDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E252A7EF4F900ED79DC /* CountryDetailEntity.swift */; };
 		DE0B8E282A82FCC000ED79DC /* CountryListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E272A82FCC000ED79DC /* CountryListRepository.swift */; };
 		DE0B8E2A2A83003000ED79DC /* ApolloClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E292A83003000ED79DC /* ApolloClientExtension.swift */; };
+		DE0B8E2E2A8725BF00ED79DC /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E2D2A8725BF00ED79DC /* CountryListViewModel.swift */; };
 		DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */; };
 		DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F12A3B643D0005EE46 /* Assets.xcassets */; };
 		DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */; };
@@ -75,6 +76,7 @@
 		DE0B8E252A7EF4F900ED79DC /* CountryDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailEntity.swift; sourceTree = "<group>"; };
 		DE0B8E272A82FCC000ED79DC /* CountryListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepository.swift; sourceTree = "<group>"; };
 		DE0B8E292A83003000ED79DC /* ApolloClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientExtension.swift; sourceTree = "<group>"; };
+		DE0B8E2D2A8725BF00ED79DC /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
 		DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
 		DE6259F12A3B643D0005EE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		DE0B8DDD2A6C125C00ED79DC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DE0B8E2D2A8725BF00ED79DC /* CountryListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 				DE0B8E152A7D469E00ED79DC /* Continent.graphql.swift in Sources */,
 				DE0B8E172A7D469E00ED79DC /* SchemaMetadata.graphql.swift in Sources */,
 				DE625A1E2A3B65030005EE46 /* CountryListRow.swift in Sources */,
+				DE0B8E2E2A8725BF00ED79DC /* CountryListViewModel.swift in Sources */,
 				DE0B8E112A7D469E00ED79DC /* GetAllCountriesQuery.graphql.swift in Sources */,
 				DE0B8E2A2A83003000ED79DC /* ApolloClientExtension.swift in Sources */,
 				DE625A202A3B65220005EE46 /* CountryDetailView.swift in Sources */,

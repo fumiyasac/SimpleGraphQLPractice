@@ -22,7 +22,7 @@ final class CountryListRepositoryImpl: CountryListRepository {
 
     // MARK: - Initializer
 
-    init(apolloClient: ApolloClient) {
+    init(apolloClient: ApolloClient = GraphQLClient.shared.apollo) {
         self.apolloClient = apolloClient
     }
 
