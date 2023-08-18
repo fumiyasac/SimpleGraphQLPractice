@@ -39,6 +39,7 @@
 		DE625A232A3B65B70005EE46 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A222A3B65B70005EE46 /* Apollo */; };
 		DE625A452A3B6A610005EE46 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A442A3B6A610005EE46 /* Quick */; };
 		DE625A472A3B6A660005EE46 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A462A3B6A660005EE46 /* Nimble */; };
+		DE63A47A2A8EEC2200093951 /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		DE625A1B2A3B64EE0005EE46 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
 		DE625A1D2A3B65030005EE46 /* CountryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRow.swift; sourceTree = "<group>"; };
 		DE625A1F2A3B65220005EE46 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */,
 				DE0B8DE02A72A8BE00ED79DC /* Client */,
 				DE0B8E222A7E810D00ED79DC /* Entity */,
+				DE63A4782A8EE99700093951 /* Extension */,
 				DE625A2A2A3B66990005EE46 /* GraphQL */,
 				DE625A182A3B64C30005EE46 /* CountryDetail */,
 				DE625A172A3B64BA0005EE46 /* CountryList */,
@@ -325,6 +328,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE63A4782A8EE99700093951 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0B8E132A7D469E00ED79DC /* Language.graphql.swift in Sources */,
+				DE63A47A2A8EEC2200093951 /* FirstAppearExtension.swift in Sources */,
 				DE0B8E262A7EF4F900ED79DC /* CountryDetailEntity.swift in Sources */,
 				DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */,
 				DE0B8E212A7DA31100ED79DC /* Subdivision.graphql.swift in Sources */,

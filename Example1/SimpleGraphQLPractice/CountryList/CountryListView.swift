@@ -8,29 +8,33 @@
 import SwiftUI
 
 struct CountryListView: View {
+
+    // MARK: - Property
+
+    @ObservedObject private var viewModel: CountryListViewModel
+
+    // MARK: - Initializer
+
+    init(viewModel: CountryListViewModel = CountryListViewModel()) {
+        self.viewModel = viewModel
+    }
+
+    // MARK: - body
+
     var body: some View {
-        HStack {
-            Text("国名とコードを表示したい")
-        }
-        .onAppear {
-            let apollo = GraphQLClient.shared.apollo
-            let query = CountriesSchema.GetAllCountriesQuery()
-            apollo.fetch(query: query) { result in
-                guard let data = try? result.get().data else { return }
-                let _ = data.countries.compactMap { country in
-                    print("-----------")
-                    print("code:", country.code)
-                    print("name:", country.name)
-                    print("emoji:", country.emoji)
-                    print("-----------")
+        VStack {
+            List {
+                ForEach(viewModel.countryListEntities, id: \.code) { entity in
+                    Text(entity.name)
                 }
             }
         }
+        .onAppear (perform: viewModel.fetchCountryList)
     }
 }
 
-struct CountryListView_Previews: PreviewProvider {
-    static var previews: some View {
-        CountryListView()
-    }
-}
+//struct CountryListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CountryListView()
+//    }
+//}
