@@ -22,14 +22,21 @@ struct CountryListView: View {
     // MARK: - body
 
     var body: some View {
-        VStack {
+        NavigationStack {
             List {
-                ForEach(viewModel.countryListEntities, id: \.code) { entity in
-                    Text(entity.name)
+                ForEach(viewModel.countryListEntities, id: \.code) { countryListEntity in
+                    NavigationLink(
+                        destination: EmptyView(),
+                        label: {
+                            CountryListRow(countryListEntity: countryListEntity)
+                        }
+                    )
                 }
             }
+            .navigationBarTitle("Country List", displayMode: .large)
+            .listStyle(.insetGrouped)
+            .onAppear(perform: viewModel.fetchCountryList)
         }
-        .onAppear (perform: viewModel.fetchCountryList)
     }
 }
 
