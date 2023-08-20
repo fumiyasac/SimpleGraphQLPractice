@@ -1,14 +1,13 @@
 //
-//  SimpleGraphQLPracticeTests.swift
+//  CountryListViewModel.swift
 //  SimpleGraphQLPracticeTests
 //
-//  Created by 酒井文也 on 2023/06/16.
+//  Created by 酒井文也 on 2023/08/20.
 //
 
 import XCTest
-@testable import SimpleGraphQLPractice
 
-final class SimpleGraphQLPracticeTests: XCTestCase {
+final class CountryListViewModel: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
