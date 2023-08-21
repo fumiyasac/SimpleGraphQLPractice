@@ -1,35 +1,69 @@
 //
-//  CountryListViewModel.swift
+//  CountryListViewModelTest.swift
 //  SimpleGraphQLPracticeTests
 //
 //  Created by 酒井文也 on 2023/08/20.
 //
 
+@testable import SimpleGraphQLPractice
+
+import Combine
+import Nimble
+import Quick
 import XCTest
 
-final class CountryListViewModel: XCTestCase {
+// MARK: - UnitTest
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+final class CountryListViewModelTest: QuickSpec {
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    // MARK: - Override
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+    override class func spec() {
+        
+        // MARK: - TestCase
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        describe("#国一覧データ取得が成功する場合のテストケース") {
+
+            // データ取得成功時のMockをViewModel初期化時に適用する
+            let viewModel: CountryListViewModel = CountryListViewModel(
+                countryListRepository: CountryListRepositorySuccessMock()
+            )
+
+            context("GraphQLでのデータ取得処理が成功した場合") {
+                viewModel.fetchCountryList()
+
+                it("Seedデータで定義したレスポンス値が返却＆成功ステータスが返却されること") {
+                    expect(viewModel.requestStatus)
+                        .toEventually(equal(.success))
+                    expect(viewModel.countryListEntities)
+                        .toEventually(equal(CountryListSeeder.default))
+                    expect(viewModel.countryListEntities.count)
+                        .toEventually(equal(5))
+                }
+            }
         }
-    }
 
+        // MARK: - TestCase
+
+        describe("#国一覧データ取得が失敗する場合のテストケース") {
+
+            // エラー発生時のMockをViewModel初期化時に適用する
+            let viewModel: CountryListViewModel = CountryListViewModel(
+                countryListRepository: CountryListRepositoryFailureMock()
+            )
+            context("GraphQLでのデータ取得処理が失敗した場合") {
+                viewModel.fetchCountryList()
+
+                it("空配列が返却＆失敗ステータスが返却されること") {
+                    expect(viewModel.requestStatus)
+                        .toEventually(equal(.failure))
+                    expect(viewModel.countryListEntities)
+                        .toEventually(equal([]))
+                    expect(viewModel.countryListEntities.count)
+                        .toEventually(equal(0))
+                }
+            }
+        }
+
+    }
 }
