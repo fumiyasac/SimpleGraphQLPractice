@@ -35,13 +35,21 @@ struct CountryListView: View {
             }
             .navigationBarTitle("Country List", displayMode: .large)
             .listStyle(.inset)
-            .onAppear(perform: viewModel.fetchCountryList)
+            .onFirstAppear {
+                viewModel.fetchCountryList()
+            }
         }
     }
 }
 
-//struct CountryListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CountryListView()
-//    }
-//}
+// MARK: - Preview
+
+struct CountryListView_Previews: PreviewProvider {
+    static var previews: some View {
+        CountryListView(
+            viewModel: CountryListViewModel(
+                countryListRepository: CountryListRepositorySuccessMock()
+            )
+        )
+    }
+}

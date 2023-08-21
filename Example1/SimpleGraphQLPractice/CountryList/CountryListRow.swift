@@ -52,8 +52,12 @@ struct CountryListRow: View {
     }
 }
 
-//struct CountryListRow_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CountryListRow()
-//    }
-//}
+// MARK: - Preview
+
+struct CountryListRow_Previews: PreviewProvider {
+    static var previews: some View {
+        CountryListRow(
+            countryListEntity: CountryListSeeder.default.first!
+        )
+    }
+}
