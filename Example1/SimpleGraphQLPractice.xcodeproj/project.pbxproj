@@ -320,7 +320,8 @@
 		DE6259FD2A3B643D0005EE46 /* SimpleGraphQLPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */,
+				DED31FEF2A947D39007FBE0E /* Repository */,
+				DED31FEE2A947D31007FBE0E /* ViewModel */,
 			);
 			path = SimpleGraphQLPracticeTests;
 			sourceTree = "<group>";
@@ -374,6 +375,21 @@
 				DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DED31FEE2A947D31007FBE0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DED31FEF2A947D39007FBE0E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
