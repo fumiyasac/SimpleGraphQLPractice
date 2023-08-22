@@ -31,6 +31,7 @@
 		DE461A2B2A9424BB00C4B892 /* CountryListSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2A2A9424BB00C4B892 /* CountryListSeeder.swift */; };
 		DE461A2D2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2C2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift */; };
 		DE461A2F2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2E2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift */; };
+		DE461A322A9428AC00C4B892 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE461A312A9428AC00C4B892 /* CombineExpectations */; };
 		DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */; };
 		DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F12A3B643D0005EE46 /* Assets.xcassets */; };
 		DE6259F52A3B643D0005EE46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F42A3B643D0005EE46 /* Preview Assets.xcassets */; };
@@ -117,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE625A452A3B6A610005EE46 /* Quick in Frameworks */,
+				DE461A322A9428AC00C4B892 /* CombineExpectations in Frameworks */,
 				DE625A472A3B6A660005EE46 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +416,7 @@
 			packageProductDependencies = (
 				DE625A442A3B6A610005EE46 /* Quick */,
 				DE625A462A3B6A660005EE46 /* Nimble */,
+				DE461A312A9428AC00C4B892 /* CombineExpectations */,
 			);
 			productName = SimpleGraphQLPracticeTests;
 			productReference = DE6259FA2A3B643D0005EE46 /* SimpleGraphQLPracticeTests.xctest */;
@@ -473,6 +476,7 @@
 				DE625A212A3B65B70005EE46 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DE625A3D2A3B69D70005EE46 /* XCRemoteSwiftPackageReference "Quick" */,
 				DE625A402A3B6A4C0005EE46 /* XCRemoteSwiftPackageReference "Nimble" */,
+				DE461A302A9428AC00C4B892 /* XCRemoteSwiftPackageReference "CombineExpectations" */,
 			);
 			productRefGroup = DE6259EB2A3B643C0005EE46 /* Products */;
 			projectDirPath = "";
@@ -869,6 +873,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DE461A302A9428AC00C4B892 /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/CombineExpectations.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		DE625A212A3B65B70005EE46 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
@@ -896,6 +908,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DE461A312A9428AC00C4B892 /* CombineExpectations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE461A302A9428AC00C4B892 /* XCRemoteSwiftPackageReference "CombineExpectations" */;
+			productName = CombineExpectations;
+		};
 		DE625A222A3B65B70005EE46 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DE625A212A3B65B70005EE46 /* XCRemoteSwiftPackageReference "apollo-ios" */;
