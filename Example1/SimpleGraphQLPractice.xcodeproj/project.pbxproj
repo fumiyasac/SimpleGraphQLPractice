@@ -45,6 +45,7 @@
 		DE63A47A2A8EEC2200093951 /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */; };
 		DED31FF32A947F61007FBE0E /* CountryListRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */; };
 		DED31FF52A948A23007FBE0E /* CountryListRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */; };
+		DED31FF82A94E697007FBE0E /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */; };
 		DEE0AFE82A917063000386A5 /* CountryListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +104,7 @@
 		DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRequestMock.swift; sourceTree = "<group>"; };
 		DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepositoryTest.swift; sourceTree = "<group>"; };
+		DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
 		DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -296,6 +298,7 @@
 				DE6259F12A3B643D0005EE46 /* Assets.xcassets */,
 				DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */,
 				DE0B8DE02A72A8BE00ED79DC /* Client */,
+				DED31FF62A94E681007FBE0E /* Common */,
 				DE0B8E222A7E810D00ED79DC /* Entity */,
 				DE63A4782A8EE99700093951 /* Extension */,
 				DE625A2A2A3B66990005EE46 /* GraphQL */,
@@ -409,6 +412,14 @@
 				DE461A2C2A9424D600C4B892 /* CountryListRepositoryMock.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		DED31FF62A94E681007FBE0E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -583,6 +594,7 @@
 				DE625A202A3B65220005EE46 /* CountryDetailView.swift in Sources */,
 				DE0B8E102A7D469E00ED79DC /* CountriesSchema.graphql.swift in Sources */,
 				DE0B8DE22A72A8D600ED79DC /* GraphQLClient.swift in Sources */,
+				DED31FF82A94E697007FBE0E /* ConnectionErrorView.swift in Sources */,
 				DE0B8E242A7EF4EB00ED79DC /* CountryListEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

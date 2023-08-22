@@ -24,20 +24,28 @@ struct CountryListView: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(viewModel.countryListEntities, id: \.code) { countryListEntity in
-                    NavigationLink(
-                        destination: EmptyView(),
-                        label: {
-                            CountryListRow(countryListEntity: countryListEntity)
-                        }
-                    )
+                switch viewModel.requestStatus {
+                case .success:
+                    // 国の一覧を取得して表示する
+                    ForEach(viewModel.countryListEntities, id: \.code) { countryListEntity in
+                        NavigationLink(
+                            destination: EmptyView(),
+                            label: {
+                                CountryListRow(countryListEntity: countryListEntity)
+                            }
+                        )
+                    }
+                case .failure:
+                    // リクエストを再実行をするためのErrorView表示する
+                    ConnectionErrorView(tapButtonAction: viewModel.fetchCountryList)
+                default:
+                    // 空のView要素を表示する
+                    EmptyView()
                 }
             }
             .navigationBarTitle("Country List", displayMode: .large)
             .listStyle(.inset)
-            .onFirstAppear {
-                viewModel.fetchCountryList()
-            }
+            .onFirstAppear(viewModel.fetchCountryList)
         }
     }
 }
