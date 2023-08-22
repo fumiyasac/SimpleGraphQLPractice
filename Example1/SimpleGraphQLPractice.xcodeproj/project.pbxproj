@@ -29,8 +29,7 @@
 		DE0B8E362A87496000ED79DC /* CountryListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E352A87496000ED79DC /* CountryListRequest.swift */; };
 		DE461A282A94249D00C4B892 /* MockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A272A94249D00C4B892 /* MockError.swift */; };
 		DE461A2B2A9424BB00C4B892 /* CountryListSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2A2A9424BB00C4B892 /* CountryListSeeder.swift */; };
-		DE461A2D2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2C2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift */; };
-		DE461A2F2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2E2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift */; };
+		DE461A2D2A9424D600C4B892 /* CountryListRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE461A2C2A9424D600C4B892 /* CountryListRepositoryMock.swift */; };
 		DE461A322A9428AC00C4B892 /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE461A312A9428AC00C4B892 /* CombineExpectations */; };
 		DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */; };
 		DE6259F22A3B643D0005EE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6259F12A3B643D0005EE46 /* Assets.xcassets */; };
@@ -44,6 +43,8 @@
 		DE625A452A3B6A610005EE46 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A442A3B6A610005EE46 /* Quick */; };
 		DE625A472A3B6A660005EE46 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE625A462A3B6A660005EE46 /* Nimble */; };
 		DE63A47A2A8EEC2200093951 /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */; };
+		DED31FF32A947F61007FBE0E /* CountryListRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */; };
+		DED31FF52A948A23007FBE0E /* CountryListRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */; };
 		DEE0AFE82A917063000386A5 /* CountryListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,8 +88,7 @@
 		DE0B8E352A87496000ED79DC /* CountryListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRequest.swift; sourceTree = "<group>"; };
 		DE461A272A94249D00C4B892 /* MockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockError.swift; sourceTree = "<group>"; };
 		DE461A2A2A9424BB00C4B892 /* CountryListSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListSeeder.swift; sourceTree = "<group>"; };
-		DE461A2C2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepositorySuccessMock.swift; sourceTree = "<group>"; };
-		DE461A2E2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepositoryFailureMock.swift; sourceTree = "<group>"; };
+		DE461A2C2A9424D600C4B892 /* CountryListRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepositoryMock.swift; sourceTree = "<group>"; };
 		DE6259EA2A3B643C0005EE46 /* SimpleGraphQLPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGraphQLPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6259ED2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGraphQLPracticeApp.swift; sourceTree = "<group>"; };
 		DE6259F12A3B643D0005EE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +101,8 @@
 		DE625A1D2A3B65030005EE46 /* CountryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRow.swift; sourceTree = "<group>"; };
 		DE625A1F2A3B65220005EE46 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
 		DE63A4792A8EEC2200093951 /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
+		DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRequestMock.swift; sourceTree = "<group>"; };
+		DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepositoryTest.swift; sourceTree = "<group>"; };
 		DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,9 +254,9 @@
 		DE461A262A94247D00C4B892 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				DED31FF12A947F46007FBE0E /* Repository */,
+				DED31FF02A947F3E007FBE0E /* Request */,
 				DE461A272A94249D00C4B892 /* MockError.swift */,
-				DE461A2C2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift */,
-				DE461A2E2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -388,6 +390,23 @@
 		DED31FEF2A947D39007FBE0E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DED31FF02A947F3E007FBE0E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DED31FF12A947F46007FBE0E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				DE461A2C2A9424D600C4B892 /* CountryListRepositoryMock.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -542,15 +561,15 @@
 				DE0B8E132A7D469E00ED79DC /* Language.graphql.swift in Sources */,
 				DE63A47A2A8EEC2200093951 /* FirstAppearExtension.swift in Sources */,
 				DE461A2B2A9424BB00C4B892 /* CountryListSeeder.swift in Sources */,
-				DE461A2D2A9424D600C4B892 /* CountryListRepositorySuccessMock.swift in Sources */,
+				DE461A2D2A9424D600C4B892 /* CountryListRepositoryMock.swift in Sources */,
 				DE0B8E262A7EF4F900ED79DC /* CountryDetailEntity.swift in Sources */,
 				DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */,
 				DE0B8E212A7DA31100ED79DC /* Subdivision.graphql.swift in Sources */,
 				DE0B8E122A7D469E00ED79DC /* Query.graphql.swift in Sources */,
 				DE0B8E282A82FCC000ED79DC /* CountryListRepository.swift in Sources */,
 				DE0B8E1F2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift in Sources */,
+				DED31FF32A947F61007FBE0E /* CountryListRequestMock.swift in Sources */,
 				DE0B8E142A7D469E00ED79DC /* Country.graphql.swift in Sources */,
-				DE461A2F2A9424EC00C4B892 /* CountryListRepositoryFailureMock.swift in Sources */,
 				DE625A1C2A3B64EE0005EE46 /* CountryListView.swift in Sources */,
 				DE0B8E162A7D469E00ED79DC /* SchemaConfiguration.swift in Sources */,
 				DE461A282A94249D00C4B892 /* MockError.swift in Sources */,
@@ -572,6 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED31FF52A948A23007FBE0E /* CountryListRepositoryTest.swift in Sources */,
 				DEE0AFE82A917063000386A5 /* CountryListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
