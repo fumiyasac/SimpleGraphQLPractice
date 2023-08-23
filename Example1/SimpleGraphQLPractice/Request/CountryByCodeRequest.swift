@@ -1,5 +1,5 @@
 //
-//  GetCountryByCodeRequest.swift
+//  CountryByCodeRequest.swift
 //  SimpleGraphQLPractice
 //
 //  Created by 酒井文也 on 2023/08/23.
@@ -8,11 +8,11 @@
 import Apollo
 import Foundation
 
-protocol GetCountryByCodeRequest {
+protocol CountryByCodeRequest {
     func getResultBy(code: String) async throws -> GraphQLResult<CountriesSchema.GetCountryByCodeQuery.Data>
 }
 
-final class GetCountryByCodeRequestImpl: GetCountryByCodeRequest {
+final class CountryByCodeRequestImpl: CountryByCodeRequest {
 
     // MARK: - Property
 
