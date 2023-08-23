@@ -46,6 +46,7 @@
 		DED31FF32A947F61007FBE0E /* CountryListRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */; };
 		DED31FF52A948A23007FBE0E /* CountryListRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */; };
 		DED31FF82A94E697007FBE0E /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */; };
+		DED31FFC2A958447007FBE0E /* GetCountryByCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FFB2A958447007FBE0E /* GetCountryByCodeRequest.swift */; };
 		DEE0AFE82A917063000386A5 /* CountryListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +106,7 @@
 		DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRequestMock.swift; sourceTree = "<group>"; };
 		DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepositoryTest.swift; sourceTree = "<group>"; };
 		DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
+		DED31FFB2A958447007FBE0E /* GetCountryByCodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCountryByCodeRequest.swift; sourceTree = "<group>"; };
 		DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0B8E352A87496000ED79DC /* CountryListRequest.swift */,
+				DED31FFB2A958447007FBE0E /* GetCountryByCodeRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -580,6 +583,7 @@
 				DE0B8E282A82FCC000ED79DC /* CountryListRepository.swift in Sources */,
 				DE0B8E1F2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift in Sources */,
 				DED31FF32A947F61007FBE0E /* CountryListRequestMock.swift in Sources */,
+				DED31FFC2A958447007FBE0E /* GetCountryByCodeRequest.swift in Sources */,
 				DE0B8E142A7D469E00ED79DC /* Country.graphql.swift in Sources */,
 				DE625A1C2A3B64EE0005EE46 /* CountryListView.swift in Sources */,
 				DE0B8E162A7D469E00ED79DC /* SchemaConfiguration.swift in Sources */,
