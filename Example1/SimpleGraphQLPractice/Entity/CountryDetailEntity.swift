@@ -20,7 +20,6 @@ struct CountryDetailEntity: Hashable {
     let continent: CountryDetailContinentEntity
     let languages: [CountryDetailLanguageEntity]
     let currencies: String
-    let subdivisions: [CountryDetailSubdivisionEntity]
 
     // MARK: - Initializer
 
@@ -33,8 +32,7 @@ struct CountryDetailEntity: Hashable {
         awsRegion: String,
         continent: CountryDetailContinentEntity,
         languages: [CountryDetailLanguageEntity],
-        currencies: String,
-        subdivisions: [CountryDetailSubdivisionEntity]
+        currencies: String
     ) {
         self.code = code
         self.name = name
@@ -45,7 +43,6 @@ struct CountryDetailEntity: Hashable {
         self.continent = continent
         self.languages = languages
         self.currencies = currencies
-        self.subdivisions = subdivisions
     }
 
     // MARK: - Hashable
@@ -64,7 +61,6 @@ struct CountryDetailEntity: Hashable {
             && lhs.continent == rhs.continent
             && lhs.languages == rhs.languages
             && lhs.currencies == rhs.currencies
-            && lhs.subdivisions == rhs.subdivisions
     }
 }
 
@@ -121,35 +117,6 @@ struct CountryDetailLanguageEntity: Hashable {
     }
 
     static func == (lhs: CountryDetailLanguageEntity, rhs: CountryDetailLanguageEntity) -> Bool {
-        return lhs.code == rhs.code
-            && lhs.name == rhs.name
-    }
-}
-
-struct CountryDetailSubdivisionEntity: Hashable {
-
-    // MARK: - Property
-
-    let code: String
-    let name: String
-
-    // MARK: - Initializer
-
-    init(
-        code: String,
-        name: String
-    ) {
-        self.code = code
-        self.name = name
-    }
-
-    // MARK: - Hashable
-
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(code)
-    }
-
-    static func == (lhs: CountryDetailSubdivisionEntity, rhs: CountryDetailSubdivisionEntity) -> Bool {
         return lhs.code == rhs.code
             && lhs.name == rhs.name
     }

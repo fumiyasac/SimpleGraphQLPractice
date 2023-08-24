@@ -15,9 +15,5 @@ query GetCountryByCode($code: ID!) {
       code
     }
     currencies
-    subdivisions {
-      code
-      name
-    }
   }
 }

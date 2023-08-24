@@ -50,10 +50,7 @@ final class CountryDetailRepositoryImpl: CountryDetailRepository {
             languages: country.languages.compactMap {
                 CountryDetailLanguageEntity(code: $0.code, name: $0.name)
             },
-            currencies: country.currencies.joined(separator: ","),
-            subdivisions: country.languages.compactMap {
-                CountryDetailSubdivisionEntity(code: $0.code, name: $0.name)
-            }
+            currencies: country.currencies.joined(separator: ",")
         )
     }
 }

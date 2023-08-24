@@ -8,7 +8,7 @@ extension CountriesSchema {
     static let operationName: String = "GetCountryByCode"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"query GetCountryByCode($code: ID!) { country(code: $code) { __typename code name emoji phone native awsRegion continent { __typename code name } languages { __typename name code } currencies subdivisions { __typename code name } } }"#
+        #"query GetCountryByCode($code: ID!) { country(code: $code) { __typename code name emoji phone native awsRegion continent { __typename code name } languages { __typename name code } currencies } }"#
       ))
 
     public var code: ID
@@ -49,7 +49,6 @@ extension CountriesSchema {
           .field("continent", Continent.self),
           .field("languages", [Language].self),
           .field("currencies", [String].self),
-          .field("subdivisions", [Subdivision].self),
         ] }
 
         var code: CountriesSchema.ID { __data["code"] }
@@ -61,7 +60,6 @@ extension CountriesSchema {
         var continent: Continent { __data["continent"] }
         var languages: [Language] { __data["languages"] }
         var currencies: [String] { __data["currencies"] }
-        var subdivisions: [Subdivision] { __data["subdivisions"] }
 
         /// Country.Continent
         ///
@@ -97,24 +95,6 @@ extension CountriesSchema {
 
           var name: String { __data["name"] }
           var code: CountriesSchema.ID { __data["code"] }
-        }
-
-        /// Country.Subdivision
-        ///
-        /// Parent Type: `Subdivision`
-        struct Subdivision: CountriesSchema.SelectionSet {
-          let __data: DataDict
-          init(_dataDict: DataDict) { __data = _dataDict }
-
-          static var __parentType: ApolloAPI.ParentType { CountriesSchema.Objects.Subdivision }
-          static var __selections: [ApolloAPI.Selection] { [
-            .field("__typename", String.self),
-            .field("code", CountriesSchema.ID.self),
-            .field("name", String.self),
-          ] }
-
-          var code: CountriesSchema.ID { __data["code"] }
-          var name: String { __data["name"] }
         }
       }
     }

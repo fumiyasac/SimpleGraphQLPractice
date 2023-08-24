@@ -20,7 +20,6 @@
 		DE0B8E172A7D469E00ED79DC /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E0F2A7D469E00ED79DC /* SchemaMetadata.graphql.swift */; };
 		DE0B8E1D2A7DA28500ED79DC /* GetCountryByCode.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DE0B8E1C2A7DA28500ED79DC /* GetCountryByCode.graphql */; };
 		DE0B8E1F2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E1E2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift */; };
-		DE0B8E212A7DA31100ED79DC /* Subdivision.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E202A7DA31100ED79DC /* Subdivision.graphql.swift */; };
 		DE0B8E242A7EF4EB00ED79DC /* CountryListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E232A7EF4EB00ED79DC /* CountryListEntity.swift */; };
 		DE0B8E262A7EF4F900ED79DC /* CountryDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E252A7EF4F900ED79DC /* CountryDetailEntity.swift */; };
 		DE0B8E282A82FCC000ED79DC /* CountryListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8E272A82FCC000ED79DC /* CountryListRepository.swift */; };
@@ -48,6 +47,9 @@
 		DED31FF82A94E697007FBE0E /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */; };
 		DED31FFC2A958447007FBE0E /* CountryByCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FFB2A958447007FBE0E /* CountryByCodeRequest.swift */; };
 		DED31FFE2A959AD7007FBE0E /* CountryDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FFD2A959AD7007FBE0E /* CountryDetailRepository.swift */; };
+		DED320002A977F29007FBE0E /* CountryDetailRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED31FFF2A977F29007FBE0E /* CountryDetailRepositoryTest.swift */; };
+		DED320022A977F61007FBE0E /* CountryDetailSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED320012A977F61007FBE0E /* CountryDetailSeeder.swift */; };
+		DED320042A9780BF007FBE0E /* CountryByCodeRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED320032A9780BF007FBE0E /* CountryByCodeRequestMock.swift */; };
 		DEE0AFE82A917063000386A5 /* CountryListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,7 +84,6 @@
 		DE0B8E0F2A7D469E00ED79DC /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
 		DE0B8E1C2A7DA28500ED79DC /* GetCountryByCode.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetCountryByCode.graphql; sourceTree = "<group>"; };
 		DE0B8E1E2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCountryByCodeQuery.graphql.swift; sourceTree = "<group>"; };
-		DE0B8E202A7DA31100ED79DC /* Subdivision.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subdivision.graphql.swift; sourceTree = "<group>"; };
 		DE0B8E232A7EF4EB00ED79DC /* CountryListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListEntity.swift; sourceTree = "<group>"; };
 		DE0B8E252A7EF4F900ED79DC /* CountryDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailEntity.swift; sourceTree = "<group>"; };
 		DE0B8E272A82FCC000ED79DC /* CountryListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRepository.swift; sourceTree = "<group>"; };
@@ -109,6 +110,9 @@
 		DED31FF72A94E697007FBE0E /* ConnectionErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
 		DED31FFB2A958447007FBE0E /* CountryByCodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryByCodeRequest.swift; sourceTree = "<group>"; };
 		DED31FFD2A959AD7007FBE0E /* CountryDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailRepository.swift; sourceTree = "<group>"; };
+		DED31FFF2A977F29007FBE0E /* CountryDetailRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailRepositoryTest.swift; sourceTree = "<group>"; };
+		DED320012A977F61007FBE0E /* CountryDetailSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailSeeder.swift; sourceTree = "<group>"; };
+		DED320032A9780BF007FBE0E /* CountryByCodeRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryByCodeRequestMock.swift; sourceTree = "<group>"; };
 		DEE0AFE72A917063000386A5 /* CountryListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -223,7 +227,6 @@
 		DE0B8E092A7D469E00ED79DC /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				DE0B8E202A7DA31100ED79DC /* Subdivision.graphql.swift */,
 				DE0B8E0A2A7D469E00ED79DC /* Query.graphql.swift */,
 				DE0B8E0B2A7D469E00ED79DC /* Language.graphql.swift */,
 				DE0B8E0C2A7D469E00ED79DC /* Country.graphql.swift */,
@@ -273,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				DE461A2A2A9424BB00C4B892 /* CountryListSeeder.swift */,
+				DED320012A977F61007FBE0E /* CountryDetailSeeder.swift */,
 			);
 			path = Seed;
 			sourceTree = "<group>";
@@ -400,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				DED31FF42A948A23007FBE0E /* CountryListRepositoryTest.swift */,
+				DED31FFF2A977F29007FBE0E /* CountryDetailRepositoryTest.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 			isa = PBXGroup;
 			children = (
 				DED31FF22A947F61007FBE0E /* CountryListRequestMock.swift */,
+				DED320032A9780BF007FBE0E /* CountryByCodeRequestMock.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -581,7 +587,6 @@
 				DE461A2D2A9424D600C4B892 /* CountryListRepositoryMock.swift in Sources */,
 				DE0B8E262A7EF4F900ED79DC /* CountryDetailEntity.swift in Sources */,
 				DE6259EE2A3B643C0005EE46 /* SimpleGraphQLPracticeApp.swift in Sources */,
-				DE0B8E212A7DA31100ED79DC /* Subdivision.graphql.swift in Sources */,
 				DE0B8E122A7D469E00ED79DC /* Query.graphql.swift in Sources */,
 				DE0B8E282A82FCC000ED79DC /* CountryListRepository.swift in Sources */,
 				DE0B8E1F2A7DA2E200ED79DC /* GetCountryByCodeQuery.graphql.swift in Sources */,
@@ -593,6 +598,7 @@
 				DE461A282A94249D00C4B892 /* MockError.swift in Sources */,
 				DE0B8E362A87496000ED79DC /* CountryListRequest.swift in Sources */,
 				DE0B8E152A7D469E00ED79DC /* Continent.graphql.swift in Sources */,
+				DED320042A9780BF007FBE0E /* CountryByCodeRequestMock.swift in Sources */,
 				DE0B8E172A7D469E00ED79DC /* SchemaMetadata.graphql.swift in Sources */,
 				DE625A1E2A3B65030005EE46 /* CountryListRow.swift in Sources */,
 				DE0B8E2E2A8725BF00ED79DC /* CountryListViewModel.swift in Sources */,
@@ -600,6 +606,7 @@
 				DE0B8E2A2A83003000ED79DC /* ApolloClientExtension.swift in Sources */,
 				DE625A202A3B65220005EE46 /* CountryDetailView.swift in Sources */,
 				DE0B8E102A7D469E00ED79DC /* CountriesSchema.graphql.swift in Sources */,
+				DED320022A977F61007FBE0E /* CountryDetailSeeder.swift in Sources */,
 				DE0B8DE22A72A8D600ED79DC /* GraphQLClient.swift in Sources */,
 				DED31FF82A94E697007FBE0E /* ConnectionErrorView.swift in Sources */,
 				DE0B8E242A7EF4EB00ED79DC /* CountryListEntity.swift in Sources */,
@@ -613,6 +620,7 @@
 			files = (
 				DED31FF52A948A23007FBE0E /* CountryListRepositoryTest.swift in Sources */,
 				DEE0AFE82A917063000386A5 /* CountryListViewModelTest.swift in Sources */,
+				DED320002A977F29007FBE0E /* CountryDetailRepositoryTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
