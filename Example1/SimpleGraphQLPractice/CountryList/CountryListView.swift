@@ -45,7 +45,7 @@ struct CountryListView: View {
             }
             .navigationBarTitle("Country List", displayMode: .large)
             .listStyle(.inset)
-            .onFirstAppear(viewModel.fetchCountryList)
+            .onFirstAppear(onceExecuteAction: viewModel.fetchCountryList)
         }
     }
 }

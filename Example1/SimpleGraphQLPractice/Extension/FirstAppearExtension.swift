@@ -17,9 +17,9 @@ public extension View {
 
     // MARK: - Function
 
-    func onFirstAppear(_ onceAction: @escaping () -> Void) -> some View {
+    func onFirstAppear(onceExecuteAction: @escaping () -> Void) -> some View {
         // 👉 FirstAppear Modifierを設定する
-        modifier(FirstAppear(onceAction: onceAction))
+        modifier(FirstAppear(onceExecuteAction: onceExecuteAction))
     }
 }
 
@@ -29,15 +29,15 @@ private struct FirstAppear: ViewModifier {
 
     // MARK: - Property
 
-    private let onceAction: () -> Void
+    private let onceExecuteAction: () -> Void
 
     // 初回のみの実行かを判定するためのフラグ値
     @State private var hasAppeared = false
 
     // MARK: - Initializer
 
-    init(onceAction: @escaping () -> Void) {
-        self.onceAction = onceAction
+    init(onceExecuteAction: @escaping () -> Void) {
+        self.onceExecuteAction = onceExecuteAction
         _hasAppeared = State(initialValue: false)
     }
     
@@ -51,7 +51,7 @@ private struct FirstAppear: ViewModifier {
             // 👉 一度発火をしたらフラグ値を更新して以降は実行されない様にする
             hasAppeared = true
             // 👉 closureで引き渡された処理を一度だけ実行する
-            onceAction()
+            onceExecuteAction()
         }
     }
 }
