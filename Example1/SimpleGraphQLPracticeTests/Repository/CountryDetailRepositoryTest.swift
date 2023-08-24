@@ -23,7 +23,7 @@ final class CountryDetailRepositoryTest: AsyncSpec {
 
         // MARK: - TestCase
 
-        // 👉 getAllCountries() は async throws で定義したメソッドなので、await expect を利用することになります。
+        // 👉 getCountry() は async throws で定義したメソッドなので、await expect を利用することになります。
         // https://github.com/Quick/Nimble/blob/main/README.md#asyncawait-support
         describe("#国詳細データ取得をする場合のテストケース") {
             context("GraphQLでのデータ取得処理が成功した場合") {

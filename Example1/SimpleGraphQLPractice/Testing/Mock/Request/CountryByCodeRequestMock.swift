@@ -15,9 +15,10 @@ final class CountryByCodeRequestSuccessMock: CountryByCodeRequest {
     // MARK: - Function
 
     func getResultBy(code: String) async throws -> GraphQLResult<CountriesSchema.GetCountryByCodeQuery.Data> {
-        //
-        //
-        //
+        // MEMO: Apollo1.x系からはGraphQLで返却されるデータをUnitTest用にマッピングする際には注意が必要（構造が複雑になりがち）
+        // 一覧データのMock生成時の流れ
+        // (1) まずDataDict型（第1引数は[String: AnyHashable]型、第2引数はから配列）のデータを作成してレスポンスデータを想定してマッピングをする
+        // (2) 次にCountriesSchema.GetCountryByCodeQuery.Data型のデータを作成してGraphQLResultに入れて返却する
         let dataDict = DataDict(
             data: [
                 "country": DataDict(
