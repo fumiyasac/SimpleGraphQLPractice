@@ -1,39 +1,39 @@
 //
-//  CountryListViewModel.swift
+//  CountryDetailViewModel.swift
 //  SimpleGraphQLPractice
 //
-//  Created by 酒井文也 on 2023/08/12.
+//  Created by 酒井文也 on 2023/08/25.
 //
 
 import Foundation
 
-final class CountryListViewModel: ObservableObject {
-    
-    // MARK: - Property
-    
-    private let countryListRepository: CountryListRepository
+final class CountryDetailViewModel: ObservableObject {
 
-    @Published private(set) var countryListEntities: [CountryListEntity] = []
+    // MARK: - Property
+
+    private let countryDetailRepository: CountryDetailRepository
+
+    @Published private(set) var countryDetailEntity: CountryDetailEntity? = nil
     @Published private(set) var requestStatus: RequestStatus = .none
 
     // MARK: - Initializer
 
-    init(countryListRepository: CountryListRepository = CountryListRepositoryImpl()) {
-        self.countryListRepository = countryListRepository
+    init(countryDetailRepository: CountryDetailRepository = CountryDetailRepositoryImpl()) {
+        self.countryDetailRepository = countryDetailRepository
     }
 
     // MARK: - Function
 
-    func fetchCountryList() {
+    func fetchCountry(code: String) {
         Task { @MainActor in
             self.requestStatus = .requesting
             do {
                 // MEMO: async/awaitベースの処理で必要な値を取得し、その後`@Published`で定義した値を更新する
-                self.countryListEntities = try await self.countryListRepository.getAllCountries()
+                self.countryDetailEntity = try await self.countryDetailRepository.getCountry(code: code)
                 self.requestStatus = .success
             } catch let error {
                 // MEMO: 本来ならばエラーハンドリング処理等を入れる必要がある
-                print("Fetch Country List Error: " + error.localizedDescription)
+                print("Fetch Country Detail Error: " + error.localizedDescription)
                 self.requestStatus = .failure
             }
         }
