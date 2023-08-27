@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// GraphQL(Apollo v1.3)からSchemaをダウンロードして適用する。
+// GraphQL(Apollo v1.4)からSchemaをダウンロードして適用する。
 // 自前で作成したGraphQLサーバーを利用する。
 
 @main

@@ -14,6 +14,11 @@
 		DE0B8DC52A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DC42A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift */; };
 		DE0B8DCF2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DCE2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.swift */; };
 		DE0B8DD12A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DD02A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift */; };
+		DE1DF5F92A9C1644005490CE /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF5F82A9C1644005490CE /* Apollo */; };
+		DE1DF5FC2A9C1795005490CE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF5FB2A9C1795005490CE /* SDWebImageSwiftUI */; };
+		DE1DF6082A9C1970005490CE /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF6072A9C1970005490CE /* CombineExpectations */; };
+		DE1DF60A2A9C1976005490CE /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF6092A9C1976005490CE /* Quick */; };
+		DE1DF60C2A9C197A005490CE /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF60B2A9C197A005490CE /* Nimble */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1DF5FC2A9C1795005490CE /* SDWebImageSwiftUI in Frameworks */,
+				DE1DF5F92A9C1644005490CE /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1DF60C2A9C197A005490CE /* Nimble in Frameworks */,
+				DE1DF60A2A9C1976005490CE /* Quick in Frameworks */,
+				DE1DF6082A9C1970005490CE /* CombineExpectations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,7 @@
 				DE0B8DC32A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests */,
 				DE0B8DCD2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests */,
 				DE0B8DB12A63BD9800ED79DC /* Products */,
+				DE1DF6062A9C1970005490CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +138,13 @@
 			path = SelfMadeGraphQLPracticeUITests;
 			sourceTree = "<group>";
 		};
+		DE1DF6062A9C1970005490CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +161,10 @@
 			dependencies = (
 			);
 			name = SelfMadeGraphQLPractice;
+			packageProductDependencies = (
+				DE1DF5F82A9C1644005490CE /* Apollo */,
+				DE1DF5FB2A9C1795005490CE /* SDWebImageSwiftUI */,
+			);
 			productName = SelfMadeGraphQLPractice;
 			productReference = DE0B8DB02A63BD9800ED79DC /* SelfMadeGraphQLPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +183,11 @@
 				DE0B8DC22A63BD9900ED79DC /* PBXTargetDependency */,
 			);
 			name = SelfMadeGraphQLPracticeTests;
+			packageProductDependencies = (
+				DE1DF6072A9C1970005490CE /* CombineExpectations */,
+				DE1DF6092A9C1976005490CE /* Quick */,
+				DE1DF60B2A9C197A005490CE /* Nimble */,
+			);
 			productName = SelfMadeGraphQLPracticeTests;
 			productReference = DE0B8DC02A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +242,13 @@
 				Base,
 			);
 			mainGroup = DE0B8DA72A63BD9800ED79DC;
+			packageReferences = (
+				DE1DF5F72A9C1644005490CE /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				DE1DF5FA2A9C1795005490CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				DE1DF5FD2A9C1827005490CE /* XCRemoteSwiftPackageReference "CombineExpectations" */,
+				DE1DF6002A9C1892005490CE /* XCRemoteSwiftPackageReference "Quick" */,
+				DE1DF6032A9C18D5005490CE /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
 			productRefGroup = DE0B8DB12A63BD9800ED79DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +617,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE1DF5F72A9C1644005490CE /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		DE1DF5FA2A9C1795005490CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		DE1DF5FD2A9C1827005490CE /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/CombineExpectations.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DE1DF6002A9C1892005490CE /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.2.0;
+			};
+		};
+		DE1DF6032A9C18D5005490CE /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE1DF5F82A9C1644005490CE /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE1DF5F72A9C1644005490CE /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		DE1DF5FB2A9C1795005490CE /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE1DF5FA2A9C1795005490CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		DE1DF6072A9C1970005490CE /* CombineExpectations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE1DF5FD2A9C1827005490CE /* XCRemoteSwiftPackageReference "CombineExpectations" */;
+			productName = CombineExpectations;
+		};
+		DE1DF6092A9C1976005490CE /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE1DF6002A9C1892005490CE /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		DE1DF60B2A9C197A005490CE /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE1DF6032A9C18D5005490CE /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE0B8DA82A63BD9800ED79DC /* Project object */;
 }
