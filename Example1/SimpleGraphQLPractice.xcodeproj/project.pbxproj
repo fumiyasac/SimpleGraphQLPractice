@@ -178,6 +178,8 @@
 		DE0B8DDF2A6C128D00ED79DC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE625A172A3B64BA0005EE46 /* CountryList */,
+				DE625A182A3B64C30005EE46 /* CountryDetail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,8 +327,6 @@
 				DE0B8E222A7E810D00ED79DC /* Entity */,
 				DE63A4782A8EE99700093951 /* Extension */,
 				DE625A2A2A3B66990005EE46 /* GraphQL */,
-				DE625A182A3B64C30005EE46 /* CountryDetail */,
-				DE625A172A3B64BA0005EE46 /* CountryList */,
 				DE0B8E342A87494200ED79DC /* Request */,
 				DE0B8DDE2A6C126200ED79DC /* Repository */,
 				DE0B8DDF2A6C128D00ED79DC /* View */,
