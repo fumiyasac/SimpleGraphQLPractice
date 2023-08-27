@@ -28,8 +28,9 @@ struct CountryListView: View {
                 case .success:
                     // 国の一覧を取得して表示する
                     ForEach(viewModel.countryListEntities, id: \.code) { countryListEntity in
+                        // セルをタップすると詳細画面へ遷移する
                         NavigationLink(
-                            destination: EmptyView(),
+                            destination: CountryDetailView(code: countryListEntity.code),
                             label: {
                                 CountryListRow(countryListEntity: countryListEntity)
                             }
