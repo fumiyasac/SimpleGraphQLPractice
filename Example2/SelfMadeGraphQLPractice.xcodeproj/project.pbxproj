@@ -22,6 +22,8 @@
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
 		DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233432A9FF9A90080AC2F /* FirstAppearExtension.swift */; };
+		DE4233472A9FFE470080AC2F /* ItemsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233462A9FFE470080AC2F /* ItemsScreenView.swift */; };
+		DE4233492A9FFE610080AC2F /* AnnouncementsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233432A9FF9A90080AC2F /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
+		DE4233462A9FFE470080AC2F /* ItemsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsScreenView.swift; sourceTree = "<group>"; };
+		DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0B8DB52A63BD9800ED79DC /* ContentView.swift */,
+				DE4233452A9FFE140080AC2F /* Screen */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +181,15 @@
 				DE4233432A9FF9A90080AC2F /* FirstAppearExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE4233452A9FFE140080AC2F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DE4233462A9FFE470080AC2F /* ItemsScreenView.swift */,
+				DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4233472A9FFE470080AC2F /* ItemsScreenView.swift in Sources */,
+				DE4233492A9FFE610080AC2F /* AnnouncementsScreenView.swift in Sources */,
 				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,

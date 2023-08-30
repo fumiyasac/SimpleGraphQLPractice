@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    // MARK: - Body
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            ItemsScreenView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "text.below.photo.fill")
+                        Text("アイテム一覧")
+                    }
+                }
+                .tag(0)
+            AnnouncementsScreenView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "bell.badge.fill")
+                        Text("お知らせ")
+                    }
+                }.tag(1)
         }
-        .padding()
+        .accentColor(Color(uiColor: UIColor(code: "#de9610")))
     }
 }
 
