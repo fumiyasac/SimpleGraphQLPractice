@@ -18,6 +18,9 @@
 		DE1DF6082A9C1970005490CE /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF6072A9C1970005490CE /* CombineExpectations */; };
 		DE1DF60A2A9C1976005490CE /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF6092A9C1976005490CE /* Quick */; };
 		DE1DF60C2A9C197A005490CE /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF60B2A9C197A005490CE /* Nimble */; };
+		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
+		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
+		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DE0B8DCA2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfMadeGraphQLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0B8DCE2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMadeGraphQLPracticeUITests.swift; sourceTree = "<group>"; };
 		DE0B8DD02A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMadeGraphQLPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 			children = (
 				DE0B8DB72A63BD9900ED79DC /* Assets.xcassets */,
 				DE42333A2A9F6AFC0080AC2F /* App */,
+				DE42333E2A9F6BCA0080AC2F /* Extension */,
 				DE42333B2A9F6B0C0080AC2F /* View */,
 				DE0B8DB92A63BD9900ED79DC /* Preview Content */,
 			);
@@ -145,6 +152,7 @@
 		DE42333A2A9F6AFC0080AC2F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */,
 				DE0B8DB32A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift */,
 			);
 			path = App;
@@ -156,6 +164,15 @@
 				DE0B8DB52A63BD9800ED79DC /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DE42333E2A9F6BCA0080AC2F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */,
+				DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,8 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
 				DE0B8DB42A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift in Sources */,
+				DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */,
+				DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
