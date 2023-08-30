@@ -12,6 +12,12 @@ import SwiftUI
 
 @main
 struct SelfMadeGraphQLPracticeApp: App {
+
+    // MEMO: AppDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
+    // MARK: - Body
+
     var body: some Scene {
         WindowGroup {
             ContentView()
