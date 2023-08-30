@@ -117,8 +117,16 @@
 			children = (
 				DE0B8DB72A63BD9900ED79DC /* Assets.xcassets */,
 				DE42333A2A9F6AFC0080AC2F /* App */,
+				DE42334F2AA001820080AC2F /* Client */,
+				DE42334E2AA001720080AC2F /* Common */,
+				DE42334D2AA001670080AC2F /* Entity */,
 				DE42333E2A9F6BCA0080AC2F /* Extension */,
+				DE42334A2AA0014A0080AC2F /* GraphQL */,
+				DE42334B2AA001520080AC2F /* Repository */,
+				DE42334C2AA0015B0080AC2F /* Request */,
+				DE4233512AA001D30080AC2F /* Testing */,
 				DE42333B2A9F6B0C0080AC2F /* View */,
+				DE4233502AA001C80080AC2F /* ViewModel */,
 				DE0B8DB92A63BD9900ED79DC /* Preview Content */,
 			);
 			path = SelfMadeGraphQLPractice;
@@ -190,6 +198,78 @@
 				DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		DE42334A2AA0014A0080AC2F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		DE42334B2AA001520080AC2F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DE42334C2AA0015B0080AC2F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DE42334D2AA001670080AC2F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DE42334E2AA001720080AC2F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DE42334F2AA001820080AC2F /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		DE4233502AA001C80080AC2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE4233512AA001D30080AC2F /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				DE4233532AA001E70080AC2F /* Mock */,
+				DE4233522AA001DF0080AC2F /* Seed */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		DE4233522AA001DF0080AC2F /* Seed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Seed;
+			sourceTree = "<group>";
+		};
+		DE4233532AA001E70080AC2F /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
