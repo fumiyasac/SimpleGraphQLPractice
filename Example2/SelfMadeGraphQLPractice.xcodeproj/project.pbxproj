@@ -11,7 +11,6 @@
 		DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DB52A63BD9800ED79DC /* ContentView.swift */; };
 		DE0B8DB82A63BD9900ED79DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0B8DB72A63BD9900ED79DC /* Assets.xcassets */; };
 		DE0B8DBB2A63BD9900ED79DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0B8DBA2A63BD9900ED79DC /* Preview Assets.xcassets */; };
-		DE0B8DC52A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DC42A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift */; };
 		DE0B8DCF2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DCE2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.swift */; };
 		DE0B8DD12A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DD02A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift */; };
 		DE1DF5F92A9C1644005490CE /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF5F82A9C1644005490CE /* Apollo */; };
@@ -45,7 +44,6 @@
 		DE0B8DB72A63BD9900ED79DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0B8DBA2A63BD9900ED79DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE0B8DC02A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfMadeGraphQLPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE0B8DC42A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMadeGraphQLPracticeTests.swift; sourceTree = "<group>"; };
 		DE0B8DCA2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfMadeGraphQLPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0B8DCE2A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMadeGraphQLPracticeUITests.swift; sourceTree = "<group>"; };
 		DE0B8DD02A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfMadeGraphQLPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -105,9 +103,9 @@
 		DE0B8DB22A63BD9800ED79DC /* SelfMadeGraphQLPractice */ = {
 			isa = PBXGroup;
 			children = (
-				DE0B8DB32A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift */,
-				DE0B8DB52A63BD9800ED79DC /* ContentView.swift */,
 				DE0B8DB72A63BD9900ED79DC /* Assets.xcassets */,
+				DE42333A2A9F6AFC0080AC2F /* App */,
+				DE42333B2A9F6B0C0080AC2F /* View */,
 				DE0B8DB92A63BD9900ED79DC /* Preview Content */,
 			);
 			path = SelfMadeGraphQLPractice;
@@ -124,7 +122,6 @@
 		DE0B8DC32A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE0B8DC42A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift */,
 			);
 			path = SelfMadeGraphQLPracticeTests;
 			sourceTree = "<group>";
@@ -143,6 +140,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE42333A2A9F6AFC0080AC2F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B8DB32A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE42333B2A9F6B0C0080AC2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B8DB52A63BD9800ED79DC /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0B8DC52A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
