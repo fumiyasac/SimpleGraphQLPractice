@@ -24,6 +24,7 @@
 		DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233432A9FF9A90080AC2F /* FirstAppearExtension.swift */; };
 		DE4233472A9FFE470080AC2F /* ItemsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233462A9FFE470080AC2F /* ItemsScreenView.swift */; };
 		DE4233492A9FFE610080AC2F /* AnnouncementsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */; };
+		DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		DE4233432A9FF9A90080AC2F /* FirstAppearExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppearExtension.swift; sourceTree = "<group>"; };
 		DE4233462A9FFE470080AC2F /* ItemsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsScreenView.swift; sourceTree = "<group>"; };
 		DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsScreenView.swift; sourceTree = "<group>"; };
+		DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientExtension.swift; sourceTree = "<group>"; };
+		DE4233562AA19DB60080AC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		DE0B8DB22A63BD9800ED79DC /* SelfMadeGraphQLPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DE4233562AA19DB60080AC2F /* Info.plist */,
 				DE0B8DB72A63BD9900ED79DC /* Assets.xcassets */,
 				DE42333A2A9F6AFC0080AC2F /* App */,
 				DE42334F2AA001820080AC2F /* Client */,
@@ -238,6 +242,7 @@
 		DE42334F2AA001820080AC2F /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -424,6 +429,7 @@
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
 				DE0B8DB42A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift in Sources */,
+				DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */,
 				DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */,
 				DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */,
 			);
@@ -586,6 +592,7 @@
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelfMadeGraphQLPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -615,6 +622,7 @@
 				DEVELOPMENT_TEAM = S5BF5553KY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelfMadeGraphQLPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
