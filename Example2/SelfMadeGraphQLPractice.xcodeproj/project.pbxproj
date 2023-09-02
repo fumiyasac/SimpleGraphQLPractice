@@ -25,6 +25,7 @@
 		DE4233472A9FFE470080AC2F /* ItemsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233462A9FFE470080AC2F /* ItemsScreenView.swift */; };
 		DE4233492A9FFE610080AC2F /* AnnouncementsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */; };
 		DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */; };
+		DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DE4233482A9FFE610080AC2F /* AnnouncementsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsScreenView.swift; sourceTree = "<group>"; };
 		DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientExtension.swift; sourceTree = "<group>"; };
 		DE4233562AA19DB60080AC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */,
+				DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				DE4233492A9FFE610080AC2F /* AnnouncementsScreenView.swift in Sources */,
 				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
+				DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
 				DE0B8DB42A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift in Sources */,
 				DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */,
