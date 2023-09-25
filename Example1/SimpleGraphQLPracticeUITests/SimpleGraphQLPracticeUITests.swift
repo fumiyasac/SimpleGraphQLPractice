@@ -7,6 +7,6 @@
 
 import XCTest
 
-final class SimpleGraphQLPracticeUITests: XCTestCase {
-    // MEMO: 今回は必要がなかったので消しています
-}
+// MEMO: 今回は必要がなかったので消しています
+
+//final class SimpleGraphQLPracticeUITests: XCTestCase {}
