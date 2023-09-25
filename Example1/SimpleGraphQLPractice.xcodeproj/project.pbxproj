@@ -973,16 +973,16 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
 			};
 		};
 		DE625A3D2A3B69D70005EE46 /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Quick.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.3.0;
 			};
 		};
 		DE625A402A3B6A4C0005EE46 /* XCRemoteSwiftPackageReference "Nimble" */ = {
@@ -990,7 +990,7 @@
 			repositoryURL = "https://github.com/Quick/Nimble.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 12.0.0;
+				minimumVersion = 12.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
