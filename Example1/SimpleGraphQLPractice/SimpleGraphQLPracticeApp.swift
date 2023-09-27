@@ -8,7 +8,7 @@
 import SwiftUI
 
 // 概要:
-// GraphQL(Apollo v1.4)からSchemaをダウンロードして適用する。
+// GraphQL(Apollo v1.5: 2023/09/27時点)からSchemaをダウンロードして適用する。
 // https://countries.trevorblades.com/
 
 @main
