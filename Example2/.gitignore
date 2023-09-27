@@ -34,3 +34,5 @@ Carthage/Build/
 xcuserdata/
 *.moved-aside
 !.gitkeep
+# node.js
+/Backend/sample-apollo-server/node_modules/*
