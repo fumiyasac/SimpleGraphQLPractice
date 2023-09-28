@@ -1,6 +1,6 @@
 // WebアプリケーションフレームワークでExpressを利用する
 import express from 'express';
-// オリジン間リソース共有(CORS)用のMiddleWareの利用許可をする
+// Origin間リソース共有(CORS)用のMiddleWareの利用許可をする
 import cors from 'cors';
 // GraphQLサーバー構築に必要なものを利用する
 import { ApolloServer } from 'apollo-server-express';
@@ -29,7 +29,10 @@ async function startServer() {
 // Apolloサーバーを起動する
 startServer();
 
+// Port番号の指定
+const port = 4000;
+
 // Expressサーバーを起動する
-app.listen({ port: 4000 }, () => {
-  console.log('🚀 Server ready at http://localhost:4000/graphql');
+app.listen({ port: port }, () => {
+  console.log(`🚀 Server is running at http://localhost:${port}/graphql`);
 });

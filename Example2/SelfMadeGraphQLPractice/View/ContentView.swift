@@ -13,11 +13,11 @@ struct ContentView: View {
 
     var body: some View {
         TabView {
-            ItemsScreenView()
+            MenuScreenView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "text.below.photo.fill")
-                        Text("アイテム一覧")
+                        Image(systemName: "fork.knife.circle.fill")
+                        Text("メニュー")
                     }
                 }
                 .tag(0)
