@@ -1,5 +1,5 @@
 {
-  "name": "Backend",
+  "name": "self-made-graphql-practice-server",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -15,5 +15,8 @@
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
   }
 }
