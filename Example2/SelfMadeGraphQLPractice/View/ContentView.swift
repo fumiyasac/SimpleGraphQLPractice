@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            AnnouncementsScreenView()
+            NewsScreenView()
                 .tabItem {
                     VStack {
                         Image(systemName: "bell.badge.fill")
@@ -33,8 +33,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+// MARK: - Preview
+
+#Preview {
+    ContentView()
 }
