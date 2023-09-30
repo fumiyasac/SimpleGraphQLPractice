@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "0000_news_mobile.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
