@@ -27,7 +27,7 @@ struct CountryDetailSecondView: View {
         self.countryDetailEntity = countryDetailEntity
     }
 
-    // MARK: - body
+    // MARK: - Body
 
     var body: some View {
         let continent = countryDetailEntity.continent.name + "(" + countryDetailEntity.continent.code + ")"

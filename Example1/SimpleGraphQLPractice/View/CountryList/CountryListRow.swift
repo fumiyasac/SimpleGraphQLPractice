@@ -35,7 +35,7 @@ struct CountryListRow: View {
         self.countryListEntity = countryListEntity
     }
 
-    // MARK: - body
+    // MARK: - Body
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {

@@ -25,7 +25,7 @@ struct CountryDetailView: View {
         self.viewModel = viewModel
     }
 
-    // MARK: - body
+    // MARK: - Body
 
     var body: some View {
         List {

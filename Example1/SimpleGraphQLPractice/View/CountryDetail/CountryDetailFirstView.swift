@@ -39,7 +39,7 @@ struct CountryDetailFirstView: View {
         self.countryDetailEntity = countryDetailEntity
     }
 
-    // MARK: - body
+    // MARK: - Body
 
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {

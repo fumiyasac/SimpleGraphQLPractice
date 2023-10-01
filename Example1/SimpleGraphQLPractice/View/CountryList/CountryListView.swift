@@ -19,7 +19,7 @@ struct CountryListView: View {
         self.viewModel = viewModel
     }
 
-    // MARK: - body
+    // MARK: - Body
 
     var body: some View {
         NavigationStack {
