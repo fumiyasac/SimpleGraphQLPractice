@@ -8,11 +8,11 @@ Apolloを利用したGraphQLでの処理において、0.x系と1.x系で大き�
 
 コード自動生成処理に関連する部分は抜本的に変更が入っていました。2023年9月時点での最新版はv1.5であることや、6月中にv0.x系からバージョンアップされた際の変更内容がかなり破壊的であったので、今後の動向や変更内容に関しては引き続きキャッチアップを継続していきます。
 
-まず前段として、0.x系での導入手順とBuildまでの流れを軽く触れておきます。（下記図解参照）
+まず前段として、0.x系での導入手順とBuildまでの流れを軽く触れておきます。（）
 
 __【まとめ図解】__
 
-TBD
+![v0.x系でApolloを導入する際のポイント図解](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/apollo_v0_guidance.png)
 
 ## 3. 最新バージョン(1.x系)での重要ポイント
 
@@ -64,4 +64,16 @@ $ yarn add -D ts-node ts-node-dev
 # https://isub.co.jp/graphql/getting-started-with-apollo-server/
 ```
 
-- (手順参考) [GraphQL Apollo-Server ハンズオン](https://suzukalight.com/blog/posts/2019-12-08-graphql-server)
+__【GraphQLそのものについて理解を深める参考資料】__
+
+- [GraphQLはどんな時に使うか](https://speakerdeck.com/saboyutaka/graphqlhadonnashi-nishi-uka)
+
+__【環境構築手順の参考資料】__
+
+- [GraphQL Apollo-Server ハンズオン](https://suzukalight.com/blog/posts/2019-12-08-graphql-server)
+
+__【Apollo Serverを利用したGraphQLサーバーの参考資料】__
+
+- [Node.js＆TypeScriptでGraphQL入門：Apollo Server（V4）を使って簡単にAPIを実装](https://go-tech.blog/nodejs/ts-graphql/)
+- [Apollo Server with TypeScrip](https://zenn.dev/intercept6/articles/3daca0298d32d8022e71)
+- [GraphQLのページネーション機能を実装する方法: Apollo client + express-graphql](https://sterfield.co.jp/blog/17617/)
