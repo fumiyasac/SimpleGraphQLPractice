@@ -68,8 +68,6 @@ struct CountryDetailView: View {
 
 // MARK: - Preview
 
-struct CountryDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        CountryDetailView(code: "JP")
-    }
+#Preview {
+    CountryDetailView(code: "JP")
 }

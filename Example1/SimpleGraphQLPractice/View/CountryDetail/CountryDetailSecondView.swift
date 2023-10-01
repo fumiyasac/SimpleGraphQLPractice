@@ -38,42 +38,40 @@ struct CountryDetailSecondView: View {
             Text("Phone:" + "\n" + countryDetailEntity.phone)
                 .font(commonFont)
                 .foregroundColor(commonColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
             // 1-(2). 母国語
             Text("母国語:" + "\n" + countryDetailEntity.native)
                 .font(commonFont)
                 .foregroundColor(commonColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
             // 1-(3). AWSのリージョン
             Text("AWSリージョン:" + "\n" + countryDetailEntity.awsRegion)
                 .font(commonFont)
                 .foregroundColor(commonColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
             // 1-(4). 大陸
             Text("大陸:" + "\n" + continent)
                 .font(commonFont)
                 .foregroundColor(commonColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
             // 1-(5). 通貨単位
             Text("通貨単位:" + "\n" + countryDetailEntity.currencies)
                 .font(commonFont)
                 .foregroundColor(commonColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
             // 1-(6). 利用言語(複数)
             Text("利用言語(複数):" + "\n" + languages)
                 .font(commonFont)
                 .foregroundColor(commonColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
         }
     }
 }
 
 // MARK: - Preview
 
-struct CountryDetailSecondView_Previews: PreviewProvider {
-    static var previews: some View {
-        CountryDetailSecondView(
-            countryDetailEntity: CountryDetailSeeder.default
-        )
-    }
+#Preview {
+    CountryDetailSecondView(
+        countryDetailEntity: CountryDetailSeeder.default
+    )
 }

@@ -47,7 +47,7 @@ struct CountryListRow: View {
             Text(countryListEntity.name)
                 .font(nameFont)
                 .foregroundColor(nameColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
         }
     }
 }

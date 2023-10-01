@@ -53,12 +53,10 @@ struct CountryListView: View {
 
 // MARK: - Preview
 
-struct CountryListView_Previews: PreviewProvider {
-    static var previews: some View {
-        CountryListView(
-            viewModel: CountryListViewModel(
-                countryListRepository: CountryListRepositorySuccessMock()
-            )
+#Preview {
+    CountryListView(
+        viewModel: CountryListViewModel(
+            countryListRepository: CountryListRepositorySuccessMock()
         )
-    }
+    )
 }

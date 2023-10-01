@@ -50,22 +50,20 @@ struct CountryDetailFirstView: View {
             Text(countryDetailEntity.code)
                 .font(codeFont)
                 .foregroundColor(codeColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
             // 1-(3). 国名
             Text(countryDetailEntity.name)
                 .font(nameFont)
                 .foregroundColor(nameColor)
-                .padding([.top], 8.0)
+                .padding(.top, 8.0)
         }
     }
 }
 
 // MARK: - Preview
 
-struct CountryDetailFirstView_Previews: PreviewProvider {
-    static var previews: some View {
-        CountryDetailFirstView(
-            countryDetailEntity: CountryDetailSeeder.default
-        )
-    }
+#Preview {
+    CountryDetailFirstView(
+        countryDetailEntity: CountryDetailSeeder.default
+    )
 }
