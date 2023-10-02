@@ -1,4 +1,4 @@
-const menu = [
+export const menu = [
   {
      "id": 1,
      "name": "アジフライ",
@@ -945,5 +945,3 @@ const menu = [
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000105.jpg"
   }
 ];
-  
-module.exports = menu;

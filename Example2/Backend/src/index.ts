@@ -10,6 +10,9 @@ import { typeDefs } from './typeDef/schema';
 // GraphQLのResolver定義
 import { resolvers } from './resolvers';
 
+// 利用するデータに関連する処理
+import { news } from './dataDef/news';
+
 // ExpressでCORSを利用する
 const app = express().use(cors());
 
@@ -19,6 +22,11 @@ async function startServer() {
 	const apolloServer = new ApolloServer({
   	typeDefs: typeDefs,
     resolvers,
+		context: () => {
+			return {
+				news: news
+			};
+		}
   });
 	// ApolloServerを実行する
   await apolloServer.start();

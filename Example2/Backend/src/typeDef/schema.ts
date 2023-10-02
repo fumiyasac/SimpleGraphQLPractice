@@ -4,14 +4,13 @@ import { gql } from 'apollo-server-express';
 // Query＆Mutationに関する定義を記載する
 export const typeDefs = gql`
   type Query {
-    me: User
+    getNews: [News]
   }
 
-  type User {
-    username: String!
-  }
-
-  type Mutation {
-    me: User
+  type News {
+    id: ID
+    title: String!
+    date: String!
+    genre: String!
   }
 `;

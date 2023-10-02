@@ -1,4 +1,4 @@
-const news = [
+export const news = [
   {
      "id": 1,
      "title": "モバイルアプリがバージョンアップ(v3.0.0)をしました",
@@ -120,5 +120,3 @@ const news = [
      "genre": "bento"
   }
 ];
-
-module.exports = news;

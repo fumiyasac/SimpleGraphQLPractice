@@ -6,5 +6,6 @@ import { mutation } from './resolverDef/mutation';
 // Resolver定義一覧
 export const resolvers = {
   Query: query,
-  Mutation: mutation
+  // TODO: Mutationに関する処理を定義する
+  //Mutation: mutation
 };
