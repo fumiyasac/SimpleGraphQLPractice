@@ -12,23 +12,49 @@ Apolloを利用したGraphQLでの処理において、0.x系と1.x系で大き�
 
 __【まとめ図解】__
 
+過去バージョンでは、XcodeをBuildするタイミングでGraphQLのコード生成処理を実行する様な形を取っていました。
+
 ![v0.x系でApolloを導入する際のポイント図解](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/apollo_v0_guidance.png)
 
 ## 3. 最新バージョン(1.x系)での重要ポイント
 
-TBD
+Apolloのメジャーバージョンアップが実施された事に伴い、CLI関連をはじめ内部機能についても破壊的な変更がされました。
+
+- [Introduction to Apollo iOS](https://www.apollographql.com/docs/ios/)
+
+その中でも、以前にApolloのv0.x系を過去に導入していた場合からv1.x系にバージョンアップをする際は下記のマイグレーションガイドに沿って実施していく事になります。特にCLI関連やコード自動生成処理についても抜本的な変更がされている点に注意が必要です。
+
+- [Apollo iOS 1.0 migration guide](https://www.apollographql.com/docs/ios/migrations/1.0)
+
+※ Apolloマイグレーションガイドについては「v1.0→v1.2」&「v1.2→v1.3」に関するドキュメントも用意されています。
 
 __【CLIに関する変更点】__
 
-TBD
+v1.x系では、Swift Package Manager経由でApolloを導入してApolloを導入した場合にはXcodeからCLIツールをインストールする事ができます。これまでのnode.js経由でのインストール方式ではなくXcodeを経由したインストールとなったので、設定も随分としやすくなっています。
 
-__【コード自動生成に関する変更点】__
+![v1.x系でのCLIインストール手順](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/apollo_v1_cli_install.png)
 
-TBD
+__【コード自動生成に関するコマンド】__
+
+```shell
+# `apollo-codegen-config.json`の雛形を作成する
+$ ./apollo-ios-cli init --schema-namespace CountriesSchema --module-type embeddedInTarget --target-name SimpleGraphQLPractice (--overwrite)
+
+# ① apollo-codegen-config.jsonの内容をProjectに合わせて記載する
+
+# ② schema定義ファイル(schema.json)をapollo-ios-cli経由でダウンロード or 直接ダウンロードしProject内に配置
+
+# 定義した`apollo-codegen-config.json`からSwiftコードを自動生成する
+$ ./apollo-ios-cli generate
+```
+
+下図は今回のサンプルプロジェクトで記載している`apollo-codegen-config.json`の一例になりますが、内容には現在お使いのProject構成に合わせて設定することになります。
+
+![v1.x系でのコード自動生成処理に関する設定](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/apollo_v1_configuration.png)
 
 ## 4. 簡単な実装サンプルの解説
 
-
+TBD
 
 ## 参考1. 見比べ時の資料
 
