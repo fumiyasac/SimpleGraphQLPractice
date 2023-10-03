@@ -12,6 +12,7 @@ import { resolvers } from './resolvers';
 
 // 利用するデータに関連する処理
 import { news } from './dataDef/news';
+import { menu } from './dataDef/menu';
 
 // ExpressでCORSを利用する
 const app = express().use(cors());
@@ -24,7 +25,8 @@ async function startServer() {
     resolvers,
 		context: () => {
 			return {
-				news: news
+				news: news,
+				menu: menu
 			};
 		}
   });

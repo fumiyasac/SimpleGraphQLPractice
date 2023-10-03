@@ -2,8 +2,8 @@ export const menu = [
   {
      "id": 1,
      "name": "アジフライ",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 360,
      "kcal": 340,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000001.jpg"
@@ -11,8 +11,8 @@ export const menu = [
   {
      "id": 2,
      "name": "アジの南蛮漬け",
-     "dish_type": "sub_dish",
-     "category_slug":"fish",
+     "dishType": "sub_dish",
+     "categorySlug":"fish",
      "price": 180,
      "kcal": 180,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000002.jpg"
@@ -20,8 +20,8 @@ export const menu = [
   {
      "id": 3,
      "name": "ビーフステーキ",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 700,
      "kcal": 680,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000003.jpg"
@@ -29,8 +29,8 @@ export const menu = [
   {
      "id": 4,
      "name": "ボンゴレビアンコ",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 450,
      "kcal": 470,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000004.jpg"
@@ -38,8 +38,8 @@ export const menu = [
   {
      "id": 5,
      "name": "ボンゴレロッソ",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 450,
      "kcal": 370,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000005.jpg"
@@ -47,8 +47,8 @@ export const menu = [
   {
      "id": 6,
      "name": "ブリの照り焼き",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 280,
      "kcal": 260,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000006.jpg"
@@ -56,8 +56,8 @@ export const menu = [
   {
      "id": 7,
      "name": "煮卵付き豚の角煮",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 360,
      "kcal": 600,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000007.jpg"
@@ -65,8 +65,8 @@ export const menu = [
   {
      "id": 8,
      "name": "五目炒飯",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 450,
      "kcal": 650,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000008.jpg"
@@ -74,8 +74,8 @@ export const menu = [
   {
      "id": 9,
      "name": "チキン南蛮",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 360,
      "kcal": 240,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000009.jpg"
@@ -83,8 +83,8 @@ export const menu = [
   {
      "id": 10,
      "name": "青椒肉絲",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 320,
      "kcal": 290,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000010.jpg"
@@ -92,8 +92,8 @@ export const menu = [
   {
      "id": 11,
      "name": "中華丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 450,
      "kcal": 700,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000011.jpg"
@@ -101,8 +101,8 @@ export const menu = [
   {
      "id": 12,
      "name": "コーンスープ",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 180,
      "kcal": 90,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000012.jpg"
@@ -110,8 +110,8 @@ export const menu = [
   {
      "id": 13,
      "name": "クリームシチュー",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 300,
      "kcal": 240,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000013.jpg"
@@ -119,8 +119,8 @@ export const menu = [
   {
      "id": 14,
      "name": "カレーライス",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 360,
      "kcal": 700,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000014.jpg"
@@ -128,8 +128,8 @@ export const menu = [
   {
      "id": 15,
      "name": "エビフライ",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 380,
      "kcal": 230,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000015.jpg"
@@ -137,8 +137,8 @@ export const menu = [
   {
      "id": 16,
      "name": "枝豆",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 50,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000016.jpg"
@@ -146,8 +146,8 @@ export const menu = [
   {
      "id": 17,
      "name": "フルーツヨーグルト",
-     "dish_type": "sweets",
-     "category_slug":"dessert",
+     "dishType": "sweets",
+     "categorySlug":"dessert",
      "price": 180,
      "kcal": 80,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000017.jpg"
@@ -155,8 +155,8 @@ export const menu = [
   {
      "id": 18,
      "name": "ゴーヤーチャンプルー",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 280,
      "kcal": 180,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000018.jpg"
@@ -164,8 +164,8 @@ export const menu = [
   {
      "id": 19,
      "name": "ガーリックトースト",
-     "dish_type": "staple_food",
-     "category_slug":"bread",
+     "dishType": "staple_food",
+     "categorySlug":"bread",
      "price": 240,
      "kcal": 270,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000019.jpg"
@@ -173,8 +173,8 @@ export const menu = [
   {
      "id": 20,
      "name": "肉餃子",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 280,
      "kcal": 460,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000020.jpg"
@@ -182,8 +182,8 @@ export const menu = [
   {
      "id": 21,
      "name": "牛丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 720,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000021.jpg"
@@ -191,8 +191,8 @@ export const menu = [
   {
      "id": 22,
      "name": "ハンバーグカレー",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 880,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000022.jpg"
@@ -200,8 +200,8 @@ export const menu = [
   {
      "id": 23,
      "name": "ハンバーグ",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 360,
      "kcal": 470,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000023.jpg"
@@ -209,8 +209,8 @@ export const menu = [
   {
      "id": 24,
      "name": "八宝菜",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 280,
      "kcal": 390,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000024.jpg"
@@ -218,8 +218,8 @@ export const menu = [
   {
      "id": 25,
      "name": "ひじきの煮物",
-     "dish_type": "sub_dish",
-     "category_slug":"seaweed",
+     "dishType": "sub_dish",
+     "categorySlug":"seaweed",
      "price": 180,
      "kcal": 70,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000025.jpg"
@@ -227,8 +227,8 @@ export const menu = [
   {
      "id": 26,
      "name": "ほうれん草の白和え",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 90,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000026.jpg"
@@ -236,8 +236,8 @@ export const menu = [
   {
      "id": 27,
      "name": "いなり寿司",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 220,
      "kcal": 270,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000027.jpg"
@@ -245,8 +245,8 @@ export const menu = [
   {
      "id": 28,
      "name": "いわしの梅煮",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 280,
      "kcal": 350,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000028.jpg"
@@ -254,8 +254,8 @@ export const menu = [
   {
      "id": 29,
      "name": "カキフライ",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 360,
      "kcal": 380,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000029.jpg"
@@ -263,8 +263,8 @@ export const menu = [
   {
      "id": 30,
      "name": "カルボナーラ",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 450,
      "kcal": 560,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000030.jpg"
@@ -272,8 +272,8 @@ export const menu = [
   {
      "id": 31,
      "name": "カツ丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 780,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000031.jpg"
@@ -281,8 +281,8 @@ export const menu = [
   {
      "id": 32,
      "name": "カツサンド",
-     "dish_type": "staple_food",
-     "category_slug":"bread",
+     "dishType": "staple_food",
+     "categorySlug":"bread",
      "price": 390,
      "kcal": 590,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000032.jpg"
@@ -290,8 +290,8 @@ export const menu = [
   {
      "id": 33,
      "name": "カツオのお刺身",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 300,
      "kcal": 280,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000033.jpg"
@@ -299,8 +299,8 @@ export const menu = [
   {
      "id": 34,
      "name": "カツオのたたき",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 360,
      "kcal": 340,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000034.jpg"
@@ -308,8 +308,8 @@ export const menu = [
   {
      "id": 35,
      "name": "キムチ",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 100,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000035.jpg"
@@ -317,8 +317,8 @@ export const menu = [
   {
      "id": 36,
      "name": "きんぴらごぼう",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 140,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000036.jpg"
@@ -326,8 +326,8 @@ export const menu = [
   {
      "id": 37,
      "name": "きつねうどん",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 360,
      "kcal": 350,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000037.jpg"
@@ -335,8 +335,8 @@ export const menu = [
   {
      "id": 38,
      "name": "栗ご飯",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 160,
      "kcal": 220,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000038.jpg"
@@ -344,8 +344,8 @@ export const menu = [
   {
      "id": 39,
      "name": "麻婆丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 760,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000039.jpg"
@@ -353,8 +353,8 @@ export const menu = [
   {
      "id": 40,
      "name": "麻婆豆腐",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 280,
      "kcal": 380,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000040.jpg"
@@ -362,8 +362,8 @@ export const menu = [
   {
      "id": 41,
      "name": "舞茸と玉ねぎの味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 120,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000041.jpg"
@@ -371,8 +371,8 @@ export const menu = [
   {
      "id": 42,
      "name": "抹茶アイスクリーム",
-     "dish_type": "sweets",
-     "category_slug":"dessert",
+     "dishType": "sweets",
+     "categorySlug":"dessert",
      "price": 100,
      "kcal": 90,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000042.jpg"
@@ -380,8 +380,8 @@ export const menu = [
   {
      "id": 43,
      "name": "ミートソース",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 450,
      "kcal": 620,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000043.jpg"
@@ -389,8 +389,8 @@ export const menu = [
   {
      "id": 44,
      "name": "めかぶ",
-     "dish_type": "sub_dish",
-     "category_slug":"seaweed",
+     "dishType": "sub_dish",
+     "categorySlug":"seaweed",
      "price": 180,
      "kcal": 60,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000044.jpg"
@@ -398,8 +398,8 @@ export const menu = [
   {
      "id": 45,
      "name": "メンマ",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 70,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000045.jpg"
@@ -407,8 +407,8 @@ export const menu = [
   {
      "id": 46,
      "name": "明太子",
-     "dish_type": "sub_dish",
-     "category_slug":"fish",
+     "dishType": "sub_dish",
+     "categorySlug":"fish",
      "price": 180,
      "kcal": 120,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000046.jpg"
@@ -416,8 +416,8 @@ export const menu = [
   {
      "id": 47,
      "name": "サバの味噌煮",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 360,
      "kcal": 300,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000047.jpg"
@@ -425,8 +425,8 @@ export const menu = [
   {
      "id": 48,
      "name": "ミックスグリル",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 700,
      "kcal": 760,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000048.jpg"
@@ -434,8 +434,8 @@ export const menu = [
   {
      "id": 49,
      "name": "もずく酢",
-     "dish_type": "sub_dish",
-     "category_slug":"seaweed",
+     "dishType": "sub_dish",
+     "categorySlug":"seaweed",
      "price": 180,
      "kcal": 50,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000049.jpg"
@@ -443,8 +443,8 @@ export const menu = [
   {
      "id": 50,
      "name": "なめこと小松菜の味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 150,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000050.jpg"
@@ -452,8 +452,8 @@ export const menu = [
   {
      "id": 51,
      "name": "ナポリタン",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 450,
      "kcal": 650,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000051.jpg"
@@ -461,8 +461,8 @@ export const menu = [
   {
      "id": 52,
      "name": "肉じゃが",
-     "dish_type": "sub_dish",
-     "category_slug":"meat",
+     "dishType": "sub_dish",
+     "categorySlug":"meat",
      "price": 220,
      "kcal": 370,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000052.jpg"
@@ -470,8 +470,8 @@ export const menu = [
   {
      "id": 53,
      "name": "かぼちゃの煮物",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 220,
      "kcal": 200,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000053.jpg"
@@ -479,8 +479,8 @@ export const menu = [
   {
      "id": 54,
      "name": "ニラ玉",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 280,
      "kcal": 420,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000054.jpg"
@@ -488,8 +488,8 @@ export const menu = [
   {
      "id": 55,
      "name": "ほうれん草のお浸し",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 150,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000055.jpg"
@@ -497,8 +497,8 @@ export const menu = [
   {
      "id": 56,
      "name": "お好み焼き",
-     "dish_type": "main_dish",
-     "category_slug":"bread",
+     "dishType": "main_dish",
+     "categorySlug":"bread",
      "price": 360,
      "kcal": 400,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000056.jpg"
@@ -506,8 +506,8 @@ export const menu = [
   {
      "id": 57,
      "name": "オムライス",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 800,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000057.jpg"
@@ -515,8 +515,8 @@ export const menu = [
   {
      "id": 58,
      "name": "親子丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 700,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000058.jpg"
@@ -524,8 +524,8 @@ export const menu = [
   {
      "id": 59,
      "name": "ペペロンチーノ",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 450,
      "kcal": 390,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000059.jpg"
@@ -533,8 +533,8 @@ export const menu = [
   {
      "id": 60,
      "name": "ポテトサラダ",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 290,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000060.jpg"
@@ -542,8 +542,8 @@ export const menu = [
   {
      "id": 61,
      "name": "キムチラーメン",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 390,
      "kcal": 480,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000061.jpg"
@@ -551,8 +551,8 @@ export const menu = [
   {
      "id": 62,
      "name": "味噌ラーメン",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 340,
      "kcal": 500,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000062.jpg"
@@ -560,8 +560,8 @@ export const menu = [
   {
      "id": 63,
      "name": "醤油ラーメン",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 340,
      "kcal": 390,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000063.jpg"
@@ -569,8 +569,8 @@ export const menu = [
   {
      "id": 64,
      "name": "塩ラーメン",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 340,
      "kcal": 350,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000064.jpg"
@@ -578,8 +578,8 @@ export const menu = [
   {
      "id": 65,
      "name": "豚骨ラーメン",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 340,
      "kcal": 410,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000065.jpg"
@@ -587,8 +587,8 @@ export const menu = [
   {
      "id": 66,
      "name": "ご飯",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 120,
      "kcal": 180,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000066.jpg"
@@ -596,8 +596,8 @@ export const menu = [
   {
      "id": 67,
      "name": "ロコモコ丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 820,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000067.jpg"
@@ -605,8 +605,8 @@ export const menu = [
   {
      "id": 68,
      "name": "ロールキャベツ",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 300,
      "kcal": 360,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000068.jpg"
@@ -614,8 +614,8 @@ export const menu = [
   {
      "id": 69,
      "name": "ミックスサンド",
-     "dish_type": "staple_food",
-     "category_slug":"bread",
+     "dishType": "staple_food",
+     "categorySlug":"bread",
      "price": 390,
      "kcal": 390,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000069.jpg"
@@ -623,8 +623,8 @@ export const menu = [
   {
      "id": 70,
      "name": "さんまの塩焼き",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 360,
      "kcal": 400,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000070.jpg"
@@ -632,8 +632,8 @@ export const menu = [
   {
      "id": 71,
      "name": "さつまいもと舞茸の味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 170,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000071.jpg"
@@ -641,8 +641,8 @@ export const menu = [
   {
      "id": 72,
      "name": "ソースカツ丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 670,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000072.jpg"
@@ -650,8 +650,8 @@ export const menu = [
   {
      "id": 73,
      "name": "ソーセージ丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 500,
      "kcal": 590,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000073.jpg"
@@ -659,8 +659,8 @@ export const menu = [
   {
      "id": 74,
      "name": "ウインナソーセージ",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 320,
      "kcal": 350,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000074.jpg"
@@ -668,8 +668,8 @@ export const menu = [
   {
      "id": 75,
      "name": "鮭と小松菜の味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 220,
      "kcal": 220,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000075.jpg"
@@ -677,8 +677,8 @@ export const menu = [
   {
      "id": 76,
      "name": "しらすご飯",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 160,
      "kcal": 200,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000076.jpg"
@@ -686,8 +686,8 @@ export const menu = [
   {
      "id": 77,
      "name": "しじみの味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 140,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000077.jpg"
@@ -695,8 +695,8 @@ export const menu = [
   {
      "id": 78,
      "name": "いちごアイスクリーム",
-     "dish_type": "sweets",
-     "category_slug":"dessert",
+     "dishType": "sweets",
+     "categorySlug":"dessert",
      "price": 100,
      "kcal": 90,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000078.jpg"
@@ -704,8 +704,8 @@ export const menu = [
   {
      "id": 79,
      "name": "酢豚",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 360,
      "kcal": 590,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000079.jpg"
@@ -713,8 +713,8 @@ export const menu = [
   {
      "id": 80,
      "name": "さつまいもご飯",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 160,
      "kcal": 280,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000080.jpg"
@@ -722,8 +722,8 @@ export const menu = [
   {
      "id": 81,
      "name": "卵とアスパラガスの味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 220,
      "kcal": 190,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000081.jpg"
@@ -731,8 +731,8 @@ export const menu = [
   {
      "id": 82,
      "name": "出汁巻き卵",
-     "dish_type": "sub_dish",
-     "category_slug":"meat",
+     "dishType": "sub_dish",
+     "categorySlug":"meat",
      "price": 180,
      "kcal": 250,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000082.jpg"
@@ -740,8 +740,8 @@ export const menu = [
   {
      "id": 83,
      "name": "油揚げと玉ねぎの味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 180,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000083.jpg"
@@ -749,8 +749,8 @@ export const menu = [
   {
      "id": 84,
      "name": "たぬきうどん",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 360,
      "kcal": 380,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000084.jpg"
@@ -758,8 +758,8 @@ export const menu = [
   {
      "id": 85,
      "name": "海老の天ぷら",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 320,
      "kcal": 300,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000085.jpg"
@@ -767,8 +767,8 @@ export const menu = [
   {
      "id": 86,
      "name": "海老天うどん",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 440,
      "kcal": 460,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000086.jpg"
@@ -776,8 +776,8 @@ export const menu = [
   {
      "id": 87,
      "name": "天丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 580,
      "kcal": 780,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000087.jpg"
@@ -785,8 +785,8 @@ export const menu = [
   {
      "id": 88,
      "name": "豆腐とわかめの味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 120,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000088.jpg"
@@ -794,8 +794,8 @@ export const menu = [
   {
      "id": 89,
      "name": "イタリアントマトサラダ",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 180,
      "kcal": 130,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000089.jpg"
@@ -803,8 +803,8 @@ export const menu = [
   {
      "id": 90,
      "name": "冷やしトマト",
-     "dish_type": "sub_dish",
-     "category_slug":"vegetable",
+     "dishType": "sub_dish",
+     "categorySlug":"vegetable",
      "price": 120,
      "kcal": 40,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000090.jpg"
@@ -812,8 +812,8 @@ export const menu = [
   {
      "id": 91,
      "name": "豆苗と冬瓜の味噌汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 160,
      "kcal": 140,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000091.jpg"
@@ -821,8 +821,8 @@ export const menu = [
   {
      "id": 92,
      "name": "豚汁",
-     "dish_type": "soup",
-     "category_slug":"soup",
+     "dishType": "soup",
+     "categorySlug":"soup",
      "price": 220,
      "kcal": 380,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000092.jpg"
@@ -830,8 +830,8 @@ export const menu = [
   {
      "id": 93,
      "name": "とんかつ",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 380,
      "kcal": 560,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000093.jpg"
@@ -839,8 +839,8 @@ export const menu = [
   {
      "id": 94,
      "name": "若鶏の唐揚げ",
-     "dish_type": "main_dish",
-     "category_slug":"meat",
+     "dishType": "main_dish",
+     "categorySlug":"meat",
      "price": 380,
      "kcal": 600,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000094.jpg"
@@ -848,8 +848,8 @@ export const menu = [
   {
      "id": 95,
      "name": "月見うどん",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 440,
      "kcal": 520,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000095.jpg"
@@ -857,8 +857,8 @@ export const menu = [
   {
      "id": 96,
      "name": "素うどん",
-     "dish_type": "staple_food",
-     "category_slug":"noodle",
+     "dishType": "staple_food",
+     "categorySlug":"noodle",
      "price": 280,
      "kcal": 280,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000096.jpg"
@@ -866,8 +866,8 @@ export const menu = [
   {
      "id": 97,
      "name": "鰻丼",
-     "dish_type": "staple_food",
-     "category_slug":"rice",
+     "dishType": "staple_food",
+     "categorySlug":"rice",
      "price": 680,
      "kcal": 820,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000097.jpg"
@@ -875,8 +875,8 @@ export const menu = [
   {
      "id": 98,
      "name": "バニラアイスクリーム",
-     "dish_type": "sweets",
-     "category_slug":"dessert",
+     "dishType": "sweets",
+     "categorySlug":"dessert",
      "price": 100,
      "kcal": 90,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000098.jpg"
@@ -884,8 +884,8 @@ export const menu = [
   {
      "id": 99,
      "name": "焼き海老",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 320,
      "kcal": 210,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000099.jpg"
@@ -893,8 +893,8 @@ export const menu = [
   {
      "id": 100,
      "name": "焼き牡蠣",
-     "dish_type": "main_dish",
-     "category_slug":"fish",
+     "dishType": "main_dish",
+     "categorySlug":"fish",
      "price": 380,
      "kcal": 340,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000100.jpg"
@@ -902,8 +902,8 @@ export const menu = [
   {
      "id": 101,
      "name": "チャーシュー",
-     "dish_type": "sub_dish",
-     "category_slug":"meat",
+     "dishType": "sub_dish",
+     "categorySlug":"meat",
      "price": 180,
      "kcal": 210,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000101.jpg"
@@ -911,8 +911,8 @@ export const menu = [
   {
      "id": 102,
      "name": "もも焼き鳥",
-     "dish_type": "sub_dish",
-     "category_slug":"meat",
+     "dishType": "sub_dish",
+     "categorySlug":"meat",
      "price": 180,
      "kcal": 270,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000102.jpg"
@@ -920,8 +920,8 @@ export const menu = [
   {
      "id": 103,
      "name": "ねぎま焼き鳥",
-     "dish_type": "sub_dish",
-     "category_slug":"meat",
+     "dishType": "sub_dish",
+     "categorySlug":"meat",
      "price": 180,
      "kcal": 290,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000103.jpg"
@@ -929,8 +929,8 @@ export const menu = [
   {
      "id": 104,
      "name": "つくね焼き鳥",
-     "dish_type": "sub_dish",
-     "category_slug":"meat",
+     "dishType": "sub_dish",
+     "categorySlug":"meat",
      "price": 180,
      "kcal": 310,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000104.jpg"
@@ -938,8 +938,8 @@ export const menu = [
   {
      "id": 105,
      "name": "五目野菜炒め",
-     "dish_type": "main_dish",
-     "category_slug":"vegetable",
+     "dishType": "main_dish",
+     "categorySlug":"vegetable",
      "price": 280,
      "kcal": 370,
      "thumbnail": "https://student-cafeteria-application.s3.ap-northeast-1.amazonaws.com/1000000105.jpg"
