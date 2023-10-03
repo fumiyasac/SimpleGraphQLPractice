@@ -107,3 +107,5 @@ __【Apollo Serverを利用したGraphQLサーバーの参考資料】__
 - [Node.js＆TypeScriptでGraphQL入門：Apollo Server（V4）を使って簡単にAPIを実装](https://go-tech.blog/nodejs/ts-graphql/)
 - [Apollo Server with TypeScrip](https://zenn.dev/intercept6/articles/3daca0298d32d8022e71)
 - [GraphQLのページネーション機能を実装する方法: Apollo client + express-graphql](https://sterfield.co.jp/blog/17617/)
+
+※ 今回はPagination機能は実装していませんが、機会があれば挑戦してみたいと感じています。
