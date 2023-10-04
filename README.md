@@ -37,14 +37,16 @@ v1.x系では、Swift Package Manager経由でApolloを導入してApolloを導�
 __【コード自動生成に関するコマンド】__
 
 ```shell
-# `apollo-codegen-config.json`の雛形を作成する
+# ①`apollo-codegen-config.json`の雛形を作成する
 $ ./apollo-ios-cli init --schema-namespace CountriesSchema --module-type embeddedInTarget --target-name SimpleGraphQLPractice (--overwrite)
 
-# ① apollo-codegen-config.jsonの内容をProjectに合わせて記載する
+# ② apollo-codegen-config.jsonの内容をProjectに合わせて記載する
 
-# ② schema定義ファイル(schema.json)をapollo-ios-cli経由でダウンロード or 直接ダウンロードしProject内に配置
+# ③ schema定義ファイル(schema.json)をapollo-ios-cli経由でダウンロード or 直接ダウンロードしProject内に配置
+# ※ schema定義ファイルが正しく設定されている場合は下記コマンドを実行してダウンロードができます
+$ ./apollo-ios-cli fetch-schema
 
-# 定義した`apollo-codegen-config.json`からSwiftコードを自動生成する
+# ④ 定義した`apollo-codegen-config.json`からSwiftコードを自動生成する
 $ ./apollo-ios-cli generate
 ```
 
