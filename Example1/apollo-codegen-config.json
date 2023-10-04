@@ -35,6 +35,6 @@
       }
     },
     "headers": [],
-    "outputPath": "SimpleGraphQLPractice/GraphQL/"
+    "outputPath": "SimpleGraphQLPractice/GraphQL/schema.json"
   }
 }
