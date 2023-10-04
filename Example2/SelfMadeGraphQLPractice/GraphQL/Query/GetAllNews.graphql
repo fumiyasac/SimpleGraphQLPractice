@@ -1,0 +1,8 @@
+query getAllNews {
+  getNews {
+    id
+    title
+    date
+    genre
+  }
+}

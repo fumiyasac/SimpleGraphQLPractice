@@ -1,0 +1,44 @@
+{
+  "schemaNamespace" : "MenuExhibitionSchema",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "SelfMadeGraphQLPractice/GraphQL/schema.json"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "SelfMadeGraphQLPractice/GraphQL/Generated",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "SelfMadeGraphQLPractice",
+          "accessModifier" : "internal"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  },
+  "schemaDownloadConfiguration": {
+    "downloadMethod": {
+      "introspection": {
+        "endpointURL": "http://localhost:4000/graphql",
+        "httpMethod": {
+          "POST": {}
+        },
+        "includeDeprecatedInputValues": false,
+        "outputFormat": "JSON"
+      }
+    },
+    "headers": [],
+    "outputPath": "SelfMadeGraphQLPractice/GraphQL/schema.json"
+  }
+}

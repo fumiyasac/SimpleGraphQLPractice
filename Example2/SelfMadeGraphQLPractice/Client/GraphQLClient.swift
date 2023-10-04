@@ -28,8 +28,8 @@ final class GraphQLClient {
             store: store
         )
         // MEMO: エンドポイントはすでにサンプルとして公開されているものを利用する形としています。
-        // 動作コード: https://github.com/trevorblades/countries
-        let url = URL(string: "https://countries.trevorblades.com/")!
+        // 動作コード: http://localhost:4000/graphql
+        let url = URL(string: "http://localhost:4000/graphql")!
         let transport = RequestChainNetworkTransport(
             interceptorProvider: provider,
             endpointURL: url,

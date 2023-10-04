@@ -1,0 +1,11 @@
+query getAllMenus($dishType: String, $categorySlug: String) {
+  getMenus(menuFilter: { dishType: $dishType, categorySlug: $categorySlug }) {
+    id
+    name
+    dishType
+    categorySlug
+    price
+    kcal
+    thumbnail
+  }
+}
