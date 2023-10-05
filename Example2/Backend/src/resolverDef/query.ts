@@ -1,15 +1,16 @@
 // Query定義一覧を記載する
 export const query = {
-  // Contextから渡されたNews一覧データをGraphQLで返却するための処理
 
   // ① News一覧を取得する
   getNews: (parent: any, args: any, context: any) => {
+    // Contextから渡されたNews一覧データをGraphQLで返却するための処理
     const result = context.news;
     return result;
   },
 
   // ② Menu一覧を取得する
   getMenus: (parent: any, args: any, context: any) => {
+    // Contextから渡されたMenu一覧データを条件でフィルタリングをしGraphQLで返却するための処理
     const { menuFilter } = args;
     // inputで送られた`dishType`の値に該当するものを絞り込む(※ない場合は全件表示)
     const resultOfDishTypeFilter = context.menu.filter((menu: any) => {

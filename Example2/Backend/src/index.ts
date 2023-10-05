@@ -13,26 +13,28 @@ import { resolvers } from './resolvers';
 // 利用するデータに関連する処理
 import { news } from './dataDef/news';
 import { menu } from './dataDef/menu';
+import { inquire } from './dataDef/inquire';
 
 // ExpressでCORSを利用する
 const app = express().use(cors());
 
 // Apolloサーバー実行処理定義
 async function startServer() {
-	// ApolloServerのインスタンスを定義する
-	const apolloServer = new ApolloServer({
-  	typeDefs: typeDefs,
+  // ApolloServerのインスタンスを定義する
+  const apolloServer = new ApolloServer({
+    typeDefs: typeDefs,
     resolvers,
-		context: () => {
-			return {
-				news: news,
-				menu: menu
-			};
-		}
+    context: () => {
+      return {
+        news: news,
+        menu: menu,
+        inquire: inquire
+      };
+    }
   });
-	// ApolloServerを実行する
+  // ApolloServerを実行する
   await apolloServer.start();
-	// Middlewareを適用する
+  // Middlewareを適用する
   apolloServer.applyMiddleware({ app, path: '/graphql' });
 }
 

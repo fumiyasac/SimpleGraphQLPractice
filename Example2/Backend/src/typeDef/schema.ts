@@ -8,6 +8,10 @@ export const typeDefs = gql`
     getMenus(menuFilter: MenuFilter): [Menu]
   }
 
+  type Mutation {
+    addInquire(inquireItem: InquireItem): Inquire
+  }
+
   type News {
     id: ID
     title: String!
@@ -28,5 +32,18 @@ export const typeDefs = gql`
     price: Int!
     kcal: Int!
     thumbnail: String!
+  }
+
+  input InquireItem {
+    title: String!
+    purpose: String!
+    text: String!
+  }
+
+  type Inquire {
+    id: ID
+    title: String!
+    purpose: String!
+    text: String!
   }
 `;
