@@ -34,6 +34,8 @@
 		DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */; };
 		DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */; };
 		DE2416842AD21676009A93B5 /* RequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416832AD21676009A93B5 /* RequestStatus.swift */; };
+		DE2416862AD21C6B009A93B5 /* NewsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416852AD21C6B009A93B5 /* NewsEntity.swift */; };
+		DE2416882AD21D14009A93B5 /* MenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416872AD21D14009A93B5 /* MenuEntity.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -87,6 +89,8 @@
 		DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inquire.graphql.swift; sourceTree = "<group>"; };
 		DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutation.graphql.swift; sourceTree = "<group>"; };
 		DE2416832AD21676009A93B5 /* RequestStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestStatus.swift; sourceTree = "<group>"; };
+		DE2416852AD21C6B009A93B5 /* NewsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEntity.swift; sourceTree = "<group>"; };
+		DE2416872AD21D14009A93B5 /* MenuEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuEntity.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -341,6 +345,8 @@
 		DE42334D2AA001670080AC2F /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				DE2416852AD21C6B009A93B5 /* NewsEntity.swift */,
+				DE2416872AD21D14009A93B5 /* MenuEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -547,6 +553,7 @@
 				DE4233472A9FFE470080AC2F /* MenuScreenView.swift in Sources */,
 				DE24163C2ACD263E009A93B5 /* News.graphql.swift in Sources */,
 				DE24163A2ACD263E009A93B5 /* Menu.graphql.swift in Sources */,
+				DE2416882AD21D14009A93B5 /* MenuEntity.swift in Sources */,
 				DE4233492A9FFE610080AC2F /* NewsScreenView.swift in Sources */,
 				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
@@ -563,6 +570,7 @@
 				DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */,
 				DE24163D2ACD263E009A93B5 /* SchemaConfiguration.swift in Sources */,
 				DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */,
+				DE2416862AD21C6B009A93B5 /* NewsEntity.swift in Sources */,
 				DE24163B2ACD263E009A93B5 /* Query.graphql.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
