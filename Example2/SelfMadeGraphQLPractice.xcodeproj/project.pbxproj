@@ -33,6 +33,7 @@
 		DE24167E2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24167D2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift */; };
 		DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */; };
 		DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */; };
+		DE2416842AD21676009A93B5 /* RequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416832AD21676009A93B5 /* RequestStatus.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -85,6 +86,7 @@
 		DE24167D2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInquireMutation.graphql.swift; sourceTree = "<group>"; };
 		DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inquire.graphql.swift; sourceTree = "<group>"; };
 		DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutation.graphql.swift; sourceTree = "<group>"; };
+		DE2416832AD21676009A93B5 /* RequestStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestStatus.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 		DE42334E2AA001720080AC2F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DE2416832AD21676009A93B5 /* RequestStatus.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
 				DE2416392ACD263E009A93B5 /* GetAllMenusQuery.graphql.swift in Sources */,
+				DE2416842AD21676009A93B5 /* RequestStatus.swift in Sources */,
 				DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */,
 				DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
