@@ -29,6 +29,10 @@
 		DE24163D2ACD263E009A93B5 /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416352ACD263E009A93B5 /* SchemaConfiguration.swift */; };
 		DE24163E2ACD263E009A93B5 /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416362ACD263E009A93B5 /* SchemaMetadata.graphql.swift */; };
 		DE24163F2ACD263E009A93B5 /* MenuExhibitionSchema.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416372ACD263E009A93B5 /* MenuExhibitionSchema.graphql.swift */; };
+		DE24167B2AD17BAA009A93B5 /* AddInquire.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DE24167A2AD17BAA009A93B5 /* AddInquire.graphql */; };
+		DE24167E2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24167D2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift */; };
+		DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */; };
+		DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -77,6 +81,10 @@
 		DE2416352ACD263E009A93B5 /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
 		DE2416362ACD263E009A93B5 /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
 		DE2416372ACD263E009A93B5 /* MenuExhibitionSchema.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuExhibitionSchema.graphql.swift; sourceTree = "<group>"; };
+		DE24167A2AD17BAA009A93B5 /* AddInquire.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AddInquire.graphql; sourceTree = "<group>"; };
+		DE24167D2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInquireMutation.graphql.swift; sourceTree = "<group>"; };
+		DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inquire.graphql.swift; sourceTree = "<group>"; };
+		DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutation.graphql.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -213,6 +221,7 @@
 		DE24162C2ACD263E009A93B5 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
+				DE24167C2AD17C0E009A93B5 /* Mutations */,
 				DE24162D2ACD263E009A93B5 /* Queries */,
 			);
 			path = Operations;
@@ -240,11 +249,29 @@
 		DE2416312ACD263E009A93B5 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				DE24167F2AD17C77009A93B5 /* Inquire.graphql.swift */,
+				DE2416802AD17C77009A93B5 /* Mutation.graphql.swift */,
 				DE2416322ACD263E009A93B5 /* Menu.graphql.swift */,
 				DE2416332ACD263E009A93B5 /* Query.graphql.swift */,
 				DE2416342ACD263E009A93B5 /* News.graphql.swift */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		DE2416792AD17B8F009A93B5 /* Mutation */ = {
+			isa = PBXGroup;
+			children = (
+				DE24167A2AD17BAA009A93B5 /* AddInquire.graphql */,
+			);
+			path = Mutation;
+			sourceTree = "<group>";
+		};
+		DE24167C2AD17C0E009A93B5 /* Mutations */ = {
+			isa = PBXGroup;
+			children = (
+				DE24167D2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift */,
+			);
+			path = Mutations;
 			sourceTree = "<group>";
 		};
 		DE42333A2A9F6AFC0080AC2F /* App */ = {
@@ -288,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				DE24162B2ACD263E009A93B5 /* Generated */,
+				DE2416792AD17B8F009A93B5 /* Mutation */,
 				DE2416252ACD254C009A93B5 /* Query */,
 				DE2416232ACD21D6009A93B5 /* schema.json */,
 			);
@@ -486,6 +514,7 @@
 				DE2416242ACD21D6009A93B5 /* schema.json in Resources */,
 				DE0B8DB82A63BD9900ED79DC /* Assets.xcassets in Resources */,
 				DE2416292ACD25F0009A93B5 /* GetAllMenus.graphql in Resources */,
+				DE24167B2AD17BAA009A93B5 /* AddInquire.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE24167E2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift in Sources */,
 				DE2416382ACD263E009A93B5 /* GetAllNewsQuery.graphql.swift in Sources */,
 				DE4233472A9FFE470080AC2F /* MenuScreenView.swift in Sources */,
 				DE24163C2ACD263E009A93B5 /* News.graphql.swift in Sources */,
@@ -519,9 +549,11 @@
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
 				DE2416392ACD263E009A93B5 /* GetAllMenusQuery.graphql.swift in Sources */,
 				DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */,
+				DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
 				DE0B8DB42A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift in Sources */,
 				DE24163E2ACD263E009A93B5 /* SchemaMetadata.graphql.swift in Sources */,
+				DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */,
 				DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */,
 				DE24163F2ACD263E009A93B5 /* MenuExhibitionSchema.graphql.swift in Sources */,
 				DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */,

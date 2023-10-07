@@ -31,6 +31,8 @@ extension MenuExhibitionSchema {
 
     static func objectType(forTypename typename: String) -> Object? {
       switch typename {
+      case "Mutation": return MenuExhibitionSchema.Objects.Mutation
+      case "Inquire": return MenuExhibitionSchema.Objects.Inquire
       case "Query": return MenuExhibitionSchema.Objects.Query
       case "Menu": return MenuExhibitionSchema.Objects.Menu
       case "News": return MenuExhibitionSchema.Objects.News

@@ -1,0 +1,8 @@
+mutation addInquire($title: String!, $purpose: String!, $text: String!) {
+  addInquire(inquireItem: { title: $title, purpose: $purpose, text: $text }) {
+    id
+    title
+    purpose
+    text
+  }
+}
