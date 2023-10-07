@@ -36,6 +36,9 @@
 		DE2416842AD21676009A93B5 /* RequestStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416832AD21676009A93B5 /* RequestStatus.swift */; };
 		DE2416862AD21C6B009A93B5 /* NewsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416852AD21C6B009A93B5 /* NewsEntity.swift */; };
 		DE2416882AD21D14009A93B5 /* MenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416872AD21D14009A93B5 /* MenuEntity.swift */; };
+		DE24168A2AD21F02009A93B5 /* NewsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416892AD21F02009A93B5 /* NewsRequest.swift */; };
+		DE24168C2AD21FAA009A93B5 /* MenuRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24168B2AD21FAA009A93B5 /* MenuRequest.swift */; };
+		DE24168E2AD220B0009A93B5 /* InquireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24168D2AD220B0009A93B5 /* InquireRequest.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -91,6 +94,9 @@
 		DE2416832AD21676009A93B5 /* RequestStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestStatus.swift; sourceTree = "<group>"; };
 		DE2416852AD21C6B009A93B5 /* NewsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEntity.swift; sourceTree = "<group>"; };
 		DE2416872AD21D14009A93B5 /* MenuEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuEntity.swift; sourceTree = "<group>"; };
+		DE2416892AD21F02009A93B5 /* NewsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRequest.swift; sourceTree = "<group>"; };
+		DE24168B2AD21FAA009A93B5 /* MenuRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRequest.swift; sourceTree = "<group>"; };
+		DE24168D2AD220B0009A93B5 /* InquireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireRequest.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -338,6 +344,9 @@
 		DE42334C2AA0015B0080AC2F /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				DE2416892AD21F02009A93B5 /* NewsRequest.swift */,
+				DE24168B2AD21FAA009A93B5 /* MenuRequest.swift */,
+				DE24168D2AD220B0009A93B5 /* InquireRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -550,6 +559,8 @@
 			files = (
 				DE24167E2AD17C0E009A93B5 /* AddInquireMutation.graphql.swift in Sources */,
 				DE2416382ACD263E009A93B5 /* GetAllNewsQuery.graphql.swift in Sources */,
+				DE24168A2AD21F02009A93B5 /* NewsRequest.swift in Sources */,
+				DE24168E2AD220B0009A93B5 /* InquireRequest.swift in Sources */,
 				DE4233472A9FFE470080AC2F /* MenuScreenView.swift in Sources */,
 				DE24163C2ACD263E009A93B5 /* News.graphql.swift in Sources */,
 				DE24163A2ACD263E009A93B5 /* Menu.graphql.swift in Sources */,
@@ -559,6 +570,7 @@
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
 				DE2416392ACD263E009A93B5 /* GetAllMenusQuery.graphql.swift in Sources */,
 				DE2416842AD21676009A93B5 /* RequestStatus.swift in Sources */,
+				DE24168C2AD21FAA009A93B5 /* MenuRequest.swift in Sources */,
 				DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */,
 				DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
