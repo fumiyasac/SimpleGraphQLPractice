@@ -33,13 +33,13 @@ extension MenuExhibitionSchema {
 
       static var __parentType: ApolloAPI.ParentType { MenuExhibitionSchema.Objects.Query }
       static var __selections: [ApolloAPI.Selection] { [
-        .field("getMenus", [GetMenu?]?.self, arguments: ["menuFilter": [
+        .field("getMenus", [GetMenu]?.self, arguments: ["menuFilter": [
           "dishType": .variable("dishType"),
           "categorySlug": .variable("categorySlug")
         ]]),
       ] }
 
-      var getMenus: [GetMenu?]? { __data["getMenus"] }
+      var getMenus: [GetMenu]? { __data["getMenus"] }
 
       /// GetMenu
       ///
@@ -51,7 +51,7 @@ extension MenuExhibitionSchema {
         static var __parentType: ApolloAPI.ParentType { MenuExhibitionSchema.Objects.Menu }
         static var __selections: [ApolloAPI.Selection] { [
           .field("__typename", String.self),
-          .field("id", MenuExhibitionSchema.ID?.self),
+          .field("id", MenuExhibitionSchema.ID.self),
           .field("name", String.self),
           .field("dishType", String.self),
           .field("categorySlug", String.self),
@@ -60,7 +60,7 @@ extension MenuExhibitionSchema {
           .field("thumbnail", String.self),
         ] }
 
-        var id: MenuExhibitionSchema.ID? { __data["id"] }
+        var id: MenuExhibitionSchema.ID { __data["id"] }
         var name: String { __data["name"] }
         var dishType: String { __data["dishType"] }
         var categorySlug: String { __data["categorySlug"] }

@@ -37,14 +37,14 @@ extension MenuExhibitionSchema {
 
       static var __parentType: ApolloAPI.ParentType { MenuExhibitionSchema.Objects.Mutation }
       static var __selections: [ApolloAPI.Selection] { [
-        .field("addInquire", AddInquire?.self, arguments: ["inquireItem": [
+        .field("addInquire", AddInquire.self, arguments: ["inquireItem": [
           "title": .variable("title"),
           "purpose": .variable("purpose"),
           "text": .variable("text")
         ]]),
       ] }
 
-      var addInquire: AddInquire? { __data["addInquire"] }
+      var addInquire: AddInquire { __data["addInquire"] }
 
       /// AddInquire
       ///
@@ -56,13 +56,13 @@ extension MenuExhibitionSchema {
         static var __parentType: ApolloAPI.ParentType { MenuExhibitionSchema.Objects.Inquire }
         static var __selections: [ApolloAPI.Selection] { [
           .field("__typename", String.self),
-          .field("id", MenuExhibitionSchema.ID?.self),
+          .field("id", MenuExhibitionSchema.ID.self),
           .field("title", String.self),
           .field("purpose", String.self),
           .field("text", String.self),
         ] }
 
-        var id: MenuExhibitionSchema.ID? { __data["id"] }
+        var id: MenuExhibitionSchema.ID { __data["id"] }
         var title: String { __data["title"] }
         var purpose: String { __data["purpose"] }
         var text: String { __data["text"] }

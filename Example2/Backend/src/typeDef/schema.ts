@@ -4,16 +4,16 @@ import { gql } from 'apollo-server-express';
 // Query＆Mutationに関する定義を記載する
 export const typeDefs = gql`
   type Query {
-    getNews: [News]
-    getMenus(menuFilter: MenuFilter): [Menu]
+    getNews: [News!]
+    getMenus(menuFilter: MenuFilter): [Menu!]
   }
 
   type Mutation {
-    addInquire(inquireItem: InquireItem): Inquire
+    addInquire(inquireItem: InquireItem): Inquire!
   }
 
   type News {
-    id: ID
+    id: ID!
     title: String!
     date: String!
     genre: String!
@@ -25,7 +25,7 @@ export const typeDefs = gql`
   }
 
   type Menu {
-    id: ID
+    id: ID!
     name: String!
     dishType: String!
     categorySlug: String!
@@ -41,7 +41,7 @@ export const typeDefs = gql`
   }
 
   type Inquire {
-    id: ID
+    id: ID!
     title: String!
     purpose: String!
     text: String!
