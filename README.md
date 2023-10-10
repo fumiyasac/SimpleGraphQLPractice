@@ -54,6 +54,12 @@ $ ./apollo-ios-cli generate
 
 ![v1.x系でのコード自動生成処理に関する設定](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/apollo_v1_configuration.png)
 
+__【コード自動生成処理後に関する】__
+
+下図は今回のサンプルプロジェクト(Example2)で自動生成したコードの概要になります。
+
+![v1.x系でのコード自動生成された関する項目](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/apollo_v1_auto_generated.png)
+
 ## 4. 簡単な実装サンプルの解説
 
 TBD
