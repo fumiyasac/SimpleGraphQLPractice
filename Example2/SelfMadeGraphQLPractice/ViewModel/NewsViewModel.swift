@@ -33,7 +33,7 @@ final class NewsViewModel: ObservableObject {
                 self.requestStatus = .success
             } catch let error {
                 // MEMO: 本来ならばエラーハンドリング処理等を入れる必要がある
-                print("Fetch Country List Error: " + error.localizedDescription)
+                print("Fetch NewsEntities Error: " + error.localizedDescription)
                 self.requestStatus = .failure
             }
         }

@@ -45,6 +45,7 @@
 		DE2416982AD23A1A009A93B5 /* InquireRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416972AD23A1A009A93B5 /* InquireRepository.swift */; };
 		DE24169A2AD43928009A93B5 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416992AD43928009A93B5 /* NewsViewModel.swift */; };
 		DE24169C2AD44312009A93B5 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24169B2AD44312009A93B5 /* MenuViewModel.swift */; };
+		DE24169E2AD7B498009A93B5 /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -109,6 +110,7 @@
 		DE2416972AD23A1A009A93B5 /* InquireRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireRepository.swift; sourceTree = "<group>"; };
 		DE2416992AD43928009A93B5 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		DE24169B2AD44312009A93B5 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -379,6 +381,7 @@
 		DE42334E2AA001720080AC2F /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */,
 				DE2416832AD21676009A93B5 /* RequestStatus.swift */,
 			);
 			path = Common;
@@ -584,6 +587,7 @@
 				DE24163C2ACD263E009A93B5 /* News.graphql.swift in Sources */,
 				DE24163A2ACD263E009A93B5 /* Menu.graphql.swift in Sources */,
 				DE2416882AD21D14009A93B5 /* MenuEntity.swift in Sources */,
+				DE24169E2AD7B498009A93B5 /* ConnectionErrorView.swift in Sources */,
 				DE4233492A9FFE610080AC2F /* NewsScreenView.swift in Sources */,
 				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE2416982AD23A1A009A93B5 /* InquireRepository.swift in Sources */,
