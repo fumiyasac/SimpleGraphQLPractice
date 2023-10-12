@@ -974,7 +974,7 @@
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.5.0;
+				minimumVersion = 1.6.0;
 			};
 		};
 		DE625A3D2A3B69D70005EE46 /* XCRemoteSwiftPackageReference "Quick" */ = {
@@ -990,7 +990,7 @@
 			repositoryURL = "https://github.com/Quick/Nimble.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 12.3.0;
+				minimumVersion = 13.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
