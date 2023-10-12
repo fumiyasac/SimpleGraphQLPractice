@@ -62,6 +62,90 @@ __【コード自動生成処理後に関する】__
 
 ## 4. 簡単な実装サンプルの解説
 
+サンプルの構成はオーソドックスな構成をベースに考えて、View要素と関係する処理については`@Published private(set) var xxx`で定義した変数との双方向Bindingの様な形を前提として処理を組み立てています。
+
+```
+View(Screen) ⇔ ViewModel ⇔ Repository ⇔ Request ⇔ GraphQLClient
+```
+
+__【GraphQL側の処理をasync/awaitで取り扱う】__
+
+```swift
+// 実装の参考:
+// 「apollo-ios」内のIssue内のディスカッションで紹介されていたコードを参考にしています。
+// Apollo内で用意されているQuery & Mutationの実行処理をasync/awaitでラッピングしている。
+// https://github.com/apollographql/apollo-ios/issues/2216
+
+// MARK: - ApolloClient Extension
+
+extension ApolloClient {
+
+    // GraphQLのQueryをする処理をasync/awaitの処理内で実行する
+    @discardableResult
+    func fetchAsync<Query: GraphQLQuery>(
+        query: Query,
+        cachePolicy: CachePolicy = .default,
+        contextIdentifier: UUID? = nil,
+        queue: DispatchQueue = .main
+    ) async throws -> GraphQLResult<Query.Data> {
+
+        // MEMO: withCheckedThrowingContinuationでErrorをthrowする形にしています。
+        return try await withCheckedThrowingContinuation { continuation in
+            fetch(
+                query: query,
+                cachePolicy: cachePolicy,
+                contextIdentifier: contextIdentifier,
+                queue: queue
+            ) { result in
+                switch result {
+                case .success(let value):
+                    continuation.resume(returning: value)
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                }
+            }
+        }
+    }
+
+    // GraphQLのMutationをする処理をasync/awaitの処理内で実行する
+    @discardableResult
+    func performAsync<Mutation: GraphQLMutation>(
+        mutation: Mutation,
+        publishResultToStore: Bool = true,
+        queue: DispatchQueue = .main
+    ) async throws -> GraphQLResult<Mutation.Data> {
+
+        // MEMO: withCheckedThrowingContinuationでErrorをthrowする形にしています。
+        return try await withCheckedThrowingContinuation { continuation in
+            perform(
+                mutation: mutation,
+                publishResultToStore: publishResultToStore,
+                queue: queue
+            ) { result in
+                switch result {
+                case .success(let value):
+                    continuation.resume(returning: value)
+                case .failure(let error):
+                    continuation.resume(throwing: error)
+                }
+            }
+        }
+    }
+}
+```
+
+__【Example1】__
+
+国情報一覧表示→詳細表示をするだけのシンプルなものになります。
+
+- GraphQL Server: https://countries.trevorblades.com/graphql
+
+国一覧画面 | 国詳細画面
+:--: | :--:
+<img src="images/example1_country_list_screen.png" width="300" /> | <img src="images/example1_country_detail_screen.png" width="300" />
+
+__【Example2】__
+
 TBD
 
 ## 参考1. 見比べ時の資料
