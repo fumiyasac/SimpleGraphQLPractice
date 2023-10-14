@@ -42,7 +42,7 @@ struct MenuScreenView: View {
                     EmptyView()
                 }
             }
-            .navigationBarTitle("アプリからのお知らせ", displayMode: .inline)
+            .navigationBarTitle("メニュー一覧表示", displayMode: .inline)
             .listStyle(.inset)
             .onFirstAppear(
                 onceExecuteAction: {
