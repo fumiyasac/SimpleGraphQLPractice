@@ -46,6 +46,7 @@
 		DE24169A2AD43928009A93B5 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416992AD43928009A93B5 /* NewsViewModel.swift */; };
 		DE24169C2AD44312009A93B5 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24169B2AD44312009A93B5 /* MenuViewModel.swift */; };
 		DE24169E2AD7B498009A93B5 /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */; };
+		DE2416A12ADA1175009A93B5 /* NewsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416A02ADA1175009A93B5 /* NewsListRow.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -111,6 +112,7 @@
 		DE2416992AD43928009A93B5 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		DE24169B2AD44312009A93B5 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
+		DE2416A02ADA1175009A93B5 /* NewsListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListRow.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -300,6 +302,14 @@
 			path = Mutations;
 			sourceTree = "<group>";
 		};
+		DE24169F2AD7B975009A93B5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DE2416A02ADA1175009A93B5 /* NewsListRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		DE42333A2A9F6AFC0080AC2F /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				DE0B8DB52A63BD9800ED79DC /* ContentView.swift */,
+				DE24169F2AD7B975009A93B5 /* Components */,
 				DE4233452A9FFE140080AC2F /* Screen */,
 			);
 			path = View;
@@ -602,6 +613,7 @@
 				DE24163E2ACD263E009A93B5 /* SchemaMetadata.graphql.swift in Sources */,
 				DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */,
 				DE2416942AD231D2009A93B5 /* NewsRepository.swift in Sources */,
+				DE2416A12ADA1175009A93B5 /* NewsListRow.swift in Sources */,
 				DE2416922AD23157009A93B5 /* InquireEntity.swift in Sources */,
 				DE24169A2AD43928009A93B5 /* NewsViewModel.swift in Sources */,
 				DE2416962AD2385D009A93B5 /* MenuRepository.swift in Sources */,
