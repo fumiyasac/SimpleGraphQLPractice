@@ -55,6 +55,10 @@
 		DE4233492A9FFE610080AC2F /* NewsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233482A9FFE610080AC2F /* NewsScreenView.swift */; };
 		DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */; };
 		DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */; };
+		DEEEEC7E2ADA9F7500EE3D87 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC7D2ADA9F7500EE3D87 /* MenuListRow.swift */; };
+		DEEEEC812ADACAEC00EE3D87 /* NewsGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */; };
+		DEEEEC832ADAD40C00EE3D87 /* DishType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC822ADAD40C00EE3D87 /* DishType.swift */; };
+		DEEEEC852ADAD67E00EE3D87 /* CategorySlug.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +126,10 @@
 		DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientExtension.swift; sourceTree = "<group>"; };
 		DE4233562AA19DB60080AC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClient.swift; sourceTree = "<group>"; };
+		DEEEEC7D2ADA9F7500EE3D87 /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
+		DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGenre.swift; sourceTree = "<group>"; };
+		DEEEEC822ADAD40C00EE3D87 /* DishType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishType.swift; sourceTree = "<group>"; };
+		DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySlug.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +192,7 @@
 				DE42334F2AA001820080AC2F /* Client */,
 				DE42334E2AA001720080AC2F /* Common */,
 				DE42334D2AA001670080AC2F /* Entity */,
+				DEEEEC7F2ADAC89B00EE3D87 /* Enum */,
 				DE42333E2A9F6BCA0080AC2F /* Extension */,
 				DE42334A2AA0014A0080AC2F /* GraphQL */,
 				DE42334B2AA001520080AC2F /* Repository */,
@@ -306,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				DE2416A02ADA1175009A93B5 /* NewsListRow.swift */,
+				DEEEEC7D2ADA9F7500EE3D87 /* MenuListRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -437,6 +447,16 @@
 			children = (
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		DEEEEC7F2ADAC89B00EE3D87 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */,
+				DEEEEC822ADAD40C00EE3D87 /* DishType.swift */,
+				DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -606,6 +626,7 @@
 				DE2416392ACD263E009A93B5 /* GetAllMenusQuery.graphql.swift in Sources */,
 				DE2416842AD21676009A93B5 /* RequestStatus.swift in Sources */,
 				DE24168C2AD21FAA009A93B5 /* MenuRequest.swift in Sources */,
+				DEEEEC812ADACAEC00EE3D87 /* NewsGenre.swift in Sources */,
 				DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */,
 				DE2416812AD17C77009A93B5 /* Inquire.graphql.swift in Sources */,
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
@@ -614,12 +635,15 @@
 				DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */,
 				DE2416942AD231D2009A93B5 /* NewsRepository.swift in Sources */,
 				DE2416A12ADA1175009A93B5 /* NewsListRow.swift in Sources */,
+				DEEEEC7E2ADA9F7500EE3D87 /* MenuListRow.swift in Sources */,
+				DEEEEC832ADAD40C00EE3D87 /* DishType.swift in Sources */,
 				DE2416922AD23157009A93B5 /* InquireEntity.swift in Sources */,
 				DE24169A2AD43928009A93B5 /* NewsViewModel.swift in Sources */,
 				DE2416962AD2385D009A93B5 /* MenuRepository.swift in Sources */,
 				DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */,
 				DE24163F2ACD263E009A93B5 /* MenuExhibitionSchema.graphql.swift in Sources */,
 				DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */,
+				DEEEEC852ADAD67E00EE3D87 /* CategorySlug.swift in Sources */,
 				DE24163D2ACD263E009A93B5 /* SchemaConfiguration.swift in Sources */,
 				DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */,
 				DE2416862AD21C6B009A93B5 /* NewsEntity.swift in Sources */,

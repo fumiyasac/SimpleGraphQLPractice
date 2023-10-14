@@ -40,12 +40,12 @@ struct NewsListRow: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
             // メインの情報表示部分
-            HStack(alignment: .top, spacing: 0.0) {
+            HStack(spacing: 0.0) {
                 // 1. サムネイル画像表示
                 Image(getImageName(genre: newsEntity.genre))
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 100.0)
+                    .frame(width: 90.0, height: 60.0)
                     .cornerRadius(4.0)
                     .padding(.trailing, 12.0)
                 // 2. 文言表示
@@ -58,9 +58,9 @@ struct NewsListRow: View {
                     Text(newsEntity.title)
                         .font(titleFont)
                         .foregroundColor(titleColor)
-                        .lineSpacing(4.0)
+                        .lineSpacing(2.0)
                         .lineLimit(2)
-                        .padding(.top, 8.0)
+                        .padding(.top, 6.0)
                 }
             }
         }
@@ -69,7 +69,7 @@ struct NewsListRow: View {
     // MARK: - Private Function
 
     private func getImageName(genre: String) -> String {
-        "0000_news_\(genre)"
+        NewsGenre(rawValue: newsEntity.genre)?.imageAssetName ?? ""
     }
 }
 
