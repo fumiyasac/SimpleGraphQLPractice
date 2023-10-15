@@ -15,9 +15,6 @@
 		DE0B8DD12A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B8DD02A63BD9900ED79DC /* SelfMadeGraphQLPracticeUITestsLaunchTests.swift */; };
 		DE1DF5F92A9C1644005490CE /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF5F82A9C1644005490CE /* Apollo */; };
 		DE1DF5FC2A9C1795005490CE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF5FB2A9C1795005490CE /* SDWebImageSwiftUI */; };
-		DE1DF6082A9C1970005490CE /* CombineExpectations in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF6072A9C1970005490CE /* CombineExpectations */; };
-		DE1DF60A2A9C1976005490CE /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF6092A9C1976005490CE /* Quick */; };
-		DE1DF60C2A9C197A005490CE /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = DE1DF60B2A9C197A005490CE /* Nimble */; };
 		DE2416242ACD21D6009A93B5 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = DE2416232ACD21D6009A93B5 /* schema.json */; };
 		DE2416272ACD25DB009A93B5 /* GetAllNews.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DE2416262ACD25DB009A93B5 /* GetAllNews.graphql */; };
 		DE2416292ACD25F0009A93B5 /* GetAllMenus.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DE2416282ACD25F0009A93B5 /* GetAllMenus.graphql */; };
@@ -154,9 +151,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1DF60C2A9C197A005490CE /* Nimble in Frameworks */,
-				DE1DF60A2A9C1976005490CE /* Quick in Frameworks */,
-				DE1DF6082A9C1970005490CE /* CombineExpectations in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +199,6 @@
 				DE42334A2AA0014A0080AC2F /* GraphQL */,
 				DE42334B2AA001520080AC2F /* Repository */,
 				DE42334C2AA0015B0080AC2F /* Request */,
-				DE4233512AA001D30080AC2F /* Testing */,
 				DE42333B2A9F6B0C0080AC2F /* View */,
 				DE4233502AA001C80080AC2F /* ViewModel */,
 				DE0B8DB92A63BD9900ED79DC /* Preview Content */,
@@ -438,29 +431,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		DE4233512AA001D30080AC2F /* Testing */ = {
-			isa = PBXGroup;
-			children = (
-				DE4233532AA001E70080AC2F /* Mock */,
-				DE4233522AA001DF0080AC2F /* Seed */,
-			);
-			path = Testing;
-			sourceTree = "<group>";
-		};
-		DE4233522AA001DF0080AC2F /* Seed */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Seed;
-			sourceTree = "<group>";
-		};
-		DE4233532AA001E70080AC2F /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
 		DEEEEC7F2ADAC89B00EE3D87 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
@@ -510,9 +480,6 @@
 			);
 			name = SelfMadeGraphQLPracticeTests;
 			packageProductDependencies = (
-				DE1DF6072A9C1970005490CE /* CombineExpectations */,
-				DE1DF6092A9C1976005490CE /* Quick */,
-				DE1DF60B2A9C197A005490CE /* Nimble */,
 			);
 			productName = SelfMadeGraphQLPracticeTests;
 			productReference = DE0B8DC02A63BD9900ED79DC /* SelfMadeGraphQLPracticeTests.xctest */;
@@ -571,9 +538,6 @@
 			packageReferences = (
 				DE1DF5F72A9C1644005490CE /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				DE1DF5FA2A9C1795005490CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				DE1DF5FD2A9C1827005490CE /* XCRemoteSwiftPackageReference "CombineExpectations" */,
-				DE1DF6002A9C1892005490CE /* XCRemoteSwiftPackageReference "Quick" */,
-				DE1DF6032A9C18D5005490CE /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = DE0B8DB12A63BD9800ED79DC /* Products */;
 			projectDirPath = "";
@@ -1005,30 +969,6 @@
 				minimumVersion = 2.2.0;
 			};
 		};
-		DE1DF5FD2A9C1827005490CE /* XCRemoteSwiftPackageReference "CombineExpectations" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/groue/CombineExpectations.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DE1DF6002A9C1892005490CE /* XCRemoteSwiftPackageReference "Quick" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Quick.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 7.3.0;
-			};
-		};
-		DE1DF6032A9C18D5005490CE /* XCRemoteSwiftPackageReference "Nimble" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Quick/Nimble.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 13.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1041,21 +981,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE1DF5FA2A9C1795005490CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
-		};
-		DE1DF6072A9C1970005490CE /* CombineExpectations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE1DF5FD2A9C1827005490CE /* XCRemoteSwiftPackageReference "CombineExpectations" */;
-			productName = CombineExpectations;
-		};
-		DE1DF6092A9C1976005490CE /* Quick */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE1DF6002A9C1892005490CE /* XCRemoteSwiftPackageReference "Quick" */;
-			productName = Quick;
-		};
-		DE1DF60B2A9C197A005490CE /* Nimble */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DE1DF6032A9C18D5005490CE /* XCRemoteSwiftPackageReference "Nimble" */;
-			productName = Nimble;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
