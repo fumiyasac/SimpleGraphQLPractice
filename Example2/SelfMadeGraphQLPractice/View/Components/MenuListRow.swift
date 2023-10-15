@@ -71,29 +71,15 @@ struct MenuListRow: View {
                         .font(titleFont)
                         .foregroundColor(titleColor)
                     // 2-(2). フィルター項目(カテゴリーや区分)
-                    HStack(alignment: .top, spacing: 0.0) {
-                        Text(getDishTypeName())
-                            .font(filterNameFont)
-                            .foregroundColor(filterNameColor)
-                        Spacer()
-                            .frame(width: 8.0)
-                        Text(getCategorySlugName())
-                            .font(filterNameFont)
-                            .foregroundColor(filterNameColor)
-                    }
-                    .padding(.top, 4.0)
+                    Text(getDishTypeName() + " / " + getCategorySlugName())
+                        .font(filterNameFont)
+                        .foregroundColor(filterNameColor)
+                        .padding(.top, 4.0)
                     // 2-(3). タイトル
-                    HStack(alignment: .top, spacing: 0.0) {
-                        Text("カロリー: \(menuEntity.kcal) [kcal]")
-                            .font(subItemFont)
-                            .foregroundColor(subItemColor)
-                        Spacer()
-                            .frame(width: 8.0)
-                        Text("値段: \(menuEntity.price) [円]")
-                            .font(subItemFont)
-                            .foregroundColor(subItemColor)
-                    }
-                    .padding(.top, 4.0)
+                    Text("カロリー: \(menuEntity.kcal) [kcal]" + "・" + "値段: \(menuEntity.price) [円]")
+                        .font(subItemFont)
+                        .foregroundColor(subItemColor)
+                        .padding(.top, 4.0)
                 }
             }
         }
