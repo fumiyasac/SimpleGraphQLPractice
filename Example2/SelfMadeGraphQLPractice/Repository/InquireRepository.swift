@@ -11,7 +11,6 @@ import Foundation
 protocol InquireRepository {
     func addInquire(
         title: String,
-        purpose: String,
         text: String
     ) async throws -> InquireEntity?
 }
@@ -32,12 +31,10 @@ final class InquireRepositoryImpl: InquireRepository {
 
     func addInquire(
         title: String,
-        purpose: String, 
         text: String
     ) async throws -> InquireEntity? {
         let result = try await inquireRequest.addResult(
             title: title,
-            purpose: purpose,
             text: text
         )
         return convertToEntities(result: result)
@@ -50,7 +47,6 @@ final class InquireRepositoryImpl: InquireRepository {
             return InquireEntity(
                 id: addInquire.id,
                 title: addInquire.title,
-                purpose: addInquire.purpose,
                 text: addInquire.text
             )
         } else {

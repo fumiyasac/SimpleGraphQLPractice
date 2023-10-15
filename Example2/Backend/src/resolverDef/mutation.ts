@@ -7,7 +7,6 @@ export const mutation = {
     const newInquire = {
       id: context.inquire.length + 1,
       title: inquireItem.title,
-      purpose: inquireItem.purpose,
       text: inquireItem.text
     }
     context.inquire.push(newInquire);

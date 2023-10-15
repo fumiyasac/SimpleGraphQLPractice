@@ -8,26 +8,22 @@ extension MenuExhibitionSchema {
     static let operationName: String = "addInquire"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"mutation addInquire($title: String!, $purpose: String!, $text: String!) { addInquire(inquireItem: {title: $title, purpose: $purpose, text: $text}) { __typename id title purpose text } }"#
+        #"mutation addInquire($title: String!, $text: String!) { addInquire(inquireItem: {title: $title, text: $text}) { __typename id title text } }"#
       ))
 
     public var title: String
-    public var purpose: String
     public var text: String
 
     public init(
       title: String,
-      purpose: String,
       text: String
     ) {
       self.title = title
-      self.purpose = purpose
       self.text = text
     }
 
     public var __variables: Variables? { [
       "title": title,
-      "purpose": purpose,
       "text": text
     ] }
 
@@ -39,7 +35,6 @@ extension MenuExhibitionSchema {
       static var __selections: [ApolloAPI.Selection] { [
         .field("addInquire", AddInquire.self, arguments: ["inquireItem": [
           "title": .variable("title"),
-          "purpose": .variable("purpose"),
           "text": .variable("text")
         ]]),
       ] }
@@ -58,13 +53,11 @@ extension MenuExhibitionSchema {
           .field("__typename", String.self),
           .field("id", MenuExhibitionSchema.ID.self),
           .field("title", String.self),
-          .field("purpose", String.self),
           .field("text", String.self),
         ] }
 
         var id: MenuExhibitionSchema.ID { __data["id"] }
         var title: String { __data["title"] }
-        var purpose: String { __data["purpose"] }
         var text: String { __data["text"] }
       }
     }

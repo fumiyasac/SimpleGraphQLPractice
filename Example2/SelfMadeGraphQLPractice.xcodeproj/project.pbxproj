@@ -62,6 +62,7 @@
 		DEEEEC892ADB6C9A00EE3D87 /* SelectCategorySlugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC882ADB6C9A00EE3D87 /* SelectCategorySlugView.swift */; };
 		DEEEEC8B2ADB78BC00EE3D87 /* SelectDishTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC8A2ADB78BC00EE3D87 /* SelectDishTypeView.swift */; };
 		DEEEEC8D2ADBE84400EE3D87 /* InqureScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC8C2ADBE84400EE3D87 /* InqureScreenView.swift */; };
+		DEEEEC8F2ADBFE2C00EE3D87 /* InquireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC8E2ADBFE2C00EE3D87 /* InquireViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		DEEEEC882ADB6C9A00EE3D87 /* SelectCategorySlugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategorySlugView.swift; sourceTree = "<group>"; };
 		DEEEEC8A2ADB78BC00EE3D87 /* SelectDishTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDishTypeView.swift; sourceTree = "<group>"; };
 		DEEEEC8C2ADBE84400EE3D87 /* InqureScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InqureScreenView.swift; sourceTree = "<group>"; };
+		DEEEEC8E2ADBFE2C00EE3D87 /* InquireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -431,6 +433,7 @@
 			children = (
 				DE2416992AD43928009A93B5 /* NewsViewModel.swift */,
 				DE24169B2AD44312009A93B5 /* MenuViewModel.swift */,
+				DEEEEC8E2ADBFE2C00EE3D87 /* InquireViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -628,6 +631,7 @@
 				DE24163C2ACD263E009A93B5 /* News.graphql.swift in Sources */,
 				DE24163A2ACD263E009A93B5 /* Menu.graphql.swift in Sources */,
 				DE2416882AD21D14009A93B5 /* MenuEntity.swift in Sources */,
+				DEEEEC8F2ADBFE2C00EE3D87 /* InquireViewModel.swift in Sources */,
 				DE24169E2AD7B498009A93B5 /* ConnectionErrorView.swift in Sources */,
 				DE4233492A9FFE610080AC2F /* NewsScreenView.swift in Sources */,
 				DEEEEC892ADB6C9A00EE3D87 /* SelectCategorySlugView.swift in Sources */,

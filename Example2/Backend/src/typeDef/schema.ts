@@ -36,14 +36,12 @@ export const typeDefs = gql`
 
   input InquireItem {
     title: String!
-    purpose: String!
     text: String!
   }
 
   type Inquire {
     id: ID!
     title: String!
-    purpose: String!
     text: String!
   }
 `;

@@ -13,7 +13,6 @@ struct InquireEntity: Hashable {
 
     let id: String
     let title: String
-    let purpose: String
     let text: String
 
     // MARK: - Initializer
@@ -21,12 +20,10 @@ struct InquireEntity: Hashable {
     init(
         id: String,
         title: String,
-        purpose: String,
         text: String
     ) {
         self.id = id
         self.title = title
-        self.purpose = purpose
         self.text = text
     }
 
@@ -39,7 +36,6 @@ struct InquireEntity: Hashable {
     static func == (lhs: InquireEntity, rhs: InquireEntity) -> Bool {
         return lhs.id == rhs.id
             && lhs.title == rhs.title
-            && lhs.purpose == rhs.purpose
             && lhs.text == rhs.text
     }
 }

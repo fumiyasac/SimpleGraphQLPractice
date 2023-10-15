@@ -11,7 +11,6 @@ import Foundation
 protocol InquireRequest {
     func addResult(
         title: String,
-        purpose: String,
         text: String
     ) async throws -> GraphQLResult<MenuExhibitionSchema.AddInquireMutation.Data>
 }
@@ -32,12 +31,10 @@ final class InquireRequestImpl: InquireRequest {
 
     func addResult(
         title: String,
-        purpose: String,
         text: String
     ) async throws -> GraphQLResult<MenuExhibitionSchema.AddInquireMutation.Data> {
         let mutation = MenuExhibitionSchema.AddInquireMutation(
             title: title,
-            purpose: purpose,
             text: text
         )
         return try await apolloClient.performAsync(mutation: mutation)
