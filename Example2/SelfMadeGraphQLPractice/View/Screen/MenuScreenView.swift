@@ -52,9 +52,3 @@ struct MenuScreenView: View {
         }
     }
 }
-
-// MARK: - Preview
-
-#Preview {
-    MenuScreenView()
-}

@@ -42,7 +42,7 @@ struct NewsListRow: View {
             // メインの情報表示部分
             HStack(spacing: 0.0) {
                 // 1. サムネイル画像表示
-                Image(getImageName(genre: newsEntity.genre))
+                Image(getImageName())
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 90.0, height: 60.0)
@@ -68,7 +68,7 @@ struct NewsListRow: View {
 
     // MARK: - Private Function
 
-    private func getImageName(genre: String) -> String {
+    private func getImageName() -> String {
         NewsGenre(rawValue: newsEntity.genre)?.imageAssetName ?? ""
     }
 }

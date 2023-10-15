@@ -72,12 +72,12 @@ struct MenuListRow: View {
                         .foregroundColor(titleColor)
                     // 2-(2). フィルター項目(カテゴリーや区分)
                     HStack(alignment: .top, spacing: 0.0) {
-                        Text(menuEntity.dishType)
+                        Text(getDishTypeName())
                             .font(filterNameFont)
                             .foregroundColor(filterNameColor)
                         Spacer()
                             .frame(width: 8.0)
-                        Text(menuEntity.categorySlug)
+                        Text(getCategorySlugName())
                             .font(filterNameFont)
                             .foregroundColor(filterNameColor)
                     }
@@ -97,6 +97,16 @@ struct MenuListRow: View {
                 }
             }
         }
+    }
+
+    // MARK: - Private Function
+
+    private func getDishTypeName() -> String {
+        DishType(rawValue: menuEntity.dishType)?.name ?? ""
+    }
+
+    private func getCategorySlugName() -> String {
+        CategorySlug(rawValue: menuEntity.categorySlug)?.name ?? ""
     }
 }
 
