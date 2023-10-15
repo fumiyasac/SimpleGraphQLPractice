@@ -31,6 +31,8 @@ final class MenuViewModel: ObservableObject {
         categorySlug: String?
     ) {
         Task { @MainActor in
+            self.dishType = dishType
+            self.categorySlug = categorySlug
             self.requestStatus = .requesting
             do {
                 // MEMO: async/awaitベースの処理で必要な値を取得し、その後`@Published`で定義した値を更新する

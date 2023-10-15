@@ -81,6 +81,8 @@ struct MenuListRowView: View {
                         .foregroundColor(subItemColor)
                         .padding(.top, 4.0)
                 }
+                // 3. 調整用Spacer
+                Spacer()
             }
         }
     }

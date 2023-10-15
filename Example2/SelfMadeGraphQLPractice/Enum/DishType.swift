@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum DishType: String {
+enum DishType: String, CaseIterable {
     case mainDish = "main_dish"
     case subDish = "sub_dish"
     case stapleFood = "staple_food"

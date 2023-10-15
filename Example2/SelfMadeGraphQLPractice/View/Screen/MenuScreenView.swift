@@ -23,6 +23,20 @@ struct MenuScreenView: View {
 
     var body: some View {
         NavigationStack {
+            // カテゴリーでの絞り込み検索バー表示
+            SelectCategorySlugView(
+                selectedCategorySlug: viewModel.categorySlug ?? "",
+                tapCategorySlugChipAction: { selectedCategorySlug in
+                    viewModel.fetchMenu(dishType: viewModel.dishType, categorySlug: selectedCategorySlug)
+                }
+            )
+            // 食事バランスガイドでの絞り込み検索バー表示
+            SelectDishTypeView(
+                selectedDishType: viewModel.dishType ?? "",
+                tapDishTypeChipAction: { selectedDishType in
+                    viewModel.fetchMenu(dishType: selectedDishType, categorySlug: viewModel.categorySlug)
+                }
+            )
             List {
                 switch viewModel.requestStatus {
                 case .success:

@@ -59,6 +59,8 @@
 		DEEEEC812ADACAEC00EE3D87 /* NewsGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */; };
 		DEEEEC832ADAD40C00EE3D87 /* DishType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC822ADAD40C00EE3D87 /* DishType.swift */; };
 		DEEEEC852ADAD67E00EE3D87 /* CategorySlug.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */; };
+		DEEEEC892ADB6C9A00EE3D87 /* SelectCategorySlugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC882ADB6C9A00EE3D87 /* SelectCategorySlugView.swift */; };
+		DEEEEC8B2ADB78BC00EE3D87 /* SelectDishTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC8A2ADB78BC00EE3D87 /* SelectDishTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,8 @@
 		DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGenre.swift; sourceTree = "<group>"; };
 		DEEEEC822ADAD40C00EE3D87 /* DishType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishType.swift; sourceTree = "<group>"; };
 		DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySlug.swift; sourceTree = "<group>"; };
+		DEEEEC882ADB6C9A00EE3D87 /* SelectCategorySlugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategorySlugView.swift; sourceTree = "<group>"; };
+		DEEEEC8A2ADB78BC00EE3D87 /* SelectDishTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDishTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +320,8 @@
 			children = (
 				DE2416A02ADA1175009A93B5 /* NewsListRowView.swift */,
 				DEEEEC7D2ADA9F7500EE3D87 /* MenuListRowView.swift */,
+				DEEEEC882ADB6C9A00EE3D87 /* SelectCategorySlugView.swift */,
+				DEEEEC8A2ADB78BC00EE3D87 /* SelectDishTypeView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -620,6 +626,7 @@
 				DE2416882AD21D14009A93B5 /* MenuEntity.swift in Sources */,
 				DE24169E2AD7B498009A93B5 /* ConnectionErrorView.swift in Sources */,
 				DE4233492A9FFE610080AC2F /* NewsScreenView.swift in Sources */,
+				DEEEEC892ADB6C9A00EE3D87 /* SelectCategorySlugView.swift in Sources */,
 				DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */,
 				DE2416982AD23A1A009A93B5 /* InquireRepository.swift in Sources */,
 				DE4233442A9FF9A90080AC2F /* FirstAppearExtension.swift in Sources */,
@@ -632,6 +639,7 @@
 				DE0B8DB62A63BD9800ED79DC /* ContentView.swift in Sources */,
 				DE0B8DB42A63BD9800ED79DC /* SelfMadeGraphQLPracticeApp.swift in Sources */,
 				DE24163E2ACD263E009A93B5 /* SchemaMetadata.graphql.swift in Sources */,
+				DEEEEC8B2ADB78BC00EE3D87 /* SelectDishTypeView.swift in Sources */,
 				DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */,
 				DE2416942AD231D2009A93B5 /* NewsRepository.swift in Sources */,
 				DE2416A12ADA1175009A93B5 /* NewsListRowView.swift in Sources */,

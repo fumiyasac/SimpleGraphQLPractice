@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CategorySlug: String {
+enum CategorySlug: String, CaseIterable {
     case fish
     case meat
     case noodle
