@@ -28,7 +28,7 @@ struct MenuScreenView: View {
                 case .success:
                     // お知らせ一覧を取得して表示する
                     ForEach(viewModel.menuEntities, id: \.id) { menuEntity in
-                        MenuListRow(menuEntity: menuEntity)
+                        MenuListRowView(menuEntity: menuEntity)
                     }
                 case .failure:
                     // リクエストを再実行をするためのErrorView表示する

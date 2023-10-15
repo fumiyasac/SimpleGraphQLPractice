@@ -46,7 +46,7 @@
 		DE24169A2AD43928009A93B5 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416992AD43928009A93B5 /* NewsViewModel.swift */; };
 		DE24169C2AD44312009A93B5 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24169B2AD44312009A93B5 /* MenuViewModel.swift */; };
 		DE24169E2AD7B498009A93B5 /* ConnectionErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */; };
-		DE2416A12ADA1175009A93B5 /* NewsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416A02ADA1175009A93B5 /* NewsListRow.swift */; };
+		DE2416A12ADA1175009A93B5 /* NewsListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416A02ADA1175009A93B5 /* NewsListRowView.swift */; };
 		DE42333D2A9F6BA50080AC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */; };
 		DE4233402A9F6BEA0080AC2F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */; };
 		DE4233422A9F6C0D0080AC2F /* SwiftUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */; };
@@ -55,7 +55,7 @@
 		DE4233492A9FFE610080AC2F /* NewsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233482A9FFE610080AC2F /* NewsScreenView.swift */; };
 		DE4233552AA19CC00080AC2F /* ApolloClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */; };
 		DE82C77E2AA3F99A0012BEA7 /* GraphQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */; };
-		DEEEEC7E2ADA9F7500EE3D87 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC7D2ADA9F7500EE3D87 /* MenuListRow.swift */; };
+		DEEEEC7E2ADA9F7500EE3D87 /* MenuListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC7D2ADA9F7500EE3D87 /* MenuListRowView.swift */; };
 		DEEEEC812ADACAEC00EE3D87 /* NewsGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */; };
 		DEEEEC832ADAD40C00EE3D87 /* DishType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC822ADAD40C00EE3D87 /* DishType.swift */; };
 		DEEEEC852ADAD67E00EE3D87 /* CategorySlug.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */; };
@@ -116,7 +116,7 @@
 		DE2416992AD43928009A93B5 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		DE24169B2AD44312009A93B5 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		DE24169D2AD7B498009A93B5 /* ConnectionErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionErrorView.swift; sourceTree = "<group>"; };
-		DE2416A02ADA1175009A93B5 /* NewsListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListRow.swift; sourceTree = "<group>"; };
+		DE2416A02ADA1175009A93B5 /* NewsListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListRowView.swift; sourceTree = "<group>"; };
 		DE42333C2A9F6BA50080AC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE42333F2A9F6BEA0080AC2F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE4233412A9F6C0D0080AC2F /* SwiftUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColorExtension.swift; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		DE4233542AA19CC00080AC2F /* ApolloClientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloClientExtension.swift; sourceTree = "<group>"; };
 		DE4233562AA19DB60080AC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DE82C77D2AA3F99A0012BEA7 /* GraphQLClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClient.swift; sourceTree = "<group>"; };
-		DEEEEC7D2ADA9F7500EE3D87 /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
+		DEEEEC7D2ADA9F7500EE3D87 /* MenuListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRowView.swift; sourceTree = "<group>"; };
 		DEEEEC802ADACAEC00EE3D87 /* NewsGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGenre.swift; sourceTree = "<group>"; };
 		DEEEEC822ADAD40C00EE3D87 /* DishType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishType.swift; sourceTree = "<group>"; };
 		DEEEEC842ADAD67E00EE3D87 /* CategorySlug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySlug.swift; sourceTree = "<group>"; };
@@ -314,8 +314,8 @@
 		DE24169F2AD7B975009A93B5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				DE2416A02ADA1175009A93B5 /* NewsListRow.swift */,
-				DEEEEC7D2ADA9F7500EE3D87 /* MenuListRow.swift */,
+				DE2416A02ADA1175009A93B5 /* NewsListRowView.swift */,
+				DEEEEC7D2ADA9F7500EE3D87 /* MenuListRowView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -634,8 +634,8 @@
 				DE24163E2ACD263E009A93B5 /* SchemaMetadata.graphql.swift in Sources */,
 				DE2416822AD17C77009A93B5 /* Mutation.graphql.swift in Sources */,
 				DE2416942AD231D2009A93B5 /* NewsRepository.swift in Sources */,
-				DE2416A12ADA1175009A93B5 /* NewsListRow.swift in Sources */,
-				DEEEEC7E2ADA9F7500EE3D87 /* MenuListRow.swift in Sources */,
+				DE2416A12ADA1175009A93B5 /* NewsListRowView.swift in Sources */,
+				DEEEEC7E2ADA9F7500EE3D87 /* MenuListRowView.swift in Sources */,
 				DEEEEC832ADAD40C00EE3D87 /* DishType.swift in Sources */,
 				DE2416922AD23157009A93B5 /* InquireEntity.swift in Sources */,
 				DE24169A2AD43928009A93B5 /* NewsViewModel.swift in Sources */,

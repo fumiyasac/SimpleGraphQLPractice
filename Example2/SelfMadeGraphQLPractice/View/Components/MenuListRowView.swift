@@ -1,5 +1,5 @@
 //
-//  MenuListRow.swift
+//  MenuListRowView.swift
 //  SelfMadeGraphQLPractice
 //
 //  Created by 酒井文也 on 2023/10/14.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
-struct MenuListRow: View {
+struct MenuListRowView: View {
 
     // MARK: - Property
 
@@ -97,7 +97,7 @@ struct MenuListRow: View {
 }
 
 #Preview {
-    MenuListRow(
+    MenuListRowView(
         menuEntity: MenuEntity(
             id: "1",
             name: "アジフライ",

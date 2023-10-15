@@ -1,5 +1,5 @@
 //
-//  NewsListRow.swift
+//  NewsListRowView.swift
 //  SelfMadeGraphQLPractice
 //
 //  Created by 酒井文也 on 2023/10/14.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NewsListRow: View {
+struct NewsListRowView: View {
 
     // MARK: - Property
 
@@ -75,5 +75,5 @@ struct NewsListRow: View {
 
 #Preview {
     let newsEntity = NewsEntity(id: "1", title: "モバイルアプリがバージョンアップ(v3.0.0)をしました", date: "2023/09/28", genre: "mobile")
-    return NewsListRow(newsEntity: newsEntity)
+    return NewsListRowView(newsEntity: newsEntity)
 }

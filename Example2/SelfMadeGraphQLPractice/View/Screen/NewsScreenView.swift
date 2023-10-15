@@ -28,7 +28,7 @@ struct NewsScreenView: View {
                 case .success:
                     // お知らせ一覧を取得して表示する
                     ForEach(viewModel.newsEntities, id: \.id) { newsEntity in
-                        NewsListRow(newsEntity: newsEntity)
+                        NewsListRowView(newsEntity: newsEntity)
                     }
                 case .failure:
                     // リクエストを再実行をするためのErrorView表示する
