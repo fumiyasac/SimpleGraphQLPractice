@@ -57,6 +57,21 @@ struct MenuScreenView: View {
                 }
             }
             .navigationBarTitle("メニュー一覧表示", displayMode: .inline)
+            .navigationBarItems(
+                trailing: Button(
+                    action: {}, 
+                    label: {
+                        //
+                        NavigationLink(
+                            destination: InqureScreenView(),
+                            label: {
+                                Image(systemName: "envelope.fill")
+                                    .foregroundColor(.white)
+                            }
+                        )
+                    }
+                )
+            )
             .listStyle(.inset)
             .onFirstAppear(
                 onceExecuteAction: {
