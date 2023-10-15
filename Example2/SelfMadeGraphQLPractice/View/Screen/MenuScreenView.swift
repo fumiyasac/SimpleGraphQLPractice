@@ -11,7 +11,7 @@ struct MenuScreenView: View {
 
     // MARK: - Property
 
-    @ObservedObject private var viewModel: MenuViewModel = MenuViewModel()
+    @ObservedObject private var viewModel: MenuViewModel
 
     // MARK: - Initializer
 

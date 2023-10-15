@@ -11,7 +11,7 @@ struct NewsScreenView: View {
 
     // MARK: - Property
 
-    @ObservedObject private var viewModel: NewsViewModel = NewsViewModel()
+    @ObservedObject private var viewModel: NewsViewModel
 
     // MARK: - Initializer
 
