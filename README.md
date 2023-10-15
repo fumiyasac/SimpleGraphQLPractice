@@ -66,6 +66,7 @@ __【コード自動生成処理後に関する】__
 
 ```
 View(Screen) ⇔ ViewModel ⇔ Repository ⇔ Request ⇔ GraphQLClient
+※ 部品用のView要素については、なるべくEntityと結びついた形を取っています。
 ```
 
 __【GraphQL側の処理をasync/awaitで取り扱う】__
@@ -146,7 +147,26 @@ __【Example1】__
 
 __【Example2】__
 
-TBD
+お料理メニュー一覧表示→絞り込み検索やお問い合わせ送信をするだけのシンプルなものになります。
+
+- GraphQL Server: http://localhost:4000/graphql
+  ※ ローカル環境で起動して確認をする様にしてください。
+
+```shell
+# package.jsonに記載している内容をインストールする
+$ yarn
+
+# GraphQL Serverを起動する
+$ yarn dev
+```
+
+メニュー検索画面 | お知らせ一覧画面
+:--: | :--:
+<img src="images/example2_menu_list_screen.png" width="300" /> | <img src="images/example2_news_list_screen.png" width="300" />
+
+お問い合わせ画面 | お問い合わせ入力状態
+:--: | :--:
+<img src="images/example2_inquire_default_screen.png" width="300" /> | <img src="images/example2_inquire_input_screen.png" width="300" />
 
 ## 参考1. 見比べ時の資料
 
