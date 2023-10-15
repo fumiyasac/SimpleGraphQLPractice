@@ -75,13 +75,13 @@ struct SelectDishTypeView: View {
                     .padding(.top, 12.0)
                 Spacer()
             }
-            // カテゴリー一覧表示に関連する部分
+            // 食事バランスガイド一覧表示に関連する部分
             HStack {
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 8.0) {
                         ForEach(DishType.allCases, id: \.self) { targetDishType in
                             let selected = (selectedDishType == targetDishType.rawValue)
-                            // Category表示用のChip型部分
+                            // 食事バランスガイド表示用のChip型部分
                             VStack(alignment: .leading) {
                                 Text(targetDishType.name)
                                     .font(selected ? selectedDishTypeFont : normalDishTypeFont)
