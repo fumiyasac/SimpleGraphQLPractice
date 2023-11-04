@@ -63,7 +63,7 @@ struct MenuScreenView: View {
                     label: {
                         //
                         NavigationLink(
-                            destination: InqureScreenView(),
+                            destination: InquireScreenView(),
                             label: {
                                 Image(systemName: "envelope.fill")
                                     .foregroundColor(.white)

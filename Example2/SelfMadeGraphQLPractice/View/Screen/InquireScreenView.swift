@@ -1,5 +1,5 @@
 //
-//  InqureScreenView.swift
+//  InquireScreenView.swift
 //  SelfMadeGraphQLPractice
 //
 //  Created by 酒井文也 on 2023/10/15.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InqureScreenView: View {
+struct InquireScreenView: View {
     
     // MARK: - Property
     
