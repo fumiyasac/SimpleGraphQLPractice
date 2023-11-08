@@ -29,7 +29,7 @@ extension MenuExhibitionSchema {
   enum SchemaMetadata: ApolloAPI.SchemaMetadata {
     static let configuration: ApolloAPI.SchemaConfiguration.Type = SchemaConfiguration.self
 
-    static func objectType(forTypename typename: String) -> Object? {
+    static func objectType(forTypename typename: String) -> ApolloAPI.Object? {
       switch typename {
       case "Mutation": return MenuExhibitionSchema.Objects.Mutation
       case "Inquire": return MenuExhibitionSchema.Objects.Inquire

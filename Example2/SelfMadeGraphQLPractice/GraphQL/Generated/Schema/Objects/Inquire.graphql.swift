@@ -4,7 +4,7 @@
 import ApolloAPI
 
 extension MenuExhibitionSchema.Objects {
-  static let Inquire = Object(
+  static let Inquire = ApolloAPI.Object(
     typename: "Inquire",
     implementedInterfaces: []
   )

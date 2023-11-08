@@ -4,7 +4,7 @@
 import ApolloAPI
 
 extension MenuExhibitionSchema.Objects {
-  static let Mutation = Object(
+  static let Mutation = ApolloAPI.Object(
     typename: "Mutation",
     implementedInterfaces: []
   )

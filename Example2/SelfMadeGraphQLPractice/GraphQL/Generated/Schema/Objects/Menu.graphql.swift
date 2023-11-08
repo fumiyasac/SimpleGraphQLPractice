@@ -4,7 +4,7 @@
 import ApolloAPI
 
 extension MenuExhibitionSchema.Objects {
-  static let Menu = Object(
+  static let Menu = ApolloAPI.Object(
     typename: "Menu",
     implementedInterfaces: []
   )

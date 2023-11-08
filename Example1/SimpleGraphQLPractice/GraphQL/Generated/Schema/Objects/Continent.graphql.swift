@@ -4,7 +4,7 @@
 import ApolloAPI
 
 extension CountriesSchema.Objects {
-  static let Continent = Object(
+  static let Continent = ApolloAPI.Object(
     typename: "Continent",
     implementedInterfaces: []
   )

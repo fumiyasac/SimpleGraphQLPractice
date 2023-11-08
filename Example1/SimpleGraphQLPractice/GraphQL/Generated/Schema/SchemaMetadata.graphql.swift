@@ -29,7 +29,7 @@ extension CountriesSchema {
   enum SchemaMetadata: ApolloAPI.SchemaMetadata {
     static let configuration: ApolloAPI.SchemaConfiguration.Type = SchemaConfiguration.self
 
-    static func objectType(forTypename typename: String) -> Object? {
+    static func objectType(forTypename typename: String) -> ApolloAPI.Object? {
       switch typename {
       case "Query": return CountriesSchema.Objects.Query
       case "Country": return CountriesSchema.Objects.Country
