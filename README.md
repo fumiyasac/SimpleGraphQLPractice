@@ -66,12 +66,9 @@ __【コード自動生成処理後に関する】__
 
 ## 4. 簡単な実装サンプルの解説
 
-サンプルの構成はオーソドックスな構成をベースに考えて、View要素と関係する処理については`@Published private(set) var xxx`で定義した変数との双方向Bindingの様な形を前提として処理を組み立てています。
+サンプルの構成はオーソドックスな構成をベースに考えて、View要素と関係する処理については`@Published private(set) var (※変数名)`で定義した変数との双方向Bindingの様な形を前提として処理を組み立てています。
 
-```
-View(Screen) ⇔ ViewModel ⇔ Repository ⇔ Request ⇔ GraphQLClient
-※ 部品用のView要素については、なるべくEntityと結びついた形を取っています。
-```
+![収録サンプルで利用しているアーキテクチャ](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/example_mobile_architecture.png)
 
 __【GraphQL側の処理をasync/awaitで取り扱う】__
 
@@ -143,7 +140,9 @@ __【Example1】__
 
 国情報一覧表示→詳細表示をするだけのシンプルなものになります。
 
-- GraphQL Server: https://countries.trevorblades.com/graphql
+![収録サンプルで利用しているアーキテクチャ](https://github.com/fumiyasac/SimpleGraphQLPractice/blob/main/images/country_graphql_server.png)
+
+- GraphQL Server:<br>https://countries.trevorblades.com/graphql
 
 国一覧画面 | 国詳細画面
 :--: | :--:
@@ -153,8 +152,7 @@ __【Example2】__
 
 お料理メニュー一覧表示→絞り込み検索やお問い合わせ送信をするだけのシンプルなものになります。
 
-- GraphQL Server: http://localhost:4000/graphql
-  ※ ローカル環境で起動して確認をする様にしてください。
+- GraphQL Server:<br>http://localhost:4000/graphql<br>※ ローカル環境で起動して確認をする様にしてください。  
 
 ```shell
 # package.jsonに記載している内容をインストールする
