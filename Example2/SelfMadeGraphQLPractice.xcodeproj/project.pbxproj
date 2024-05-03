@@ -958,7 +958,7 @@
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 1.9.0;
+				minimumVersion = 1.10.0;
 			};
 		};
 		DE1DF5FA2A9C1795005490CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
@@ -966,7 +966,7 @@
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 2.2.0;
+				minimumVersion = 3.0.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
