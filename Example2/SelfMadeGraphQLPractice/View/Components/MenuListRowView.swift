@@ -51,19 +51,23 @@ struct MenuListRowView: View {
             // メインの情報表示部分
             HStack(spacing: 0.0) {
                 // 1. サムネイル画像表示
-                WebImage(url: menuEntity.thumbnail)
-                    .resizable()
-                    .placeholder {
+                AnimatedImage(
+                    url: menuEntity.thumbnail,
+                    placeholder: {
+                        // 参考: SDWebImageSwiftUIのVer3以降では.placeholderの表示位置が変更になりました。
+                        // https://github.com/SDWebImage/SDWebImageSwiftUI/pull/275/files#diff-921c6d871c99a552fd985c2280175c9b9d9b1b165fc773a0865f278652f279ebL98
                         Rectangle()
                             .foregroundColor(.white)
                             .frame(width: 96.0, height: 72.0)
                     }
-                    .indicator(.activity)
-                    .scaledToFit()
-                    .transition(.fade(duration: 0.24))
-                    .frame(width: 96.0, height: 72.0)
-                    .cornerRadius(4.0)
-                    .padding(.trailing, 12.0)
+                )
+                .resizable()
+                .indicator(.activity)
+                .scaledToFit()
+                .transition(.fade(duration: 0.24))
+                .frame(width: 96.0, height: 72.0)
+                .cornerRadius(4.0)
+                .padding(.trailing, 12.0)
                 // 2. 文言表示
                 VStack(alignment: .leading, spacing: 0.0) {
                     // 2-(1). 日付
