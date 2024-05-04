@@ -8,7 +8,7 @@ extension MenuExhibitionSchema {
     static let operationName: String = "getAllMenus"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"query getAllMenus($dishType: String, $categorySlug: String) { getMenus(menuFilter: {dishType: $dishType, categorySlug: $categorySlug}) { __typename id name dishType categorySlug price kcal thumbnail } }"#
+        #"query getAllMenus($dishType: String, $categorySlug: String) { getMenus(menuFilter: { dishType: $dishType, categorySlug: $categorySlug }) { __typename id name dishType categorySlug price kcal thumbnail } }"#
       ))
 
     public var dishType: GraphQLNullable<String>

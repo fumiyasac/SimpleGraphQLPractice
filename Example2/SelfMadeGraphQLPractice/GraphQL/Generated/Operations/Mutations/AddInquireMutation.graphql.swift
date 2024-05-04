@@ -8,7 +8,7 @@ extension MenuExhibitionSchema {
     static let operationName: String = "addInquire"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"mutation addInquire($title: String!, $text: String!) { addInquire(inquireItem: {title: $title, text: $text}) { __typename id title text } }"#
+        #"mutation addInquire($title: String!, $text: String!) { addInquire(inquireItem: { title: $title, text: $text }) { __typename id title text } }"#
       ))
 
     public var title: String
